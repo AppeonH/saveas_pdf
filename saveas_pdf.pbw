@@ -32,10 +32,5 @@ Save Format v3.0(19990112)
  9 "Treeview DataWindow and DatePicker\\pbdemos.pbt";
  19 "1504\\dw_pdf_test.pbt";
 @end;
-<<<<<<< HEAD
-DefaultTarget "DWRichTextEditStyle\\rtedemo_winform.pbt";
-DefaultRemoteTarget "DWRichTextEditStyle\\rtedemo_winform.pbt";
-=======
-DefaultTarget "graphdw_saveas\\graphdw_saveas.pbt";
-DefaultRemoteTarget "graphdw_saveas\\graphdw_saveas.pbt";
->>>>>>> bf9e85034c0ea47126573db1e79d00005ac1b7ad
+DefaultTarget "performance\\performance.pbt";
+DefaultRemoteTarget "performance\\performance.pbt";
