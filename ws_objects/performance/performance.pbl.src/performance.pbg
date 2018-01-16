@@ -7,6 +7,7 @@
  "d_performance.srd" "performance.pbl";
  "d_performance_bak.srd" "performance.pbl";
  "d_test.srd" "performance.pbl";
+ "f_test.srf" "performance.pbl";
  "p_performance_exe.srj" "performance.pbl";
  "str_data.srs" "performance.pbl";
  "uo_saveas.sru" "performance.pbl";
