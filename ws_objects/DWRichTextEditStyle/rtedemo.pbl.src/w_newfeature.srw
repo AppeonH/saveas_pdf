@@ -39,6 +39,7 @@ DataWindow 	sdw_1
 end variables
 
 global type w_newfeature from window
+string tag = "2"
 integer width = 2039
 integer height = 856
 boolean titlebar = true
