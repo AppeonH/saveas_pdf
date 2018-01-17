@@ -162,6 +162,9 @@ destroy(this.dw_1)
 destroy(this.gb_1)
 end on
 
+event open;f_test(1)
+end event
+
 type cb_8 from commandbutton within w_main
 integer x = 1902
 integer y = 2232
