@@ -1,0 +1,51 @@
+﻿$PBExportHeader$f_get_token.srf
+$PBExportComments$Parse string to return first token & remove it from the string
+global type f_get_token from function_object
+end type
+
+forward prototypes
+global function string f_get_token (ref string source, string separator)
+end prototypes
+
+global function string f_get_token (ref string source, string separator);//====================================================================
+// Function: f_get_token()
+//--------------------------------------------------------------------
+// Description: The function Get_Token receive, as arguments, the string from which
+// the token is to be stripped off, from the left, and the separator
+// character.  If the separator character does not appear in the string,
+// it returns the entire string.  Otherwise, it returns the token, not
+// including the separator character.  In either case, the source string
+// is truncated on the left, by the length of the token and separator
+// character, if any.
+//--------------------------------------------------------------------
+// Arguments: 
+//		reference	string	source   		
+//		value    	string	separator		
+//--------------------------------------------------------------------
+// Returns: string
+//--------------------------------------------------------------------
+// Author: 			Date: 2003/12/31
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int 		p
+String 	ret
+
+p = PosA(Source, separator) // Get the position of the separator
+
+If p = 0 Then // if no separator, 
+	ret = Source				// return the whole source string and
+	Source = ""					// make the original source of zero length
+Else
+	ret = MidA(Source, 1, p - 1) // otherwise, return just the token and
+	Source = RightA(Source, LenA(Source) - p)	// strip it & the separator
+End If
+
+Return ret
+
+end function
+

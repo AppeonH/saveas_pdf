@@ -1,0 +1,1673 @@
+﻿
+
+##################################### 
+#                                     
+#    Datawindow Text Testing        
+#                                     
+##################################### 
+Succeed ! DataWindow Text Control accessibledescription 
+Succeed ! DataWindow Text Control accessiblename 
+Succeed ! DataWindow Text Control accessiblerole 
+Succeed ! DataWindow Text Control Alignment 
+Succeed ! DataWindow Text Control Alignment 
+Succeed ! DataWindow Text Control Alignment 
+Succeed ! DataWindow Text Control Alignment 
+Succeed ! DataWindow Text Control attributes 
+Succeed ! DataWindow Text Control Background.Color 
+Succeed ! DataWindow Text Control Background.Color 
+Succeed ! DataWindow Text Control Background.Mode 
+Succeed ! DataWindow Text Control Band 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Border 
+Succeed ! DataWindow Text Control Color 
+Succeed ! DataWindow Text Control Color 
+Succeed ! DataWindow Text Control Color 
+Succeed ! DataWindow Text Control Font.CharSet 
+Succeed ! DataWindow Text Control Font.CharSet 
+Succeed ! DataWindow Text Control Font.CharSet 
+Succeed ! DataWindow Text Control Font.CharSet 
+Succeed ! DataWindow Text Control Font.CharSet 
+Succeed ! DataWindow Text Control Font.face 
+Succeed ! DataWindow Text Control font.orientation 
+Succeed ! DataWindow Text Control Font.escapement 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.family 
+Succeed ! DataWindow Text Control font.height 
+Succeed ! DataWindow Text Control font.height 
+Succeed ! DataWindow Text Control font.italic 
+Succeed ! DataWindow Text Control font.italic 
+Succeed ! DataWindow Text Control font.pitch 
+Succeed ! DataWindow Text Control font.pitch 
+Succeed ! DataWindow Text Control font.pitch 
+Succeed ! DataWindow Text Control font.strikethrough 
+Succeed ! DataWindow Text Control font.strikethrough 
+Succeed ! DataWindow Text Control font.underline 
+Succeed ! DataWindow Text Control font.underline 
+Succeed ! DataWindow Text Control font.weight 
+Succeed ! DataWindow Text Control font.weight 
+Succeed ! DataWindow Text Control font.width 
+Succeed ! DataWindow Text Control Height 
+Succeed ! DataWindow Text Control hidesnaked 
+Succeed ! DataWindow Text Control height.autosize 
+Succeed ! DataWindow Text Control html.appendedhtml  
+Succeed ! DataWindow Text Control html.Link  
+Succeed ! DataWindow Text Control html.LinkArgs  
+Succeed ! DataWindow Text Control html.LinkTarget  
+Succeed ! DataWindow Text Control html.ValueIsHTML  
+Succeed ! DataWindow Text Control Moveable  
+Succeed ! DataWindow Text Control Moveable  
+Succeed ! DataWindow Text Control Name 
+Succeed ! DataWindow Text Control Pointer  
+Succeed ! DataWindow Text Control Pointer  
+Succeed ! DataWindow Text Control resizeable  
+Succeed ! DataWindow Text Control slideleft  
+Succeed ! DataWindow Text Control slideup  
+Succeed ! DataWindow Text Control slideup  
+Succeed ! DataWindow Text Control tag  
+Succeed ! DataWindow Text Control text  
+Succeed ! DataWindow Text Control type 
+Succeed ! DataWindow Text Control visible  
+Succeed ! DataWindow Text Control visible  
+Succeed ! DataWindow Text Control visible  
+Succeed ! DataWindow Text Control width  
+Succeed ! DataWindow Text Control x  
+Succeed ! DataWindow Text Control y  
+
+
+##################################### 
+#                                     
+#    Datawindow Button Testing        
+#                                     
+##################################### 
+Succeed ! DataWindow Button Control accessibledescription 
+Succeed ! DataWindow Button Control accessibledescription 
+Succeed ! DataWindow Button Control accessibledescription 
+Succeed ! DataWindow Button Control DefaultPicture 
+Succeed ! DataWindow Button Control DefaultPicture 
+Succeed ! DataWindow Button - action - 0
+Succeed ! DataWindow Button - action - 1
+Succeed ! DataWindow Button - action - 2
+Succeed ! DataWindow Button - action - 3
+Succeed ! DataWindow Button - action - 4
+Succeed ! DataWindow Button - action - 5
+Succeed ! DataWindow Button - action - 6
+Succeed ! DataWindow Button - action - 7
+Succeed ! DataWindow Button - action - 8
+Succeed ! DataWindow Button - action - 9
+Succeed ! DataWindow Button - action - 10
+Succeed ! DataWindow Button - action - 11
+Succeed ! DataWindow Button - action - 12
+Succeed ! DataWindow Button - action - 13
+Succeed ! DataWindow Button - action - 14
+Succeed ! DataWindow Button - action - 15
+Succeed ! DataWindow Button - action - 16
+Succeed ! DataWindow Button - action - 17
+Succeed ! DataWindow Button - action - 18
+Succeed ! DataWindow Button - action - 19
+Succeed ! DataWindow Button - action - 20
+Succeed ! DataWindow Button - attributes - footer
+Succeed ! DataWindow Button - band - footer
+Succeed ! DataWindow Button Control Color 
+Succeed ! DataWindow Button Control Color 
+Succeed ! DataWindow Button Control Color 
+Succeed ! DataWindow Button Control Enabled 
+Succeed ! DataWindow Button Control - Enabled 
+Succeed ! DataWindow Button Control DefaultPicture 
+Succeed ! DataWindow Button Control Filename 
+Succeed ! DataWindow Button Control Filename 
+Succeed ! DataWindow Button Control Filename 
+Succeed ! DataWindow Button Control height 
+Succeed ! DataWindow Button Control hidesnaked 
+Succeed ! DataWindow Button Control hidesnaked 
+Succeed ! DataWindow Button - htextalign - 
+Succeed ! DataWindow Button - htextalign - 
+Succeed ! DataWindow Button - htextalign - 
+Succeed ! DataWindow Button Control moveable 
+Succeed ! DataWindow Button Control moveable 
+Succeed ! DataWindow Button - name - b_1
+Succeed ! DataWindow Button - page - ?
+Succeed ! DataWindow Button Control Pointer  
+Succeed ! DataWindow Button Control Pointer  
+Succeed ! DataWindow Button Control resizeable  
+Succeed ! DataWindow Button Control resizeable  
+Succeed ! DataWindow Button Control rotation  
+Succeed ! DataWindow Button Control slideleft  
+Succeed ! DataWindow Button Control slideleft  
+Succeed ! DataWindow Button Control slideup  
+Succeed ! DataWindow Button Control slideup  
+Succeed ! DataWindow Button Control slideup  
+Succeed ! DataWindow Button Control SuppressEventProcessing  
+Succeed ! DataWindow Button Control SuppressEventProcessing  
+Succeed ! DataWindow Button Control tag  
+Succeed ! DataWindow Button Control text  
+Succeed ! DataWindow Button Control transparentcolor  
+Succeed ! DataWindow Button Control type 
+Succeed ! DataWindow Button Control visible  
+Succeed ! DataWindow Button Control visible  
+Succeed ! DataWindow Button Control visible  
+Succeed ! DataWindow Button - vtextalign - 0
+Succeed ! DataWindow Button - vtextalign - 1
+Succeed ! DataWindow Button - vtextalign - 2
+Succeed ! DataWindow Button - vtextalign - 3
+Succeed ! DataWindow Button Control width  
+Succeed ! DataWindow Button Control x  
+Succeed ! DataWindow Button Control y  
+Succeed ! DataWindow Button Control Background.Color 
+Succeed ! DataWindow Button Control Background.Color 
+Succeed ! DataWindow Button Control Background.Mode 
+Succeed ! DataWindow Button Control Font.CharSet 
+Succeed ! DataWindow Button Control Font.CharSet 
+Succeed ! DataWindow Button Control Font.CharSet 
+Succeed ! DataWindow Button Control Font.CharSet 
+Succeed ! DataWindow Button Control Font.face 
+Succeed ! DataWindow Button Control font.orientation 
+Succeed ! DataWindow Button Control Font.escapement 
+Succeed ! DataWindow Button Control Font.escapement 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.family 
+Succeed ! DataWindow Button Control font.height 
+Succeed ! DataWindow Button Control font.height 
+Succeed ! DataWindow Button Control font.italic 
+Succeed ! DataWindow Button Control font.italic 
+Succeed ! DataWindow Button Control font.italic 
+Succeed ! DataWindow Button Control font.pitch 
+Succeed ! DataWindow Button Control font.pitch 
+Succeed ! DataWindow Button Control font.pitch 
+Succeed ! DataWindow Button Control font.strikethrough 
+Succeed ! DataWindow Button Control font.strikethrough 
+Succeed ! DataWindow Button Control font.strikethrough 
+Succeed ! DataWindow Button Control font.underline 
+Succeed ! DataWindow Button Control font.underline 
+Succeed ! DataWindow Button Control font.underline 
+Succeed ! DataWindow Button Control font.weight 
+Succeed ! DataWindow Button Control font.weight 
+Succeed ! DataWindow Button Control font.width 
+
+
+##################################### 
+#                                     
+#    Datawindow ComputerField Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow ComputedFiled Control accessibledescription 
+Succeed ! DataWindow ComputedFiled Control accessiblename 
+Succeed ! DataWindow ComputedFiled Control accessiblerole 
+Succeed ! DataWindow ComputedFiled Control Alignment 
+Succeed ! DataWindow ComputedFiled Control Alignment 
+Succeed ! DataWindow ComputedFiled Control Alignment 
+Succeed ! DataWindow ComputedFiled Control Alignment 
+Succeed ! DataWindow ComputedFiled Control attributes 
+Succeed ! DataWindow ComputedFiled Control band 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control border 
+Succeed ! DataWindow ComputedFiled Control Color 
+Succeed ! DataWindow ComputedFiled Control Color 
+Succeed ! DataWindow ComputedFiled Control Color 
+Succeed ! DataWindow ComputedFiled Control coltype 
+Succeed ! DataWindow ComputedFiled Control expression 
+Succeed ! DataWindow ComputedFiled Control expression 
+Succeed ! DataWindow ComputedFiled Control expression 
+Succeed ! DataWindow ComputedFiled Control format 
+Succeed ! DataWindow ComputedFiled Control height 
+Succeed ! DataWindow ComputedFiled Control height.autosize 
+Succeed ! DataWindow ComputedFiled Control height.autosize 
+Succeed ! DataWindow ComputedField Control html.appendedhtml  
+Succeed ! DataWindow ComputedField Control html.Link  
+Succeed ! DataWindow ComputedField Control html.LinkArgs  
+Succeed ! DataWindow ComputedField Control html.LinkTarget  
+Succeed ! DataWindow ComputedField Control html.ValueIsHTML  
+Succeed ! DataWindow ComputedField Control moveable  
+Succeed ! DataWindow ComputedField Control moveable  
+Succeed ! DataWindow ComputedFiled Control name 
+Succeed ! DataWindow ComputedFiled Control Pointer  
+Succeed ! DataWindow ComputedFiled Control Pointer  
+Succeed ! DataWindow ComputedFiled Control resizeable  
+Succeed ! DataWindow ComputedFiled Control resizeable  
+Succeed ! DataWindow ComputedField Control slideleft  
+Succeed ! DataWindow ComputedField Control slideleft  
+Succeed ! DataWindow ComputedField Control slideup  
+Succeed ! DataWindow ComputedField Control slideup  
+Succeed ! DataWindow ComputedField Control slideup  
+Succeed ! DataWindow ComputedField Control tag  
+Succeed ! DataWindow ComputedField Control type 
+Succeed ! DataWindow ComputedField Control visible  
+Succeed ! DataWindow ComputedField Control visible  
+Succeed ! DataWindow ComputedField Control visible  
+Succeed ! DataWindow ComputedField Control width  
+Succeed ! DataWindow ComputedField Control x  
+Succeed ! DataWindow ComputedField Control y  
+Succeed ! DataWindow ComputedFiled Control Background.Color 
+Succeed ! DataWindow ComputedFiled Control Background.Color 
+Succeed ! DataWindow ComputedFiled Control Background.Mode 
+Succeed ! DataWindow ComputedFiled Control Background.Mode 
+Succeed ! DataWindow ComputedFiled Control Font.CharSet 
+Succeed ! DataWindow ComputedFiled Control Font.CharSet 
+Succeed ! DataWindow ComputedFiled Control Font.CharSet 
+Succeed ! DataWindow ComputedFiled Control Font.CharSet 
+Succeed ! DataWindow ComputedFiled Control Font.face 
+Succeed ! DataWindow ComputedFiled Control font.orientation 
+Succeed ! DataWindow ComputedFiled Control Font.escapement 
+Succeed ! DataWindow ComputedFiled Control Font.escapement 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.family 
+Succeed ! DataWindow ComputedFiled Control font.height 
+Succeed ! DataWindow ComputedFiled Control font.height 
+Succeed ! DataWindow ComputedFiled Control font.italic 
+Succeed ! DataWindow ComputedFiled Control font.italic 
+Succeed ! DataWindow ComputedFiled Control font.italic 
+Succeed ! DataWindow ComputedFiled Control font.pitch 
+Succeed ! DataWindow ComputedFiled Control font.pitch 
+Succeed ! DataWindow ComputedFiled Control font.pitch 
+Succeed ! DataWindow ComputedFiled Control font.strikethrough 
+Succeed ! DataWindow ComputedFiled Control font.strikethrough 
+Succeed ! DataWindow ComputedFiled Control font.strikethrough 
+Succeed ! DataWindow ComputedFiled Control font.underline 
+Succeed ! DataWindow ComputedFiled Control font.underline 
+Succeed ! DataWindow ComputedFiled Control font.underline 
+Succeed ! DataWindow ComputedFiled Control font.weight 
+Succeed ! DataWindow ComputedFiled Control font.width 
+
+
+##################################### 
+#                                     
+#    Datawindow property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Control attributes 
+Succeed ! DataWindow Control bands 
+Succeed ! DataWindow Control Color 
+Succeed ! DataWindow Control Color 
+Succeed ! DataWindow Control column.count 
+Succeed ! DataWindow Control cssgen.publishpath 
+Succeed ! DataWindow Control cssgen.resourcebase 
+Succeed ! DataWindow Control cssgen.sessionspecific 
+Succeed ! DataWindow Control data 
+Succeed ! DataWindow Control data.html 
+Succeed ! DataWindow Control data.htmltable 
+Succeed ! DataWindow Control data.xml 
+Succeed ! DataWindow Control data.xmldtd 
+Succeed ! DataWindow Control data.xmlschema 
+Succeed ! DataWindow Control data.xslfo 
+Succeed ! DataWindow Control Detail.Color 
+Succeed ! DataWindow Control Detail.height 
+Succeed ! DataWindow Control Detail.height.autosize 
+Succeed ! DataWindow Control Detail.height.autosize 
+Succeed ! DataWindow Control Detail.pointer 
+Succeed ! DataWindow Control export.pdf.method 
+Succeed ! DataWindow Control export.pdf.distill.custompostscript 
+Succeed ! DataWindow Control export.pdf.method 
+Succeed ! DataWindow Control export.pdf.xslfop.print 
+Succeed ! DataWindow Control export.xhtml.usetemplate 
+Succeed ! DataWindow Control export.xhtml.template[].name 
+Succeed ! DataWindow Control export.xhtml.templatecount 
+Succeed ! DataWindow Control export.xml.headgroups 
+Succeed ! DataWindow Control export.xml.includewhitespace 
+Succeed ! DataWindow Control export.xml.metadatatype 
+Succeed ! DataWindow Control export.xml.savemetadata 
+Succeed ! DataWindow Control export.xml.template[].name 
+Succeed ! DataWindow Control export.xml.templatecount 
+Succeed ! DataWindow Control export.xml.usetemplate 
+Succeed ! DataWindow Control firstrowonpage 
+Succeed ! DataWindow Control font.bias 
+Succeed ! DataWindow Control font.bias 
+Succeed ! DataWindow Control footer.Color 
+Succeed ! DataWindow Control footer.height 
+Succeed ! DataWindow Control footer.pointer 
+Succeed ! DataWindow Control header.Color 
+Succeed ! DataWindow Control header.height 
+Succeed ! DataWindow Control header.pointer 
+Succeed ! DataWindow Control help.command 
+Succeed ! DataWindow Control help.command 
+Succeed ! DataWindow Control help.file 
+Succeed ! DataWindow Control help.typeid 
+Succeed ! DataWindow Control help.typeid.importfile 
+Succeed ! DataWindow Control help.typeid.retrieve.argument 
+Succeed ! DataWindow Control help.typeid.retrieve.criteria 
+Succeed ! DataWindow Control help.typeid.saveas 
+Succeed ! DataWindow Control help.typeid.setfilter 
+Succeed ! DataWindow Control help.typeid.setsort 
+Succeed ! DataWindow Control help.typeid.setsortexpr 
+Succeed ! DataWindow Control horizontalscrollmaximum 
+Succeed ! DataWindow Control horizontalscrollmaximum2 
+Succeed ! DataWindow Control horizontalscrollposition 
+Succeed ! DataWindow Control horizontalscrollposition2 
+Succeed ! DataWindow Control horizontalscrollsplit 
+Succeed ! DataWindow Control htmldw 
+Succeed ! DataWindow Control htmlgen.browser 
+Succeed ! DataWindow Control htmlgen.clientcomputedfields 
+Succeed ! DataWindow Control htmlgen.clientevents 
+Succeed ! DataWindow Control htmlgen.clientformatting 
+Succeed ! DataWindow Control htmlgen.clientformatting 
+Succeed ! DataWindow Control htmlgen.clientscriptable 
+Succeed ! DataWindow Control htmlgen.clientscriptable 
+Succeed ! DataWindow Control htmlgen.clientvalidation 
+Succeed ! DataWindow Control htmlgen.clientvalidation 
+Succeed ! DataWindow Control htmlgen.commonjsfile 
+Succeed ! DataWindow Control htmlgen.datejsfile 
+Succeed ! DataWindow Control htmlgen.encodeselflinkargs 
+Succeed ! DataWindow Control htmlgen.encodeselflinkargs 
+Succeed ! DataWindow Control htmlgen.firstonpage 
+Succeed ! DataWindow Control htmlgen.fourglweb 
+Succeed ! DataWindow Control htmlgen.generatejavascript 
+Succeed ! DataWindow Control htmlgen.generatejavascript 
+Succeed ! DataWindow Control htmlgen.htmlversion 
+Succeed ! DataWindow Control htmlgen.htmlversion 
+Succeed ! DataWindow Control htmlgen.netscapelayers 
+Succeed ! DataWindow Control htmlgen.numberjsfile 
+Succeed ! DataWindow Control htmlgen.objectname 
+Succeed ! DataWindow Control htmlgen.pagesize 
+Succeed ! DataWindow Control htmlgen.resourcebase 
+Succeed ! DataWindow Control htmlgen.selflink 
+Succeed ! DataWindow Control htmlgen.selflinkargs 
+Succeed ! DataWindow Control htmlgen.stringjsfile 
+Succeed ! DataWindow Control htmlgen.tabindexbase 
+Succeed ! DataWindow Control htmlgen.userjsfile 
+Succeed ! DataWindow Control htmldw 
+Succeed ! DataWindow Control htmltable.border 
+Succeed ! DataWindow Control htmltable.cellpadding 
+Succeed ! DataWindow Control htmltable.cellspacing 
+Succeed ! DataWindow Control htmltable.generatecss 
+Succeed ! DataWindow Control htmltable.nowrap 
+Succeed ! DataWindow Control htmltable.stylesheet 
+Succeed ! DataWindow Control htmltable.width 
+Succeed ! DataWindow Control import.xml.trace 
+Succeed ! DataWindow Control import.xml.trace 
+Succeed ! DataWindow Control import.xml.tracefile 
+Succeed ! DataWindow Control import.xml.tracefile 
+Succeed ! DataWindow Control import.xml.usetemplate 
+Succeed ! DataWindow Control import.xml.usetemplate 
+Succeed ! DataWindow Control jsgen.publishpath 
+Succeed ! DataWindow Control jsgen.resourcebase 
+Succeed ! DataWindow Control lastrowonpage 
+Succeed ! DataWindow Control message.title 
+Succeed ! DataWindow Control name 
+Succeed ! DataWindow Control nested 
+Succeed ! DataWindow Control nouserprompt 
+Succeed ! DataWindow Control nouserprompt 
+Succeed ! DataWindow Control objects 
+Succeed ! DataWindow Control Pointer  
+Succeed ! DataWindow Control Pointer  
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control processing 
+Succeed ! DataWindow Control querysort  
+Succeed ! DataWindow Control querysort  
+Succeed ! DataWindow Control querymode  
+Succeed ! DataWindow Control querymode  
+Succeed ! DataWindow Control readonly  
+Succeed ! DataWindow Control readonly  
+Succeed ! DataWindow Control replacetabwithspace  
+Succeed ! DataWindow Control replacetabwithspace  
+Succeed ! DataWindow Control replacetabwithspace  
+Succeed ! DataWindow Control replacetabwithspace  
+Succeed ! DataWindow Control showdefinition  
+Succeed ! DataWindow Control showdefinition  
+Succeed ! DataWindow Control sparse  
+Succeed ! DataWindow Control storage  
+Succeed ! DataWindow Control storagepagesize  
+Succeed ! DataWindow Control summary.Color 
+Succeed ! DataWindow Control summary.height 
+Succeed ! DataWindow Control summary.pointer 
+Succeed ! DataWindow Control syntax 
+Succeed ! DataWindow Control syntax.data 
+Succeed ! DataWindow Control syntax.modified  
+Succeed ! DataWindow Control syntax.modified  
+Succeed ! DataWindow Control timer_interval  
+Succeed ! DataWindow Control type 
+Succeed ! DataWindow Control units 
+Succeed ! DataWindow Control verticalscrollmaximum 
+Succeed ! DataWindow Control verticalscrollposition  
+Succeed ! DataWindow Control visualobjects 
+Succeed ! DataWindow Control xhtmlgen.browser 
+Succeed ! DataWindow Control xsltgen.publishpath 
+Succeed ! DataWindow Control xsltgen.resourcebase 
+Succeed ! DataWindow Control zoom  
+Succeed ! DataWindow Control zoom  
+Succeed ! DataWindow Control print.buttons  
+Succeed ! DataWindow Control print.buttons  
+Succeed ! DataWindow Control print.printername  
+Succeed ! DataWindow Control print.canusedefaultprinter  
+Succeed ! DataWindow Control print.printername  
+Succeed ! DataWindow Control print.canusedefaultprinter  
+Succeed ! DataWindow Control print.cliptext  
+Succeed ! DataWindow Control print.collate  
+Succeed ! DataWindow Control print.color  
+Succeed ! DataWindow Control print.columns  
+Succeed ! DataWindow Control print.columns.width  
+Succeed ! DataWindow Control print.copies  
+Succeed ! DataWindow Control print.documentname  
+Succeed ! DataWindow Control print.duplex  
+Succeed ! DataWindow Control print.duplex  
+Succeed ! DataWindow Control print.filename  
+Succeed ! DataWindow Control print.margin.bottom  
+Succeed ! DataWindow Control print.margin.left  
+Succeed ! DataWindow Control print.margin.right  
+Succeed ! DataWindow Control print.margin.top  
+Succeed ! DataWindow Control print.orientation  
+Succeed ! DataWindow Control print.overrideprintjob  
+Succeed ! DataWindow Control print.page.range  
+Succeed ! DataWindow Control print.page.rangeinclude  
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.paper.size 
+Succeed ! DataWindow Control print.custompage.length  
+Succeed ! DataWindow Control print.custompage.width  
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.paper.source 
+Succeed ! DataWindow Control print.preview  
+Succeed ! DataWindow Control print.preview.buttons  
+Succeed ! DataWindow Control print.preview.rulers  
+Succeed ! DataWindow Control print.preview.zoom  
+Succeed ! DataWindow Control print.preview  
+Succeed ! DataWindow Control print.prompt  
+Succeed ! DataWindow Control print.quality 
+Succeed ! DataWindow Control print.quality 
+Succeed ! DataWindow Control print.quality 
+Succeed ! DataWindow Control print.quality 
+Succeed ! DataWindow Control print.quality 
+Succeed ! DataWindow Control print.scale  
+Succeed ! DataWindow Control printer  
+Succeed ! DataWindow Control table.arguments 
+Succeed ! DataWindow Control table.columns 
+Succeed ! DataWindow Control table.data.storage  
+Succeed ! DataWindow Control table.filter  
+Succeed ! DataWindow Control table.select  
+Succeed ! DataWindow Control table.select.attribute 
+Succeed ! DataWindow Control table.sort  
+Succeed ! DataWindow Control table.sqlselect 
+Succeed ! DataWindow Control table.updatekeyinplace  
+Succeed ! DataWindow Control table.updatetable  
+Succeed ! DataWindow Control table.updatewhere  
+Succeed ! DataWindow Control table.procedure  
+Succeed ! DataWindow Control Table.Delete.Arguments  
+Succeed ! DataWindow Control Table.Delete.method  
+Succeed ! DataWindow Control Table.Delete.type  
+Succeed ! DataWindow Control Table.insert.Arguments  
+Succeed ! DataWindow Control Table.insert.method  
+Succeed ! DataWindow Control Table.insert.type  
+Succeed ! DataWindow Control Table.update.Arguments  
+Succeed ! DataWindow Control Table.update.method  
+Succeed ! DataWindow Control Table.update.type  
+Succeed ! DataWindow Control crosstab.columns  
+Succeed ! DataWindow Control crosstab.rows  
+Succeed ! DataWindow Control crosstab.sourcenames  
+Succeed ! DataWindow Control crosstab.staticmode  
+Succeed ! DataWindow Control crosstab.values  
+Succeed ! DataWindow Control help.typeid.setcrosstab  
+Succeed ! DataWindow Control row.resize  
+Succeed ! DataWindow Control selected.mouse  
+Succeed ! DataWindow Control table.crosstabdata  
+Succeed ! DataWindow Control grid.columnmove  
+Succeed ! DataWindow Control grid.lines  
+Succeed ! DataWindow Control row.resize  
+Succeed ! DataWindow Control selected.mouse  
+Succeed ! DataWindow Control table.gridcolumns 
+Succeed ! DataWindow Control header.1.Color 
+Succeed ! DataWindow Control header.1.height 
+Succeed ! DataWindow Control header.1.pointer 
+Succeed ! DataWindow Control trailer.1.Color 
+Succeed ! DataWindow Control trailer.1.height 
+Succeed ! DataWindow Control trailer.1.pointer 
+Succeed ! DataWindow Control hidegrayline  
+Succeed ! DataWindow Control label.columns  
+Succeed ! DataWindow Control label.columns.spacing  
+Succeed ! DataWindow Control label.ellipse_height  
+Succeed ! DataWindow Control label.ellipse_width  
+Succeed ! DataWindow Control label.height  
+Succeed ! DataWindow Control label.name  
+Succeed ! DataWindow Control label.rows  
+Succeed ! DataWindow Control label.rows.spacing  
+Succeed ! DataWindow Control label.shape  
+Succeed ! DataWindow Control label.sheet  
+Succeed ! DataWindow Control label.topdown  
+Succeed ! DataWindow Control label.width  
+Succeed ! DataWindow Control rows_per_detail 
+Succeed ! DataWindow Control ole.client.class  
+Succeed ! DataWindow Control ole.client.name  
+Succeed ! DataWindow Column Control lineremove  
+Succeed ! DataWindow Column Control multiline 
+Succeed ! DataWindow Control richtext.backcolor  
+Succeed ! DataWindow Control richtext.displayonly  
+Succeed ! DataWindow Control richtext.headerfooter 
+Succeed ! DataWindow Control richtext.inputfieldbackcolor  
+Succeed ! DataWindow Control richtext.inputfieldnamesvisible  
+Succeed ! DataWindow Control richtext.inputfieldsvisible  
+Succeed ! DataWindow Control richtext.pictureframe  
+Succeed ! DataWindow Control richtext.popmenu  
+Succeed ! DataWindow Control richtext.readonly  
+Succeed ! DataWindow Control richtext.returnsvisible  
+Succeed ! DataWindow Control richtext.rulerbar  
+Succeed ! DataWindow Control richtext.spacesvisible  
+Succeed ! DataWindow Control richtext.tabbar  
+Succeed ! DataWindow Control richtext.tabsvisible  
+Succeed ! DataWindow Control richtext.toolbar  
+Succeed ! DataWindow Control richtext.wordwrap  
+Succeed ! DataWindow Control detail.text  
+Succeed ! DataWindow Control footer.text  
+Succeed ! DataWindow Control header.text  
+
+
+##################################### 
+#                                     
+#    Datawindow Column property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Column Control accelerator 
+Succeed ! DataWindow Column Control accessibledescription 
+Succeed ! DataWindow Column Control accessiblename 
+Succeed ! DataWindow Column Control accessiblerole 
+Succeed ! DataWindow Column Control Alignment 
+Succeed ! DataWindow Column Control Alignment 
+Succeed ! DataWindow Column Control Alignment 
+Succeed ! DataWindow Column Control Alignment 
+Succeed ! DataWindow Column Control attributes 
+Succeed ! DataWindow Column Control band 
+Succeed ! DataWindow Column Control bitmapname 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Border 
+Succeed ! DataWindow Column Control Color 
+Succeed ! DataWindow Column Control Color 
+Succeed ! DataWindow Column Control coltype 
+Succeed ! DataWindow Column Control compute 
+Succeed ! DataWindow Column Control criteria.dialog 
+Succeed ! DataWindow Column Control criteria.override_edit 
+Succeed ! DataWindow Column Control criteria.required 
+Succeed ! DataWindow Column Control dbname 
+Succeed ! DataWindow Column Control format 
+Succeed ! DataWindow Column Control Height 
+Succeed ! DataWindow Column Control hidesnaked 
+Succeed ! DataWindow Column Control hidesnaked 
+Succeed ! DataWindow Column Control height.autosize 
+Succeed ! DataWindow Column Control height.autosize 
+Succeed ! DataWindow Column Control html.appendedhtml  
+Succeed ! DataWindow Column Control html.Link  
+Succeed ! DataWindow Column Control html.LinkArgs  
+Succeed ! DataWindow Column Control html.LinkTarget  
+Succeed ! DataWindow Column Control html.ValueIsHTML  
+Succeed ! DataWindow Column Control id 
+Succeed ! DataWindow Column Control identity 
+Succeed ! DataWindow Column Control initial 
+Succeed ! DataWindow Column Control key 
+Succeed ! DataWindow Column Control moveable 
+Succeed ! DataWindow Column Control name 
+Succeed ! DataWindow Column Control name 
+Succeed ! DataWindow Column Control Pointer  
+Succeed ! DataWindow Column Control protect  
+Succeed ! DataWindow Column Control resizeable  
+Succeed ! DataWindow Column Control slideleft  
+Succeed ! DataWindow Column Control slideup  
+Succeed ! DataWindow Column Control tabsequence  
+Succeed ! DataWindow Column Control tag  
+Succeed ! DataWindow Column Control type 
+Succeed ! DataWindow Column Control update  
+Succeed ! DataWindow Column Control updatewhereclause  
+Succeed ! DataWindow Column Control useinternalleading  
+Succeed ! DataWindow Column Control validation  
+Succeed ! DataWindow Column Control validationmsg  
+Succeed ! DataWindow Column Control visible  
+Succeed ! DataWindow Column Control width  
+Succeed ! DataWindow Column Control x  
+Succeed ! DataWindow Column Control y  
+Succeed ! DataWindow Column Control Background.Color 
+Succeed ! DataWindow Column Control Background.Mode 
+Succeed ! DataWindow Column Control Font.CharSet 
+Succeed ! DataWindow Column Control Font.CharSet 
+Succeed ! DataWindow Column Control Font.CharSet 
+Succeed ! DataWindow Column Control Font.face 
+Succeed ! DataWindow Column Control font.orientation 
+Succeed ! DataWindow Column Control Font.escapement 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.family 
+Succeed ! DataWindow Column Control font.height 
+Succeed ! DataWindow Column Control font.height 
+Succeed ! DataWindow Column Control font.italic 
+Succeed ! DataWindow Column Control font.italic 
+Succeed ! DataWindow Column Control font.pitch 
+Succeed ! DataWindow Column Control font.pitch 
+Succeed ! DataWindow Column Control font.pitch 
+Succeed ! DataWindow Column Control font.strikethrough 
+Succeed ! DataWindow Column Control font.strikethrough 
+Succeed ! DataWindow Column Control font.underline 
+Succeed ! DataWindow Column Control font.underline 
+Succeed ! DataWindow Column Control font.weight 
+Succeed ! DataWindow Column Control font.width 
+Succeed ! DataWindow Column Control checkbox.3d 
+Succeed ! DataWindow Column Control checkbox.lefttext 
+Succeed ! DataWindow Column Control checkbox.off 
+Succeed ! DataWindow Column Control checkbox.on 
+Succeed ! DataWindow Column Control checkbox.scale 
+Succeed ! DataWindow Column Control checkbox.other 
+Succeed ! DataWindow Column Control checkbox.text 
+Succeed ! DataWindow Column Control dddw.allowedit 
+Succeed ! DataWindow Column Control dddw.autohscroll 
+Succeed ! DataWindow Column Control dddw.autoretrieve 
+Succeed ! DataWindow Column Control dddw.case 
+Succeed ! DataWindow Column Control dddw.datacolumn 
+Succeed ! DataWindow Column Control dddw.displaycolumn 
+Succeed ! DataWindow Column Control dddw.hscrollbar 
+Succeed ! DataWindow Column Control dddw.hsplitscroll 
+Succeed ! DataWindow Column Control dddw.limit 
+Succeed ! DataWindow Column Control dddw.lines 
+Succeed ! DataWindow Column Control dddw.name 
+Succeed ! DataWindow Column Control dddw.nilisnull 
+Succeed ! DataWindow Column Control dddw.percentwidth 
+Succeed ! DataWindow Column Control dddw.required 
+Succeed ! DataWindow Column Control dddw.showlist 
+Succeed ! DataWindow Column Control dddw.useasborder 
+Succeed ! DataWindow Column Control dddw.vscrollbar 
+Succeed ! DataWindow Column Control ddlb.allowedit 
+Succeed ! DataWindow Column Control ddlb.autohscroll 
+Succeed ! DataWindow Column Control ddlb.case 
+Succeed ! DataWindow Column Control ddlb.limit 
+Succeed ! DataWindow Column Control ddlb.nilisnull 
+Succeed ! DataWindow Column Control ddlb.required 
+Succeed ! DataWindow Column Control ddlb.sorted 
+Succeed ! DataWindow Column Control ddlb.useasborder 
+Succeed ! DataWindow Column Control ddlb.showlist 
+Succeed ! DataWindow Column Control ddlb.vscrollbar 
+Succeed ! DataWindow Column Control edit.autohscroll 
+Succeed ! DataWindow Column Control edit.autoselect 
+Succeed ! DataWindow Column Control edit.autovscroll 
+Succeed ! DataWindow Column Control edit.case 
+Succeed ! DataWindow Column Control edit.codetable 
+Succeed ! DataWindow Column Control values 
+Succeed ! DataWindow Column Control edit.displayonly 
+Succeed ! DataWindow Column Control edit.focusrectangle 
+Succeed ! DataWindow Column Control edit.password 
+Succeed ! DataWindow Column Control edit.format 
+Succeed ! DataWindow Column Control edit.hscrollbar 
+Succeed ! DataWindow Column Control edit.limit 
+Succeed ! DataWindow Column Control edit.name 
+Succeed ! DataWindow Column Control edit.nilisnull 
+Succeed ! DataWindow Column Control edit.required 
+Succeed ! DataWindow Column Control edit.style 
+Succeed ! DataWindow Column Control edit.validatecode 
+Succeed ! DataWindow Column Control edit.vscrollbar 
+Succeed ! DataWindow Column Control editmask.mask 
+Succeed ! DataWindow Column Control editmask.autoskip 
+Succeed ! DataWindow Column Control editmask.codetable 
+Succeed ! DataWindow Column Control editmask.focusrectangle 
+Succeed ! DataWindow Column Control editmask.readonly 
+Succeed ! DataWindow Column Control editmask.required 
+Succeed ! DataWindow Column Control editmask.spin 
+Succeed ! DataWindow Column Control editmask.spinincr 
+Succeed ! DataWindow Column Control editmask.spinrange 
+Succeed ! DataWindow Column Control editmask.useformat 
+Succeed ! DataWindow Column Control radiobuttons.3d 
+Succeed ! DataWindow Column Control radiobuttons.columns 
+Succeed ! DataWindow Column Control radiobuttons.lefttext 
+Succeed ! DataWindow Column Control radiobuttons.scale 
+
+
+##################################### 
+#                                     
+#    Datawindow Graph property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Graph Control attributes 
+Succeed ! DataWindow Graph Control backcolor 
+Succeed ! DataWindow Graph Control band 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control Border 
+Succeed ! DataWindow Graph Control color 
+Succeed ! DataWindow Graph Control color 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control graphtype 
+Succeed ! DataWindow Graph Control depth 
+Succeed ! DataWindow Graph Control elevation 
+Succeed ! DataWindow Graph Control height 
+Succeed ! DataWindow Graph Control hidesnaked 
+Succeed ! DataWindow Graph Control legend 
+Succeed ! DataWindow Graph Control moveable 
+Succeed ! DataWindow Graph Control name 
+Succeed ! DataWindow Graph Control overlappercent 
+Succeed ! DataWindow Graph Control perspective 
+Succeed ! DataWindow Graph Control Pointer  
+Succeed ! DataWindow Graph Control range 
+Succeed ! DataWindow Graph Control resizeable 
+Succeed ! DataWindow Graph Control rotation 
+Succeed ! DataWindow Graph Control shadecolor 
+Succeed ! DataWindow Graph Control sizetodisplay 
+Succeed ! DataWindow Graph Control slideleft 
+Succeed ! DataWindow Graph Control slideup 
+Succeed ! DataWindow Graph Control spacing 
+Succeed ! DataWindow Graph Control tag 
+Succeed ! DataWindow Graph Control title 
+Succeed ! DataWindow Graph Control type 
+Succeed ! DataWindow Graph Control visible 
+Succeed ! DataWindow Graph Control width 
+Succeed ! DataWindow Graph Control x 
+Succeed ! DataWindow Graph Control y 
+Succeed ! DataWindow Graph Control category 
+Succeed ! DataWindow Graph Control category.autoscale 
+Succeed ! DataWindow Graph Control category.displayeverynlabels 
+Succeed ! DataWindow Graph Control category.droplines 
+Succeed ! DataWindow Graph Control category.label 
+Succeed ! DataWindow Graph Control category.majordivisions 
+Succeed ! DataWindow Graph Control category.majorgridline 
+Succeed ! DataWindow Graph Control category.majortic 
+Succeed ! DataWindow Graph Control category.maximumvalue 
+Succeed ! DataWindow Graph Control category.minimumvalue 
+Succeed ! DataWindow Graph Control category.minordivisions 
+Succeed ! DataWindow Graph Control category.minorgridline 
+Succeed ! DataWindow Graph Control category.minortic 
+Succeed ! DataWindow Graph Control category.originline 
+Succeed ! DataWindow Graph Control category.primaryline 
+Succeed ! DataWindow Graph Control category.roundto 
+Succeed ! DataWindow Graph Control category.roundtounit 
+Succeed ! DataWindow Graph Control category.scaletype 
+Succeed ! DataWindow Graph Control category.scalevalue 
+Succeed ! DataWindow Graph Control category.secondaryline 
+Succeed ! DataWindow Graph Control category.shadebackedge 
+Succeed ! DataWindow Graph Control category.sort 
+Succeed ! DataWindow Graph Control category.frame 
+Succeed ! DataWindow Graph Control series 
+Succeed ! DataWindow Graph Control series.autoscale 
+Succeed ! DataWindow Graph Control series.displayeverynlabels 
+Succeed ! DataWindow Graph Control series.droplines 
+Succeed ! DataWindow Graph Control series.label 
+Succeed ! DataWindow Graph Control series.majordivisions 
+Succeed ! DataWindow Graph Control series.majorgridline 
+Succeed ! DataWindow Graph Control series.majortic 
+Succeed ! DataWindow Graph Control series.maximumvalue 
+Succeed ! DataWindow Graph Control series.minimumvalue 
+Succeed ! DataWindow Graph Control series.minordivisions 
+Succeed ! DataWindow Graph Control series.minorgridline 
+Succeed ! DataWindow Graph Control series.minortic 
+Succeed ! DataWindow Graph Control series.originline 
+Succeed ! DataWindow Graph Control series.primaryline 
+Succeed ! DataWindow Graph Control series.roundto 
+Succeed ! DataWindow Graph Control series.roundtounit 
+Succeed ! DataWindow Graph Control series.scaletype 
+Succeed ! DataWindow Graph Control series.scalevalue 
+Succeed ! DataWindow Graph Control series.secondaryline 
+Succeed ! DataWindow Graph Control series.shadebackedge 
+Succeed ! DataWindow Graph Control series.sort 
+Succeed ! DataWindow Graph Control series.frame 
+Succeed ! DataWindow Graph Control values 
+Succeed ! DataWindow Graph Control values.autoscale 
+Succeed ! DataWindow Graph Control values.displayeverynlabels 
+Succeed ! DataWindow Graph Control values.droplines 
+Succeed ! DataWindow Graph Control values.label 
+Succeed ! DataWindow Graph Control values.majordivisions 
+Succeed ! DataWindow Graph Control values.majorgridline 
+Succeed ! DataWindow Graph Control values.majortic 
+Succeed ! DataWindow Graph Control values.maximumvalue 
+Succeed ! DataWindow Graph Control values.minimumvalue 
+Succeed ! DataWindow Graph Control values.minordivisions 
+Succeed ! DataWindow Graph Control values.minorgridline 
+Succeed ! DataWindow Graph Control values.minortic 
+Succeed ! DataWindow Graph Control values.originline 
+Succeed ! DataWindow Graph Control values.primaryline 
+Succeed ! DataWindow Graph Control values.roundto 
+Succeed ! DataWindow Graph Control values.roundtounit 
+Succeed ! DataWindow Graph Control values.scaletype 
+Succeed ! DataWindow Graph Control values.scalevalue 
+Succeed ! DataWindow Graph Control values.secondaryline 
+Succeed ! DataWindow Graph Control values.shadebackedge 
+Succeed ! DataWindow Graph Control values.frame 
+Succeed ! DataWindow Graph Control category.dispattr.alignment 
+Succeed ! DataWindow Graph Control category.dispattr.autosize 
+Succeed ! DataWindow Graph Control category.dispattr.backcolor 
+Succeed ! DataWindow Graph Control category.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control category.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.dispattr.Font.face 
+Succeed ! DataWindow Graph Control category.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control category.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.family 
+Succeed ! DataWindow Graph Control category.dispattr.font.height 
+Succeed ! DataWindow Graph Control category.dispattr.font.height 
+Succeed ! DataWindow Graph Control category.dispattr.font.italic 
+Succeed ! DataWindow Graph Control category.dispattr.font.italic 
+Succeed ! DataWindow Graph Control category.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control category.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control category.dispattr.font.underline 
+Succeed ! DataWindow Graph Control category.dispattr.font.underline 
+Succeed ! DataWindow Graph Control category.dispattr.font.weight 
+Succeed ! DataWindow Graph Control category.dispattr.font.weight 
+Succeed ! DataWindow Graph Control category.dispattr.font.width 
+Succeed ! DataWindow Graph Control category.dispattr.format 
+Succeed ! DataWindow Graph Control category.dispattr.textcolor 
+Succeed ! DataWindow Graph Control category.labeldispattr.alignment 
+Succeed ! DataWindow Graph Control category.labeldispattr.autosize 
+Succeed ! DataWindow Graph Control category.labeldispattr.backcolor 
+Succeed ! DataWindow Graph Control category.labeldispattr.displayexpression 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.face 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.orientation 
+Succeed ! DataWindow Graph Control category.labeldispattr.Font.escapement 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control category.labeldispattr.font.width 
+Succeed ! DataWindow Graph Control category.labeldispattr.format 
+Succeed ! DataWindow Graph Control category.labeldispattr.textcolor 
+Succeed ! DataWindow Graph Control values.dispattr.alignment 
+Succeed ! DataWindow Graph Control values.dispattr.autosize 
+Succeed ! DataWindow Graph Control values.dispattr.backcolor 
+Succeed ! DataWindow Graph Control values.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control values.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.dispattr.Font.face 
+Succeed ! DataWindow Graph Control values.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control values.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.family 
+Succeed ! DataWindow Graph Control values.dispattr.font.height 
+Succeed ! DataWindow Graph Control values.dispattr.font.height 
+Succeed ! DataWindow Graph Control values.dispattr.font.italic 
+Succeed ! DataWindow Graph Control values.dispattr.font.italic 
+Succeed ! DataWindow Graph Control values.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control values.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control values.dispattr.font.underline 
+Succeed ! DataWindow Graph Control values.dispattr.font.underline 
+Succeed ! DataWindow Graph Control values.dispattr.font.weight 
+Succeed ! DataWindow Graph Control values.dispattr.font.weight 
+Succeed ! DataWindow Graph Control values.dispattr.font.width 
+Succeed ! DataWindow Graph Control values.dispattr.format 
+Succeed ! DataWindow Graph Control values.dispattr.textcolor 
+Succeed ! DataWindow Graph Control values.labeldispattr.alignment 
+Succeed ! DataWindow Graph Control values.labeldispattr.autosize 
+Succeed ! DataWindow Graph Control values.labeldispattr.backcolor 
+Succeed ! DataWindow Graph Control values.labeldispattr.displayexpression 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.face 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.orientation 
+Succeed ! DataWindow Graph Control values.labeldispattr.Font.escapement 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control values.labeldispattr.font.width 
+Succeed ! DataWindow Graph Control values.labeldispattr.format 
+Succeed ! DataWindow Graph Control values.labeldispattr.textcolor 
+Succeed ! DataWindow Graph Control series.dispattr.alignment 
+Succeed ! DataWindow Graph Control series.dispattr.autosize 
+Succeed ! DataWindow Graph Control series.dispattr.backcolor 
+Succeed ! DataWindow Graph Control series.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control series.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.dispattr.Font.face 
+Succeed ! DataWindow Graph Control series.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control series.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.family 
+Succeed ! DataWindow Graph Control series.dispattr.font.height 
+Succeed ! DataWindow Graph Control series.dispattr.font.height 
+Succeed ! DataWindow Graph Control series.dispattr.font.italic 
+Succeed ! DataWindow Graph Control series.dispattr.font.italic 
+Succeed ! DataWindow Graph Control series.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control series.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control series.dispattr.font.underline 
+Succeed ! DataWindow Graph Control series.dispattr.font.underline 
+Succeed ! DataWindow Graph Control series.dispattr.font.weight 
+Succeed ! DataWindow Graph Control series.dispattr.font.weight 
+Succeed ! DataWindow Graph Control series.dispattr.font.width 
+Succeed ! DataWindow Graph Control series.dispattr.format 
+Succeed ! DataWindow Graph Control series.dispattr.textcolor 
+Succeed ! DataWindow Graph Control series.labeldispattr.alignment 
+Succeed ! DataWindow Graph Control series.labeldispattr.autosize 
+Succeed ! DataWindow Graph Control series.labeldispattr.backcolor 
+Succeed ! DataWindow Graph Control series.labeldispattr.displayexpression 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.face 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.orientation 
+Succeed ! DataWindow Graph Control series.labeldispattr.Font.escapement 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.family 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.height 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.italic 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.pitch 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.underline 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.weight 
+Succeed ! DataWindow Graph Control series.labeldispattr.font.width 
+Succeed ! DataWindow Graph Control series.labeldispattr.format 
+Succeed ! DataWindow Graph Control series.labeldispattr.textcolor 
+Succeed ! DataWindow Graph Control title.dispattr.alignment 
+Succeed ! DataWindow Graph Control title.dispattr.autosize 
+Succeed ! DataWindow Graph Control title.dispattr.backcolor 
+Succeed ! DataWindow Graph Control title.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control title.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control title.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control title.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control title.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control title.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control title.dispattr.Font.face 
+Succeed ! DataWindow Graph Control title.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control title.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.family 
+Succeed ! DataWindow Graph Control title.dispattr.font.height 
+Succeed ! DataWindow Graph Control title.dispattr.font.height 
+Succeed ! DataWindow Graph Control title.dispattr.font.italic 
+Succeed ! DataWindow Graph Control title.dispattr.font.italic 
+Succeed ! DataWindow Graph Control title.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control title.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control title.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control title.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control title.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control title.dispattr.font.underline 
+Succeed ! DataWindow Graph Control title.dispattr.font.underline 
+Succeed ! DataWindow Graph Control title.dispattr.font.weight 
+Succeed ! DataWindow Graph Control title.dispattr.font.weight 
+Succeed ! DataWindow Graph Control title.dispattr.font.width 
+Succeed ! DataWindow Graph Control title.dispattr.format 
+Succeed ! DataWindow Graph Control title.dispattr.textcolor 
+Succeed ! DataWindow Graph Control legend.dispattr.alignment 
+Succeed ! DataWindow Graph Control legend.dispattr.autosize 
+Succeed ! DataWindow Graph Control legend.dispattr.backcolor 
+Succeed ! DataWindow Graph Control legend.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.face 
+Succeed ! DataWindow Graph Control legend.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control legend.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.family 
+Succeed ! DataWindow Graph Control legend.dispattr.font.height 
+Succeed ! DataWindow Graph Control legend.dispattr.font.height 
+Succeed ! DataWindow Graph Control legend.dispattr.font.italic 
+Succeed ! DataWindow Graph Control legend.dispattr.font.italic 
+Succeed ! DataWindow Graph Control legend.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control legend.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control legend.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control legend.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control legend.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control legend.dispattr.font.underline 
+Succeed ! DataWindow Graph Control legend.dispattr.font.underline 
+Succeed ! DataWindow Graph Control legend.dispattr.font.weight 
+Succeed ! DataWindow Graph Control legend.dispattr.font.weight 
+Succeed ! DataWindow Graph Control legend.dispattr.font.width 
+Succeed ! DataWindow Graph Control legend.dispattr.format 
+Succeed ! DataWindow Graph Control legend.dispattr.textcolor 
+Succeed ! DataWindow Graph Control pie.dispattr.alignment 
+Succeed ! DataWindow Graph Control pie.dispattr.autosize 
+Succeed ! DataWindow Graph Control pie.dispattr.backcolor 
+Succeed ! DataWindow Graph Control pie.dispattr.displayexpression 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.CharSet 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.face 
+Succeed ! DataWindow Graph Control pie.dispattr.font.orientation 
+Succeed ! DataWindow Graph Control pie.dispattr.Font.escapement 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.family 
+Succeed ! DataWindow Graph Control pie.dispattr.font.height 
+Succeed ! DataWindow Graph Control pie.dispattr.font.height 
+Succeed ! DataWindow Graph Control pie.dispattr.font.italic 
+Succeed ! DataWindow Graph Control pie.dispattr.font.italic 
+Succeed ! DataWindow Graph Control pie.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control pie.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control pie.dispattr.font.pitch 
+Succeed ! DataWindow Graph Control pie.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control pie.dispattr.font.strikethrough 
+Succeed ! DataWindow Graph Control pie.dispattr.font.underline 
+Succeed ! DataWindow Graph Control pie.dispattr.font.underline 
+Succeed ! DataWindow Graph Control pie.dispattr.font.weight 
+Succeed ! DataWindow Graph Control pie.dispattr.font.weight 
+Succeed ! DataWindow Graph Control pie.dispattr.font.width 
+Succeed ! DataWindow Graph Control pie.dispattr.format 
+Succeed ! DataWindow Graph Control pie.dispattr.textcolor 
+
+
+##################################### 
+#                                     
+#    Picture property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Picture Control accessibledescription 
+Succeed ! DataWindow Picture Control accessiblename 
+Succeed ! DataWindow Picture Control accessiblerole 
+Succeed ! DataWindow Picture Control attributes 
+Succeed ! DataWindow Picture Control Band 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control Border 
+Succeed ! DataWindow Picture Control filename 
+Succeed ! DataWindow Picture Control Height 
+Succeed ! DataWindow Picture Control html.appendedhtml  
+Succeed ! DataWindow Picture Control html.Link  
+Succeed ! DataWindow Picture Control html.LinkArgs  
+Succeed ! DataWindow Picture Control html.LinkTarget  
+Succeed ! DataWindow Picture Control invert  
+Succeed ! DataWindow Picture Control Moveable  
+Succeed ! DataWindow Picture Control Name 
+Succeed ! DataWindow Picture Control Pointer  
+Succeed ! DataWindow Picture Control Pointer  
+Succeed ! DataWindow Picture Control resizeable  
+Succeed ! DataWindow Picture Control resizeable  
+Succeed ! DataWindow Picture Control slideleft  
+Succeed ! DataWindow Picture Control slideleft  
+Succeed ! DataWindow Picture Control slideup  
+Succeed ! DataWindow Picture Control slideup  
+Succeed ! DataWindow Picture Control slideup  
+Succeed ! DataWindow Picture Control tag  
+Succeed ! DataWindow Picture Control type 
+Succeed ! DataWindow Picture Control visible  
+Succeed ! DataWindow Picture Control visible  
+Succeed ! DataWindow Picture Control visible  
+Succeed ! DataWindow Picture Control visible  
+Succeed ! DataWindow Picture Control width  
+Succeed ! DataWindow Picture Control x  
+Succeed ! DataWindow Picture Control y  
+
+
+##################################### 
+#                                     
+#    GroupBox property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow GroupBox Control accessibledescription 
+Succeed ! DataWindow GroupBox Control accessiblename 
+Succeed ! DataWindow GroupBox Control accessiblerole 
+Succeed ! DataWindow GroupBox Control attributes 
+Succeed ! DataWindow GroupBox Control Background.Color 
+Succeed ! DataWindow GroupBox Control Background.Color 
+Succeed ! DataWindow GroupBox Control Background.Mode 
+Succeed ! DataWindow Text Control Band 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Border 
+Succeed ! DataWindow GroupBox Control Color 
+Succeed ! DataWindow GroupBox Control Color 
+Succeed ! DataWindow GroupBox Control Font.CharSet 
+Succeed ! DataWindow GroupBox Control Font.CharSet 
+Succeed ! DataWindow GroupBox Control Font.CharSet 
+Succeed ! DataWindow GroupBox Control Font.CharSet 
+Succeed ! DataWindow GroupBox Control Font.CharSet 
+Succeed ! DataWindow GroupBox Control Font.face 
+Succeed ! DataWindow GroupBox Control font.orientation 
+Succeed ! DataWindow GroupBox Control Font.escapement 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.family 
+Succeed ! DataWindow GroupBox Control font.height 
+Succeed ! DataWindow GroupBox Control font.height 
+Succeed ! DataWindow GroupBox Control font.italic 
+Succeed ! DataWindow GroupBox Control font.italic 
+Succeed ! DataWindow GroupBox Control font.pitch 
+Succeed ! DataWindow GroupBox Control font.pitch 
+Succeed ! DataWindow GroupBox Control font.pitch 
+Succeed ! DataWindow GroupBox Control font.strikethrough 
+Succeed ! DataWindow GroupBox Control font.strikethrough 
+Succeed ! DataWindow GroupBox Control font.underline 
+Succeed ! DataWindow GroupBox Control font.underline 
+Succeed ! DataWindow GroupBox Control font.weight 
+Succeed ! DataWindow GroupBox Control font.weight 
+Succeed ! DataWindow GroupBox Control font.width 
+Succeed ! DataWindow GroupBox Control Height 
+Succeed ! DataWindow GroupBox Control Moveable  
+Succeed ! DataWindow GroupBox Control Moveable  
+Succeed ! DataWindow GroupBox Control Name 
+Succeed ! DataWindow GroupBox Control Pointer  
+Succeed ! DataWindow GroupBox Control Pointer  
+Succeed ! DataWindow GroupBox Control resizeable  
+Succeed ! DataWindow GroupBox Control slideleft  
+Succeed ! DataWindow GroupBox Control slideup  
+Succeed ! DataWindow GroupBox Control slideup  
+Succeed ! DataWindow GroupBox Control tag  
+Succeed ! DataWindow GroupBox Control text  
+Succeed ! DataWindow GroupBox Control type 
+Succeed ! DataWindow GroupBox Control visible  
+Succeed ! DataWindow GroupBox Control visible  
+Succeed ! DataWindow GroupBox Control visible  
+Succeed ! DataWindow GroupBox Control width  
+Succeed ! DataWindow GroupBox Control x  
+Succeed ! DataWindow GroupBox Control y  
+
+
+##################################### 
+#                                     
+#    TableBlob property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow TableBlob Control accessibledescription 
+Succeed ! DataWindow TableBlob Control accessiblename 
+Succeed ! DataWindow TableBlob Control accessiblerole 
+Succeed ! DataWindow TableBlob Control attributes 
+Succeed ! DataWindow TableBlob Control Band 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control Border 
+Succeed ! DataWindow TableBlob Control clientname 
+Succeed ! DataWindow TableBlob Control Height 
+Succeed ! DataWindow TableBlob Control id 
+Succeed ! DataWindow TableBlob Control keyclause 
+Succeed ! DataWindow TableBlob Control Moveable  
+Succeed ! DataWindow TableBlob Control Moveable  
+Succeed ! DataWindow TableBlob Control Name 
+Succeed ! DataWindow TableBlob Control oleclass 
+Succeed ! DataWindow TableBlob Control Pointer  
+Succeed ! DataWindow TableBlob Control Pointer  
+Succeed ! DataWindow TableBlob Control resizeable  
+Succeed ! DataWindow TableBlob Control slideleft  
+Succeed ! DataWindow TableBlob Control slideup  
+Succeed ! DataWindow TableBlob Control slideup  
+Succeed ! DataWindow TableBlob Control table  
+Succeed ! DataWindow TableBlob Control tag  
+Succeed ! DataWindow TableBlob Control template  
+Succeed ! DataWindow TableBlob Control type 
+Succeed ! DataWindow TableBlob Control visible  
+Succeed ! DataWindow TableBlob Control visible  
+Succeed ! DataWindow TableBlob Control visible  
+Succeed ! DataWindow TableBlob Control width  
+Succeed ! DataWindow TableBlob Control x  
+Succeed ! DataWindow TableBlob Control y  
+
+
+
+##################################### 
+#                                     
+#    Report property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Report Control accessibledescription 
+Succeed ! DataWindow Report Control accessibledescription 
+Succeed ! DataWindow Report Control accessibledescription 
+Succeed ! DataWindow Report Control attributes 
+Succeed ! DataWindow Report Control Band 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control Border 
+Succeed ! DataWindow Report Control criteria 
+Succeed ! DataWindow Report Control Height 
+Succeed ! DataWindow Report Control height.autosize 
+Succeed ! DataWindow Report Control moveable 
+Succeed ! DataWindow Report Control Name 
+Succeed ! DataWindow Report Control nest_arguments 
+Succeed ! DataWindow Report Control newpage  
+Succeed ! DataWindow Report Control Pointer  
+Succeed ! DataWindow Report Control Pointer  
+Succeed ! DataWindow Report Control resizeable 
+Succeed ! DataWindow Report Control slideleft  
+Succeed ! DataWindow Report Control slideup  
+Succeed ! DataWindow Report Control slideup  
+Succeed ! DataWindow Report Control tag  
+Succeed ! DataWindow Report Control trail_footer  
+Succeed ! DataWindow Report Control type 
+Succeed ! DataWindow Report Control visible  
+Succeed ! DataWindow Report Control visible  
+Succeed ! DataWindow Report Control width  
+Succeed ! DataWindow Report Control x  
+Succeed ! DataWindow Report Control y  
+Succeed ! DataWindow Report Control dataobject 
+
+
+##################################### 
+#                                     
+#    OLE property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow OLE Control accessibledescription 
+Succeed ! DataWindow OLE Control accessiblename 
+Succeed ! DataWindow OLE Control accessiblerole 
+Succeed ! DataWindow OLE Control attributes 
+Succeed ! DataWindow OLE Control Band 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control Border 
+Succeed ! DataWindow OLE Control clientname 
+Succeed ! DataWindow OLE Control contentsallowed 
+Succeed ! DataWindow OLE Control displaytype 
+Succeed ! DataWindow OLE Control groupby 
+Succeed ! DataWindow OLE Control Height 
+Succeed ! DataWindow OLE Control linkupdateoptions 
+Succeed ! DataWindow OLE Control Moveable  
+Succeed ! DataWindow OLE Control Moveable  
+Succeed ! DataWindow OLE Control Name 
+Succeed ! DataWindow OLE Control Pointer  
+Succeed ! DataWindow OLE Control Pointer  
+Succeed ! DataWindow OLE Control range 
+Succeed ! DataWindow OLE Control resizeable  
+Succeed ! DataWindow OLE Control sizetodisplay  
+Succeed ! DataWindow OLE Control slideleft  
+Succeed ! DataWindow OLE Control slideup  
+Succeed ! DataWindow OLE Control slideup  
+Succeed ! DataWindow OLE Control tag  
+Succeed ! DataWindow OLE Control type 
+Succeed ! DataWindow OLE Control visible  
+Succeed ! DataWindow OLE Control visible  
+Succeed ! DataWindow OLE Control visible  
+Succeed ! DataWindow OLE Control width  
+Succeed ! DataWindow OLE Control x  
+Succeed ! DataWindow OLE Control y  
+
+
+##################################### 
+#                                     
+#    Line property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Line Control attributes 
+Succeed ! DataWindow Line Control Band 
+Succeed ! DataWindow Line Control Moveable  
+Succeed ! DataWindow Line Control Name 
+Succeed ! DataWindow Line Control Pointer  
+Succeed ! DataWindow Line Control Pointer  
+Succeed ! DataWindow Line Control resizeable  
+Succeed ! DataWindow Line Control resizeable  
+Succeed ! DataWindow Line Control slideleft  
+Succeed ! DataWindow Line Control slideleft  
+Succeed ! DataWindow Line Control slideup  
+Succeed ! DataWindow Line Control slideup  
+Succeed ! DataWindow Line Control slideup  
+Succeed ! DataWindow Line Control tag  
+Succeed ! DataWindow Line Control type 
+Succeed ! DataWindow Line Control visible  
+Succeed ! DataWindow Line Control visible  
+Succeed ! DataWindow Line Control visible  
+Succeed ! DataWindow Line Control visible  
+Succeed ! DataWindow Line Control x1  
+Succeed ! DataWindow Line Control x2  
+Succeed ! DataWindow Line Control y1  
+Succeed ! DataWindow Line Control y2  
+Succeed ! DataWindow Line Control Background.Color 
+Succeed ! DataWindow Line Control Background.Color 
+Succeed ! DataWindow Line Control Background.Mode 
+Succeed ! DataWindow Line Control pen.color 
+Succeed ! DataWindow Line Control pen.style 
+Succeed ! DataWindow Line Control pen.width 
+
+##################################### 
+#                                     
+#    Rectangle property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Rectangle Control attributes 
+Succeed ! DataWindow Rectangle Control Band 
+Succeed ! DataWindow Rectangle Control height  
+Succeed ! DataWindow Rectangle Control Moveable  
+Succeed ! DataWindow Rectangle Control Name 
+Succeed ! DataWindow Rectangle Control Pointer  
+Succeed ! DataWindow Rectangle Control Pointer  
+Succeed ! DataWindow Rectangle Control resizeable  
+Succeed ! DataWindow Rectangle Control resizeable  
+Succeed ! DataWindow Rectangle Control slideleft  
+Succeed ! DataWindow Rectangle Control slideleft  
+Succeed ! DataWindow Rectangle Control slideup  
+Succeed ! DataWindow Rectangle Control slideup  
+Succeed ! DataWindow Rectangle Control slideup  
+Succeed ! DataWindow Rectangle Control tag  
+Succeed ! DataWindow Rectangle Control type 
+Succeed ! DataWindow Rectangle Control visible  
+Succeed ! DataWindow Rectangle Control visible  
+Succeed ! DataWindow Rectangle Control visible  
+Succeed ! DataWindow Rectangle Control visible  
+Succeed ! DataWindow Rectangle Control width 
+Succeed ! DataWindow Rectangle Control x 
+Succeed ! DataWindow Rectangle Control y 
+Succeed ! DataWindow Rectangle Control Background.Color 
+Succeed ! DataWindow Rectangle Control Background.Color 
+Succeed ! DataWindow Rectangle Control Background.Mode 
+Succeed ! DataWindow Rectangle Control pen.color 
+Succeed ! DataWindow Rectangle Control pen.style 
+Succeed ! DataWindow Rectangle Control pen.width 
+Succeed ! DataWindow Rectangle Control brush.color 
+Succeed ! DataWindow Rectangle Control brush.hatch 
+
+##################################### 
+#                                     
+#    Oval property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow Oval Control attributes 
+Succeed ! DataWindow Oval Control Band 
+Succeed ! DataWindow Oval Control height  
+Succeed ! DataWindow Oval Control Moveable  
+Succeed ! DataWindow Oval Control Name 
+Succeed ! DataWindow Oval Control Pointer  
+Succeed ! DataWindow Oval Control Pointer  
+Succeed ! DataWindow Oval Control resizeable  
+Succeed ! DataWindow Oval Control resizeable  
+Succeed ! DataWindow Oval Control slideleft  
+Succeed ! DataWindow Oval Control slideleft  
+Succeed ! DataWindow Oval Control slideup  
+Succeed ! DataWindow Oval Control slideup  
+Succeed ! DataWindow Oval Control slideup  
+Succeed ! DataWindow Oval Control tag  
+Succeed ! DataWindow Oval Control type 
+Succeed ! DataWindow Oval Control visible  
+Succeed ! DataWindow Oval Control visible  
+Succeed ! DataWindow Oval Control visible  
+Succeed ! DataWindow Oval Control visible  
+Succeed ! DataWindow Oval Control width 
+Succeed ! DataWindow Oval Control x 
+Succeed ! DataWindow Oval Control y 
+Succeed ! DataWindow Oval Control Background.Color 
+Succeed ! DataWindow Oval Control Background.Color 
+Succeed ! DataWindow Oval Control Background.Mode 
+Succeed ! DataWindow Oval Control pen.color 
+Succeed ! DataWindow Oval Control pen.style 
+Succeed ! DataWindow Oval Control pen.width 
+Succeed ! DataWindow Oval Control brush.color 
+Succeed ! DataWindow Oval Control brush.hatch 
+
+##################################### 
+#                                     
+#    RoundRectangle property Testing 
+#                                     
+##################################### 
+Succeed ! DataWindow RoundRectangle Control attributes 
+Succeed ! DataWindow RoundRectangle Control Band 
+Succeed ! DataWindow RoundRectangle Control ellipseheight  
+Succeed ! DataWindow RoundRectangle Control ellipsewidth  
+Succeed ! DataWindow RoundRectangle Control height  
+Succeed ! DataWindow RoundRectangle Control Moveable  
+Succeed ! DataWindow RoundRectangle Control Name 
+Succeed ! DataWindow RoundRectangle Control Pointer  
+Succeed ! DataWindow RoundRectangle Control Pointer  
+Succeed ! DataWindow RoundRectangle Control resizeable  
+Succeed ! DataWindow RoundRectangle Control resizeable  
+Succeed ! DataWindow RoundRectangle Control slideleft  
+Succeed ! DataWindow RoundRectangle Control slideleft  
+Succeed ! DataWindow RoundRectangle Control slideup  
+Succeed ! DataWindow RoundRectangle Control slideup  
+Succeed ! DataWindow RoundRectangle Control slideup  
+Succeed ! DataWindow RoundRectangle Control tag  
+Succeed ! DataWindow RoundRectangle Control type 
+Succeed ! DataWindow RoundRectangle Control visible  
+Succeed ! DataWindow RoundRectangle Control visible  
+Succeed ! DataWindow RoundRectangle Control visible  
+Succeed ! DataWindow RoundRectangle Control visible  
+Succeed ! DataWindow RoundRectangle Control width 
+Succeed ! DataWindow RoundRectangle Control x 
+Succeed ! DataWindow RoundRectangle Control y 
+Succeed ! DataWindow RoundRectangle Control Background.Color 
+Succeed ! DataWindow RoundRectangle Control Background.Color 
+Succeed ! DataWindow RoundRectangle Control Background.Mode 
+Succeed ! DataWindow RoundRectangle Control pen.color 
+Succeed ! DataWindow RoundRectangle Control pen.style 
+Succeed ! DataWindow RoundRectangle Control pen.width 
+Succeed ! DataWindow RoundRectangle Control brush.color 
+Succeed ! DataWindow RoundRectangle Control brush.hatch 
+
+
+##################################### 
+#                                     
+#    Modify Create Testing 
+#                                     
+##################################### 
+Succeed ! Create column 
+Succeed ! Create oval 
+Succeed ! Create text 
+Succeed ! Create button 
+Succeed ! Create computedfield 
+Succeed ! Create groupbox 
+Succeed ! Create line 
+Succeed ! Create rectangle 
+Succeed ! Create roundrectangle 
+Succeed ! Modify table 
+Succeed ! Create tableblob 
+Succeed ! Create report 
+Succeed ! Create bitmap 
+
+
+##################################### 
+#                                     
+#    Modify Destroy Testing 
+#                                     
+##################################### 
+Succeed ! Destroy text 
+Succeed ! Destroy button 
+Succeed ! Destroy computedfield 
+Succeed ! Destroy groupbox 
+Succeed ! Destroy line 
+Succeed ! Destroy oval 
+Succeed ! Destroy rectangle 
+Succeed ! Destroy roundrectangle 
+Succeed ! Destroy ole 
+Succeed ! Destroy dbole 
+Succeed ! Destroy report 
+Succeed ! Destroy bitmap 
+Succeed ! Destroy graph 
+Succeed ! Destroy column 
+
+
+##################################### 
+#                                     
+#    Modify Table Testing 
+#                                     
+##################################### 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+Succeed ! Modify Table 
+

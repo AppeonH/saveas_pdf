@@ -1,0 +1,104 @@
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>csc
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.1434
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if errorlevel 9009 exit 3 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>"F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Parsing d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Type-checking (pass 1) d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Type-checking methods(pass 2) d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Emitting d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Emitting d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+Emitting d:\pb115case\graphintegration\graphintegration.pbl (graphintegration)
+Emitting d:\pb115case\graphintegration\graphintegration.pbl (w_graph)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 1 exit 1 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 6 exit 6 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 7 exit 7 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 8 exit 8 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>call build.bat  c- "D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build\csc_output_file_name.txt"  
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>setlocal
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if "c-" == "" goto usage  
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET" == "" goto sethome 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>md debug 
+A subdirectory or file debug already exists.
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if "c-" == "c-" goto notcopy 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>xcopy /D /Y "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest" debug\ 
+F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest
+1 File(s) copied
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>del debug\graphintegration.exe.manifest 
+Could Not Find D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build\debug\graphintegration.exe.manifest
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>ren debug\App.Win.exe.manifest graphintegration.exe.manifest 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>xcopy /D /Y "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs"  
+F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs
+1 File(s) copied
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>ModifyManifest debug\graphintegration.exe.manifest asinvoker false 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>del ModifyManifest.vbs 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>reg import "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\PBExceptionTrace.reg" 
+The operation completed successfully.
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if "D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build\csc_output_file_name.txt" == "" (csc /t:winexe /debug    /platform:x86 "/r:F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\graphintegration.exe" @mb.rsp )  else (csc /t:winexe /debug    /platform:x86 "/r:F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\graphintegration.exe" @mb.rsp  1>"D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>rem "F:\Program Files\Microsoft SDKs\Windows\v6.1\bin\mt.exe" -nologo -manifest debug\graphintegration.exe.manifest -outputresource:debug\graphintegration.exe;#1 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>del debug\graphintegration.exe.manifest 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>goto end 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>endlocal
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if exist createole.bat call createole.bat 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if exist createole.bat xcopy ole\*.* debug\ /D /Y 
+
+D:\PB115Case\GraphIntegration\graphintegration_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"D:\PB115Case\GraphIntegration\p_graphintegration_winform_oledllname.txt" 

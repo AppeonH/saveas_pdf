@@ -1,0 +1,321 @@
+﻿$PBExportHeader$m_menu_functions_alt.srm
+$PBExportComments$Alternate/second menu used for w_menu_functions (Menu Techniques example)
+forward
+global type m_menu_functions_alt from menu
+end type
+type m_filemenu from menu within m_menu_functions_alt
+end type
+type m_close from menu within m_filemenu
+end type
+type m_exit from menu within m_filemenu
+end type
+type m_filemenu from menu within m_menu_functions_alt
+m_close m_close
+m_exit m_exit
+end type
+type m_edit from menu within m_menu_functions_alt
+end type
+type m_undo from menu within m_edit
+end type
+type m_cut from menu within m_edit
+end type
+type m_copy from menu within m_edit
+end type
+type m_paste from menu within m_edit
+end type
+type m_clear from menu within m_edit
+end type
+type m_edit from menu within m_menu_functions_alt
+m_undo m_undo
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_clear m_clear
+end type
+type m_help from menu within m_menu_functions_alt
+end type
+type m_contents from menu within m_help
+end type
+type m_aboutexample from menu within m_help
+end type
+type m_help from menu within m_menu_functions_alt
+m_contents m_contents
+m_aboutexample m_aboutexample
+end type
+global type m_menu_functions_alt from menu
+m_filemenu m_filemenu
+m_edit m_edit
+m_help m_help
+end type
+end forward
+
+global type m_menu_functions_alt from menu
+m_filemenu m_filemenu
+m_edit m_edit
+m_help m_help
+event ue_peout ( )
+event ue_teout ( )
+end type
+global m_menu_functions_alt m_menu_functions_alt
+
+event ue_peout();if isvalid(w_menu_functions) then
+	w_menu_functions.wf_output('Execute PostEvent function succeed!',false)
+end if	
+end event
+
+event ue_teout();if isvalid(w_menu_functions) then
+	w_menu_functions.wf_output('Execute TriggerEvent function succeed!',True)
+end if	
+end event
+
+on m_menu_functions_alt.create
+m_menu_functions_alt=this
+call super::create
+this.m_filemenu=create m_filemenu
+this.m_edit=create m_edit
+this.m_help=create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_filemenu
+this.Item[UpperBound(this.Item)+1]=this.m_edit
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_menu_functions_alt.destroy
+call super::destroy
+destroy(this.m_filemenu)
+destroy(this.m_edit)
+destroy(this.m_help)
+end on
+
+type m_filemenu from menu within m_menu_functions_alt
+m_close m_close
+m_exit m_exit
+end type
+
+on m_filemenu.create
+call super::create
+this.text = "File"
+this.m_close=create m_close
+this.m_exit=create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_close
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_filemenu.destroy
+call super::destroy
+destroy(this.m_close)
+destroy(this.m_exit)
+end on
+
+type m_close from menu within m_filemenu
+end type
+
+on m_close.create
+call super::create
+this.text = "Open"
+this.microhelp = "Close window"
+this.toolbaritemname = "Custom050!"
+this.toolbaritemtext = "Open"
+this.toolbaritemorder = 1
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+type m_exit from menu within m_filemenu
+end type
+
+on m_exit.create
+call super::create
+this.text = "Exit"
+this.microhelp = "Exit this example"
+this.toolbaritemname = "Exit!"
+this.toolbaritemtext = "Exit"
+this.toolbaritemorder = 8
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: 
+//--------------------------------------------------------------------
+// Arguments: (none)
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 	 		Date: 2004/01/05
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+CLOSE (ParentWindow)
+
+end event
+
+type m_edit from menu within m_menu_functions_alt
+m_undo m_undo
+m_cut m_cut
+m_copy m_copy
+m_paste m_paste
+m_clear m_clear
+end type
+
+on m_edit.create
+call super::create
+this.text = "Edit"
+this.m_undo=create m_undo
+this.m_cut=create m_cut
+this.m_copy=create m_copy
+this.m_paste=create m_paste
+this.m_clear=create m_clear
+this.Item[UpperBound(this.Item)+1]=this.m_undo
+this.Item[UpperBound(this.Item)+1]=this.m_cut
+this.Item[UpperBound(this.Item)+1]=this.m_copy
+this.Item[UpperBound(this.Item)+1]=this.m_paste
+this.Item[UpperBound(this.Item)+1]=this.m_clear
+end on
+
+on m_edit.destroy
+call super::destroy
+destroy(this.m_undo)
+destroy(this.m_cut)
+destroy(this.m_copy)
+destroy(this.m_paste)
+destroy(this.m_clear)
+end on
+
+type m_undo from menu within m_edit
+end type
+
+on m_undo.create
+call super::create
+this.text = "Undo"
+this.microhelp = "Undo last edit change"
+this.toolbaritemname = "Undo!"
+this.toolbaritemtext = "Undo"
+this.toolbaritemorder = 2
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+type m_cut from menu within m_edit
+end type
+
+on m_cut.create
+call super::create
+this.text = "Cut"
+this.microhelp = "Cut selected text to clipboard"
+this.toolbaritemname = "Cut!"
+this.toolbaritemtext = "Cut"
+this.toolbaritemorder = 3
+end on
+
+on m_cut.destroy
+call super::destroy
+end on
+
+type m_copy from menu within m_edit
+end type
+
+on m_copy.create
+call super::create
+this.text = "Copy"
+this.microhelp = "Copy selected text to clipboard"
+this.toolbaritemname = "Copy!"
+this.toolbaritemtext = "Copy"
+this.toolbaritemorder = 4
+end on
+
+on m_copy.destroy
+call super::destroy
+end on
+
+type m_paste from menu within m_edit
+end type
+
+on m_paste.create
+call super::create
+this.text = "Paste"
+this.microhelp = "Paste from clipboard"
+this.toolbaritemname = "Paste!"
+this.toolbaritemtext = "Paste"
+this.toolbaritemorder = 5
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_clear from menu within m_edit
+end type
+
+on m_clear.create
+call super::create
+this.text = "Clear"
+this.microhelp = "Clear selected text"
+this.toolbaritemname = "Clear!"
+this.toolbaritemtext = "Clear"
+this.toolbaritemorder = 6
+end on
+
+on m_clear.destroy
+call super::destroy
+end on
+
+type m_help from menu within m_menu_functions_alt
+m_contents m_contents
+m_aboutexample m_aboutexample
+end type
+
+on m_help.create
+call super::create
+this.text = "Help"
+this.m_contents=create m_contents
+this.m_aboutexample=create m_aboutexample
+this.Item[UpperBound(this.Item)+1]=this.m_contents
+this.Item[UpperBound(this.Item)+1]=this.m_aboutexample
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_contents)
+destroy(this.m_aboutexample)
+end on
+
+type m_contents from menu within m_help
+end type
+
+on m_contents.create
+call super::create
+this.text = "Contents..."
+this.microhelp = "Display help"
+this.toolbaritemname = "Help!"
+this.toolbaritemtext = "Help"
+this.toolbaritemorder = 7
+end on
+
+on m_contents.destroy
+call super::destroy
+end on
+
+type m_aboutexample from menu within m_help
+end type
+
+on m_aboutexample.create
+call super::create
+this.text = "About Example..."
+this.microhelp = "Display copyright notice"
+end on
+
+on m_aboutexample.destroy
+call super::destroy
+end on
+

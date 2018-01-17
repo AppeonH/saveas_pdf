@@ -1,0 +1,16 @@
+﻿$PBExportHeader$d_date_functions.srd
+$PBExportComments$Datawindow to enter a day name and test date.  Used by w_date_functions window
+release 8;
+datawindow(units=0 timer_interval=0 color=78682240 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 97 print.margin.bottom = 97 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=4 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=236 color="536870912" )
+table(column=(type=char(9) updatewhereclause=yes name=day_name dbname="day_name" )
+ column=(type=date updatewhereclause=yes name=test_date dbname="test_date" )
+ )
+text(band=detail alignment="1" text="Day Name:" border="0" color="33554432" x="23" y="12" height="60" width="357" html.valueishtml="0"  name=day_name_t visible="1"  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )
+text(band=detail alignment="1" text="Test Date:" border="0" color="33554432" x="23" y="128" height="56" width="357" html.valueishtml="0"  name=test_date_t visible="1"  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )
+column(band=detail id=1 alignment="0" tabsequence=10 border="5" color="33554432" x="416" y="8" height="64" width="430" format="[general]" html.valueishtml="0"  name=day_name visible="1" dddw.name=d_dddw_daynamelist dddw.displaycolumn=day_name dddw.datacolumn=day_name dddw.percentwidth=0 dddw.lines=0 dddw.limit=0 dddw.allowedit=no dddw.useasborder=yes dddw.case=any dddw.imemode=0 dddw.vscrollbar=yes  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="1090519039" )
+column(band=detail id=2 alignment="0" tabsequence=20 border="5" color="33554432" x="416" y="128" height="64" width="430" format="mm/dd/yyyy" html.valueishtml="0"  name=test_date visible="1" editmask.required=yes editmask.useformat=yes editmask.mask="mm/dd/yyyy" editmask.imemode=0 editmask.focusrectangle=no  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="1090519039" )
+htmltable(border="0" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

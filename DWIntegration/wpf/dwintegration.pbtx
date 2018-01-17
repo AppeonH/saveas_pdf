@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>dwintegration.pbtx</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{7e41e20f-2ebd-47b0-9a1d-f65283dd6133}</ProjectGuid>
+    <Comment>Migrated by PB WPF migration tool</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>dwintegration</AssemblyName>
+    <RootNamespace>dwintegration</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>dwintegration</ApplicationName>
+    <ApplicationObject>dwintegration.sra</ApplicationObject>
+    <ApplicationLibrary>dwintegration.pbl\dwintegration.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{7af0ec9c-f54b-44c7-b6c4-dba4c9192e05}</LibraryList>
+    <PBFontDWText_FONT>Tahoma, 12pt</PBFontDWText_FONT>
+    <PBFontDWText_FGC>#FF000000</PBFontDWText_FGC>
+    <PBFontDWText_BGC>#FFFFFFFF</PBFontDWText_BGC>
+    <PBFontDWLabel_FONT>Tahoma, 12pt</PBFontDWLabel_FONT>
+    <PBFontDWLabel_FGC>#FF000000</PBFontDWLabel_FGC>
+    <PBFontDWLabel_BGC>#FFFFFFFF</PBFontDWLabel_BGC>
+    <PBFontDWColumn_FONT>Tahoma, 12pt</PBFontDWColumn_FONT>
+    <PBFontDWColumn_FGC>#FF000000</PBFontDWColumn_FGC>
+    <PBFontDWColumn_BGC>#FFFFFFFF</PBFontDWColumn_BGC>
+    <PBFontDWHeader_FONT>Tahoma, 12pt</PBFontDWHeader_FONT>
+    <PBFontDWHeader_FGC>#FF000000</PBFontDWHeader_FGC>
+    <PBFontDWHeader_BGC>#FFFFFFFF</PBFontDWHeader_BGC>
+    <PBProjectDefault>{7af0ec9c-f54b-44c7-b6c4-dba4c9192e05},p_dwintegration_wpf.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{7af0ec9c-f54b-44c7-b6c4-dba4c9192e05},p_dwintegration_wpf.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>dwintegration.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>dwintegration.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="dwintegration.pbl\dwintegration.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>dwintegration</Name>
+      <InstanceGuid>{7af0ec9c-f54b-44c7-b6c4-dba4c9192e05}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

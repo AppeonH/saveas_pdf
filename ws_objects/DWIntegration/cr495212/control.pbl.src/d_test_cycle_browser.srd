@@ -1,0 +1,37 @@
+﻿$PBExportHeader$d_test_cycle_browser.srd
+release 6;
+datawindow(units=0 timer_interval=0 color=12632256 processing=0 print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+header(height=72 color="536870912" )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=152 color="536870912" )
+table(column=(type=number update=yes updatewhereclause=yes key=yes name=cycleno dbname="testcycle.cycleno" )
+ column=(type=char(60) update=yes updatewhereclause=yes name=product dbname="testcycle.product" )
+ column=(type=char(30) update=yes updatewhereclause=yes name=version dbname="testcycle.version" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=buildno dbname="testcycle.buildno" )
+ column=(type=date update=yes updatewhereclause=yes name=cycle_date dbname="testcycle.cycle_date" )
+ column=(type=char(100) update=yes updatewhereclause=yes name=description dbname="testcycle.description" )
+ column=(type=char(30) updatewhereclause=yes name=host_application dbname="testcycle.host_application" )
+ retrieve="  SELECT testcycle.cycleno,   
+         testcycle.product,   
+         testcycle.version,   
+         testcycle.buildno,   
+         ~"testcycle~".~"cycle_date~",   
+         testcycle.description,   
+         testcycle.host_application  
+    FROM testcycle  
+   WHERE testcycle.host_application = :as_applicationName    
+" update="testcycle" updatewhere=1 updatekeyinplace=no arguments=(("as_applicationName", string)) )
+text(band=header alignment="2" text="Date"border="6" color="128" x="1317" y="4" height="64" width="315"  name=date_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Cycleno"border="6" color="128" x="18" y="4" height="64" width="315"  name=cycleno_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Product"border="6" color="128" x="347" y="4" height="64" width="315"  name=product_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Version"border="6" color="128" x="658" y="4" height="64" width="315"  name=version_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Buildno"border="6" color="128" x="987" y="4" height="64" width="315"  name=buildno_t  font.face="Arial" font.height="-10" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=1 alignment="1" tabsequence=32766 border="5" color="0" x="18" y="4" height="48" width="293" format="[General]"  name=cycleno edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="0" tabsequence=32766 border="5" color="0" x="329" y="4" height="48" width="311" format="[general]"  name=product edit.limit=5 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=3 alignment="0" tabsequence=32766 border="5" color="0" x="658" y="4" height="48" width="311" format="[general]"  name=version edit.limit=10 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=4 alignment="0" tabsequence=32766 border="5" color="0" x="987" y="4" height="48" width="311" format="[general]"  name=buildno edit.limit=10 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=5 alignment="0" tabsequence=32766 border="5" color="0" x="1317" y="4" height="48" width="347" format="[general]"  name=cycle_date editmask.mask="mm/dd/yyyy" editmask.focusrectangle=no  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=6 alignment="0" tabsequence=32766 border="5" color="8388608" x="18" y="68" height="64" width="1646" format="[general]"  name=description edit.limit=100 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes  font.face="Arial" font.height="-8" font.weight="700"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=7 alignment="0" tabsequence=32766 border="0" color="0" x="1719" y="4" height="52" width="690" format="[general]"  name=host_application visible="1~t0" edit.limit=0 edit.case=any edit.autoselect=yes  font.face="Arial" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+htmltable(border="1" cellpadding="0" cellspacing="0" generatecss="no" nowrap="yes")

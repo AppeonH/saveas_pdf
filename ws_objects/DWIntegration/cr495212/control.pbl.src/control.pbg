@@ -1,0 +1,30 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "control.pbl" "";
+@end;
+@begin Objects 
+ "d_control.srd" "control.pbl";
+ "d_report.srd" "control.pbl";
+ "d_results.srd" "control.pbl";
+ "d_results_group.srd" "control.pbl";
+ "d_test_cycle.srd" "control.pbl";
+ "d_test_cycle_browser.srd" "control.pbl";
+ "d_test_cycle_existing.srd" "control.pbl";
+ "d_test_transactions.srd" "control.pbl";
+ "d_test_transactions_existing.srd" "control.pbl";
+ "d_testresource.srd" "control.pbl";
+ "d_testresource_asa.srd" "control.pbl";
+ "dddw_control.srd" "control.pbl";
+ "dddw_control_asa.srd" "control.pbl";
+ "f_getlibrarylist.srf" "control.pbl";
+ "str_memorystatus.srs" "control.pbl";
+ "nvo_control_sqlca.sru" "control.pbl";
+ "nvo_datastore.sru" "control.pbl";
+ "nvo_results.sru" "control.pbl";
+ "nvo_string.sru" "control.pbl";
+ "uo_memory.sru" "control.pbl";
+ "w_browsecycle.srw" "control.pbl";
+ "w_results.srw" "control.pbl";
+ "w_starttrace.srw" "control.pbl";
+ "w_test_controller.srw" "control.pbl";
+@end;

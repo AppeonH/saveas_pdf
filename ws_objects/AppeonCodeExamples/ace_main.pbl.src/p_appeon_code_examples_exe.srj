@@ -1,0 +1,36 @@
+﻿$PBExportHeader$p_appeon_code_examples_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:appeon_code_examples.exe,,0,0,1
+CMP:0,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:ace_main.pbl,,1
+PBD:ace_dw1.pbl,,1
+PBD:ace_dw2.pbl,,1
+PBD:ace_window1.pbl,,1
+PBD:ace_window2.pbl,,1
+PBD:ace_window3.pbl,,1
+PBD:appeon_workarounds.pbl,,1
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,str_a,s
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,w_main_frame,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeongetclientip,f
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,m_mdi,m
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,w_splash,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,str_b,s
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,d_t_examples,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeongetservertype,f
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,f_show_new,f
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeonservice,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,d_example_categories,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeongetclienttype,f
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeongetappeonusername,f
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,w_about,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\appeon_workarounds.pbl,appeonextfuncs,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\AppeonCodeExamples\ace_main.pbl,appeon_code_examples,a

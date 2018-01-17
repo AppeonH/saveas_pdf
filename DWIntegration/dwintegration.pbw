@@ -1,0 +1,10 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "dwintegration.pbt";
+ 1 "..\\..\\smws\\smws\\smws.pbt";
+ 2 "..\\graphdw_saveas\\graphdw_saveas.pbt";
+@end;
+DefaultTarget "..\\graphdw_saveas\\graphdw_saveas.pbt";
+DefaultRemoteTarget "..\\graphdw_saveas\\graphdw_saveas.pbt";

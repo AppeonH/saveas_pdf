@@ -1,0 +1,341 @@
+﻿$PBExportHeader$w_treedw.srm
+forward
+global type w_treedw from menu
+end type
+type m_createtreedw from menu within w_treedw
+end type
+type m_treedwprops from menu within w_treedw
+end type
+type m_treedwfuncs from menu within w_treedw
+end type
+type m_userevents from menu within m_treedwfuncs
+end type
+type m_standardevents from menu within m_treedwfuncs
+end type
+type m_noneevents from menu within m_treedwfuncs
+end type
+type m_treedwfuncs from menu within w_treedw
+m_userevents m_userevents
+m_standardevents m_standardevents
+m_noneevents m_noneevents
+end type
+type m_treedwissues from menu within w_treedw
+end type
+type m_all from menu within w_treedw
+end type
+global type w_treedw from menu
+m_createtreedw m_createtreedw
+m_treedwprops m_treedwprops
+m_treedwfuncs m_treedwfuncs
+m_treedwissues m_treedwissues
+m_all m_all
+end type
+end forward
+
+global type w_treedw from menu
+m_createtreedw m_createtreedw
+m_treedwprops m_treedwprops
+m_treedwfuncs m_treedwfuncs
+m_treedwissues m_treedwissues
+m_all m_all
+end type
+global w_treedw w_treedw
+
+on w_treedw.create
+w_treedw=this
+call super::create
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_createtreedw=create m_createtreedw
+this.m_treedwprops=create m_treedwprops
+this.m_treedwfuncs=create m_treedwfuncs
+this.m_treedwissues=create m_treedwissues
+this.m_all=create m_all
+this.Item[UpperBound(this.Item)+1]=this.m_createtreedw
+this.Item[UpperBound(this.Item)+1]=this.m_treedwprops
+this.Item[UpperBound(this.Item)+1]=this.m_treedwfuncs
+this.Item[UpperBound(this.Item)+1]=this.m_treedwissues
+this.Item[UpperBound(this.Item)+1]=this.m_all
+end on
+
+on w_treedw.destroy
+call super::destroy
+destroy(this.m_createtreedw)
+destroy(this.m_treedwprops)
+destroy(this.m_treedwfuncs)
+destroy(this.m_treedwissues)
+destroy(this.m_all)
+end on
+
+type m_createtreedw from menu within w_treedw
+end type
+
+on m_createtreedw.create
+call super::create
+this.text = "CreateTreeDW"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_createtreedw.destroy
+call super::destroy
+end on
+
+event clicked;open(w_treedw_create)
+end event
+
+type m_treedwprops from menu within w_treedw
+end type
+
+on m_treedwprops.create
+call super::create
+this.text = "TreeDWProps"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_treedwprops.destroy
+call super::destroy
+end on
+
+event clicked;open(w_treedw_props)
+end event
+
+type m_treedwfuncs from menu within w_treedw
+m_userevents m_userevents
+m_standardevents m_standardevents
+m_noneevents m_noneevents
+end type
+
+on m_treedwfuncs.create
+call super::create
+this.text = "TreeDWFuncs"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_userevents=create m_userevents
+this.m_standardevents=create m_standardevents
+this.m_noneevents=create m_noneevents
+this.Item[UpperBound(this.Item)+1]=this.m_userevents
+this.Item[UpperBound(this.Item)+1]=this.m_standardevents
+this.Item[UpperBound(this.Item)+1]=this.m_noneevents
+end on
+
+on m_treedwfuncs.destroy
+call super::destroy
+destroy(this.m_userevents)
+destroy(this.m_standardevents)
+destroy(this.m_noneevents)
+end on
+
+type m_userevents from menu within m_treedwfuncs
+end type
+
+event clicked;open(w_treedw_funcs)
+end event
+
+on m_userevents.create
+call super::create
+this.text = "UserEvents"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_userevents.destroy
+call super::destroy
+end on
+
+type m_standardevents from menu within m_treedwfuncs
+end type
+
+event clicked;open(w_treedw_funcs_standards)
+//open(aaa)
+end event
+
+on m_standardevents.create
+call super::create
+this.text = "StandardEvents"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_standardevents.destroy
+call super::destroy
+end on
+
+type m_noneevents from menu within m_treedwfuncs
+end type
+
+event clicked;open(w_treedw_funcs_none)
+end event
+
+on m_noneevents.create
+call super::create
+this.text = "NoneEvents"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_noneevents.destroy
+call super::destroy
+end on
+
+type m_treedwissues from menu within w_treedw
+end type
+
+event clicked;open(w_treeview_issues)
+end event
+
+on m_treedwissues.create
+call super::create
+this.text = "TreeDWIssues"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_treedwissues.destroy
+call super::destroy
+end on
+
+type m_all from menu within w_treedw
+end type
+
+on m_all.create
+call super::create
+this.text = "TreeDWC"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_all.destroy
+call super::destroy
+end on
+
+event clicked;open(w_test_treedwc)
+end event
+

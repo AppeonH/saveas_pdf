@@ -1,0 +1,18 @@
+﻿$PBExportHeader$p_graphintegration_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:graphintegration.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:graphintegration.pbl,,1
+OBJ:C:\Users\appeon\Desktop\Save_PDF\GraphIntegration\graphintegration.pbl,d_graph,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\GraphIntegration\graphintegration.pbl,graphintegration,a
+OBJ:C:\Users\appeon\Desktop\Save_PDF\GraphIntegration\graphintegration.pbl,w_graph,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\GraphIntegration\graphintegration.pbl,d_graph_props,d

@@ -1,0 +1,20 @@
+datawindow,Function,selecttreenode,Window,w_treedw_funcs,cb_3,clicked, , ,2,10,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,isexpanded,Window,w_treedw_funcs,cb_1,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,expandlevel,Window,w_treedw_funcs,cb_expandlevel,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,collapseallchildren,Window,w_treedw_funcs,cb_collapseallchildren,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,expandallchildren,Window,w_treedw_funcs,cb_expandallchildren,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,collapseall,Window,w_treedw_funcs,cb_collapseall,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,expandall,Window,w_treedw_funcs,cb_expandall,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,collapse,Window,w_treedw_funcs,cb_collapse,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,expand,Window,w_treedw_funcs,cb_expand,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+datawindow,Function,collapselevel,Window,w_treedw_funcs,cb_collapselevel,clicked, , ,3,14,h:\dwds11\treeviewdw\treedw.pbl
+multilineedit,Property,borderstyle,Window,w_treedw_funcs, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+multilineedit,Property,borderstyle,Window,w_treedw_funcs, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+dropdownlistbox,Property,borderstyle,Window,w_treedw_create, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+dropdownlistbox,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+dropdownlistbox,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+multilineedit,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+singlelineedit,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+singlelineedit,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+singlelineedit,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl
+multilineedit,Property,borderstyle,Window,w_treedw_props, , , , , ,13,h:\dwds11\treeviewdw\treedw.pbl

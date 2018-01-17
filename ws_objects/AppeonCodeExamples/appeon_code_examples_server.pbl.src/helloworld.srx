@@ -1,0 +1,12 @@
+﻿$PBExportHeader$helloworld.srx
+$PBExportComments$Proxy imported from EAServer via EAServer Proxy generator.
+global type HelloWorld from CORBAObject
+end type
+global HelloWorld HelloWorld
+
+forward prototypes
+  public:
+function String getHello () alias for "getHello"
+subroutine remove () throws CtsComponents_RemoveException alias for "remove"
+        end prototypes
+

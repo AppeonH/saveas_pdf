@@ -1,0 +1,45 @@
+﻿$PBExportHeader$d_inheritance2_report.srd
+release 8;
+datawindow(units=0 timer_interval=0 color=1073741824 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+header(height=408 color="536870912" )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=68 color="536870912" )
+table(column=(type=long update=yes updatewhereclause=yes key=yes name=id dbname="sales_order.id" )
+ column=(type=long update=yes updatewhereclause=yes name=cust_id dbname="sales_order.cust_id" )
+ column=(type=date update=yes updatewhereclause=yes name=order_date dbname="sales_order.order_date" )
+ column=(type=char(2) update=yes updatewhereclause=yes name=fin_code_id dbname="sales_order.fin_code_id" )
+ column=(type=char(7) update=yes updatewhereclause=yes name=region dbname="sales_order.region" )
+ column=(type=long update=yes updatewhereclause=yes name=sales_rep dbname="sales_order.sales_rep" )
+ retrieve="  SELECT ~"sales_order~".~"id~",   
+         ~"sales_order~".~"cust_id~",   
+         ~"sales_order~".~"order_date~",   
+         ~"sales_order~".~"fin_code_id~",   
+         ~"sales_order~".~"region~",   
+         ~"sales_order~".~"sales_rep~"  
+    FROM ~"sales_order~"   
+" update="sales_order" updatewhere=1 updatekeyinplace=no )
+text(band=header alignment="2" text="Sales information Report" border="4" color="33554432" x="946" y="28" height="112" width="1371" html.valueishtml="0"  name=t_1 visible="1"  font.face="MS Sans Serif" font.height="-18" font.weight="700"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="553648127" )
+line(band=header x1="0" y1="260" x2="2853" y2="260"  name=l_1 visible="1" pen.style="0" pen.width="14" pen.color="33554432"  background.mode="2" background.color="1073741824" )
+text(band=header alignment="2" text="Sales
+Order ID" border="0" color="33554432" x="50" y="284" height="104" width="370" html.valueishtml="0"  name=id_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Financial
+Code" border="0" color="33554432" x="1472" y="284" height="104" width="334" html.valueishtml="0"  name=fin_code_id_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Region" border="0" color="33554432" x="1888" y="304" height="52" width="443" html.valueishtml="0"  name=region_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="Sales
+Rep ID" border="0" color="33554432" x="2418" y="284" height="104" width="402" html.valueishtml="0"  name=sales_rep_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+line(band=header x1="0" y1="404" x2="2853" y2="404"  name=l_2 visible="1" pen.style="0" pen.width="9" pen.color="33554432"  background.mode="2" background.color="1073741824" )
+compute(band=header alignment="1" expression="'Page ' + page() + ' of ' + pageCount()"border="0" color="33554432" x="1842" y="180" height="48" width="965" format="[GENERAL]" html.valueishtml="0"  name=compute_1 visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="0" text="Report   1" border="0" color="33554432" x="46" y="184" height="48" width="279" html.valueishtml="0"  name=t_2 visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="553648127" )
+text(band=header alignment="2" text="Customer
+ID" border="0" color="33554432" x="453" y="284" height="104" width="411" html.valueishtml="0"  name=cust_id_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=header alignment="2" text="OrderDate" border="0" color="33554432" x="937" y="284" height="104" width="453" html.valueishtml="0"  name=order_date_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=1 alignment="1" tabsequence=10 border="0" color="33554432" x="50" y="4" height="60" width="370" format="[general]" html.valueishtml="0"  name=id  tag="Unique Identification Number of the sales order" visible="1" edit.limit=0 edit.case=any edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="1" tabsequence=20 border="0" color="33554432" x="453" y="4" height="60" width="411" format="[general]" html.valueishtml="0"  name=cust_id  tag="Identification Number of the customer that the sales order is for" visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=no edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=3 alignment="2" tabsequence=30 border="0" color="33554432" x="937" y="0" height="60" width="453" format="mm/dd/yyyy" html.valueishtml="0"  name=order_date  tag="Date Ordered" visible="1" edit.name="MM/DD/YY" editmask.useformat=yes editmask.mask="mm/dd/yyyy" editmask.imemode=0 editmask.focusrectangle=no  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=4 alignment="1" tabsequence=40 border="0" color="33554432" x="1472" y="4" height="60" width="311" format="[general]" html.valueishtml="0"  name=fin_code_id  tag="Financial Code" visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=no edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=5 alignment="0" tabsequence=50 border="0" color="33554432" x="1888" y="4" height="60" width="443" format="[general]" html.valueishtml="0"  name=region  tag="Sales Region" visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=no edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=6 alignment="1" tabsequence=60 border="0" color="33554432" x="2418" y="4" height="60" width="402" format="[general]" html.valueishtml="0"  name=sales_rep  tag="Identification Number of the Sales Representative" visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=no edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+line(band=detail x1="0" y1="68" x2="2853" y2="68"  name=l_3 visible="1" pen.style="0" pen.width="9" pen.color="33554432"  background.mode="2" background.color="1073741824" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

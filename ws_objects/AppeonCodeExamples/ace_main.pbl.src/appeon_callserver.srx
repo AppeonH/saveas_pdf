@@ -1,0 +1,21 @@
+﻿$PBExportHeader$appeon_callserver.srx
+$PBExportComments$Proxy imported from EAServer via EAServer Proxy generator.
+global type appeon_callserver from CORBAObject
+end type
+global appeon_callserver appeon_callserver
+
+forward prototypes
+  public:
+function UnsignedInteger getwindowsdirectory (REF String lpbuffer,UnsignedInteger usize) alias for "getwindowsdirectory"
+function UnsignedInteger getsystemdirectory (REF String lpbuffer,UnsignedInteger usize) alias for "getsystemdirectory"
+function UnsignedLong getcurrentdirectory (UnsignedLong nbufferlength,REF String lpbuffer) alias for "getcurrentdirectory"
+function Boolean getusername (REF String lpbuffer,REF UnsignedLong nsize) alias for "getusername"
+function String of_callothernvovar () alias for "of_callothernvovar"
+function String of_callothernvofun () alias for "of_callothernvofun"
+function String of_calldll (String as_arg) alias for "of_calldll"
+subroutine of_log (String as_logcontext) alias for "of_log"
+function String of_systemfunction (String as_function) alias for "of_systemfunction"
+function String of_callcorba () alias for "of_callcorba"
+function String of_ejb () alias for "of_ejb"
+                                            end prototypes
+

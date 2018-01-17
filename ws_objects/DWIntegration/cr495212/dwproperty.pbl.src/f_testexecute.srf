@@ -1,0 +1,82 @@
+﻿$PBExportHeader$f_testexecute.srf
+global type f_testexecute from function_object
+end type
+
+forward prototypes
+global subroutine f_testexecute (string testname)
+end prototypes
+
+global subroutine f_testexecute (string testname);if isvalid(w_main) then
+	
+else
+	open(w_main)
+	w_main.visible = false
+end if
+
+choose case testname
+	case "dw property - text"
+		w_main.mle_1.text = ""
+		w_main.cb_text.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - button"
+		w_main.mle_1.text = ""
+		w_main.cb_button.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - compute"
+		w_main.mle_1.text = ""
+		w_main.cb_computedfield.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - datawindow"
+		w_main.mle_1.text = ""
+		w_main.cb_datawindow.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - column"
+		w_main.mle_1.text = ""
+		w_main.cb_column.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - graph"
+		w_main.mle_1.text = ""
+		w_main.cb_graph.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - bitmap"
+		w_main.mle_1.text = ""
+		w_main.cb_bitmap.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - report"
+		w_main.mle_1.text = ""
+		w_main.cb_report.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - groupbox"
+		w_main.mle_1.text = ""
+		w_main.cb_groupbox.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - blob"
+		w_main.mle_1.text = ""
+		w_main.cb_blob.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - OLE"
+		w_main.mle_1.text = ""
+		w_main.cb_ole.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - other"
+		w_main.mle_1.text = ""
+		w_main.cb_other.triggerevent(clicked!)
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - create"
+		w_main.mle_1.text = ""
+		w_main.wf_create()
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - destroy"
+		w_main.mle_1.text = ""
+		w_main.wf_destroy()
+		w_test_controller.logtest(w_main.mle_1.text)
+	case "dw property - table"
+		w_main.mle_1.text = ""
+		w_main.wf_table()
+		w_test_controller.logtest(w_main.mle_1.text)
+	case else
+		w_test_controller.logtest("Fail , it's wrong test case request !")
+end choose
+
+end subroutine
+

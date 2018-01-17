@@ -1,0 +1,17 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "dw_gradient_transparency.pbl" "";
+@end;
+@begin Objects 
+ "dw_gradient_transparency_demo.sra" "dw_gradient_transparency.pbl";
+ "d_freeform.srd" "dw_gradient_transparency.pbl";
+ "d_group.srd" "dw_gradient_transparency.pbl";
+ "d_tabular_control.srd" "dw_gradient_transparency.pbl";
+ "p_dw_gradient_transparency_demo_exe.srj" "dw_gradient_transparency.pbl";
+ "uo_datawindow.sru" "dw_gradient_transparency.pbl";
+ "uo_datawindowband.sru" "dw_gradient_transparency.pbl";
+ "uo_datawindowcolumn.sru" "dw_gradient_transparency.pbl";
+ "uo_saveas.sru" "dw_gradient_transparency.pbl";
+ "w_gradtrans.srw" "dw_gradient_transparency.pbl";
+ "w_newfeature.srw" "dw_gradient_transparency.pbl";
+@end;

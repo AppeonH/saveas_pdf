@@ -1,0 +1,17 @@
+﻿$PBExportHeader$gf_depart.srf
+global type gf_depart from function_object
+end type
+
+forward prototypes
+global function string gf_depart (integer ai_id)
+end prototypes
+
+global function string gf_depart (integer ai_id);string  ls_data
+
+
+select dept_name into :ls_data from department where dept_id = :ai_id;
+
+
+return ls_data
+end function
+

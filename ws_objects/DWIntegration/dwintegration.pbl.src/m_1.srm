@@ -1,0 +1,221 @@
+﻿$PBExportHeader$m_1.srm
+forward
+global type m_1 from menu
+end type
+type m_2 from menu within m_1
+end type
+type m_open from menu within m_1
+end type
+type m_windows1 from menu within m_open
+end type
+type m_windows2 from menu within m_open
+end type
+type m_win_express from menu within m_open
+end type
+type m_open from menu within m_1
+m_windows1 m_windows1
+m_windows2 m_windows2
+m_win_express m_win_express
+end type
+global type m_1 from menu
+m_2 m_2
+m_open m_open
+end type
+end forward
+
+global type m_1 from menu
+m_2 m_2
+m_open m_open
+end type
+global m_1 m_1
+
+event clicked;//
+end event
+
+on m_1.create
+m_1=this
+call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_2=create m_2
+this.m_open=create m_open
+this.Item[UpperBound(this.Item)+1]=this.m_2
+this.Item[UpperBound(this.Item)+1]=this.m_open
+end on
+
+on m_1.destroy
+call super::destroy
+destroy(this.m_2)
+destroy(this.m_open)
+end on
+
+type m_2 from menu within m_1
+end type
+
+on m_2.create
+call super::create
+this.text = "New"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_2.destroy
+call super::destroy
+end on
+
+type m_open from menu within m_1
+m_windows1 m_windows1
+m_windows2 m_windows2
+m_win_express m_win_express
+end type
+
+on m_open.create
+call super::create
+this.text = "Open"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_windows1=create m_windows1
+this.m_windows2=create m_windows2
+this.m_win_express=create m_win_express
+this.Item[UpperBound(this.Item)+1]=this.m_windows1
+this.Item[UpperBound(this.Item)+1]=this.m_windows2
+this.Item[UpperBound(this.Item)+1]=this.m_win_express
+end on
+
+on m_open.destroy
+call super::destroy
+destroy(this.m_windows1)
+destroy(this.m_windows2)
+destroy(this.m_win_express)
+end on
+
+type m_windows1 from menu within m_open
+end type
+
+event clicked;open(w_1)
+//open(t)
+end event
+
+on m_windows1.create
+call super::create
+this.text = "Windows1"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_windows1.destroy
+call super::destroy
+end on
+
+type m_windows2 from menu within m_open
+end type
+
+event clicked;open(w_2)
+end event
+
+on m_windows2.create
+call super::create
+this.text = "Windows2"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_windows2.destroy
+call super::destroy
+end on
+
+type m_win_express from menu within m_open
+end type
+
+event clicked;open(w_express)
+end event
+
+on m_win_express.create
+call super::create
+this.text = "Win_express"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_win_express.destroy
+call super::destroy
+end on
+

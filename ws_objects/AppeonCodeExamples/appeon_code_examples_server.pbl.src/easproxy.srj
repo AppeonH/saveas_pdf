@@ -1,0 +1,9 @@
+﻿$PBExportHeader$easproxy.srj
+$PBExportComments$Generated Jaguar Proxy Project
+GeneratorID:{1B1DCEE1-E514-11D1-B30A-006008925BD4}GENBC00000000
+
+SERVERINFO:localhost	9989	jagadmin	1	
+COMPONENT:0
+PACKAGE:1	corbatest
+COMMENT:
+DEPLOYMENT:C:\Program Files\Appeon\APBDeveloper 3.5\Appeondemo\AppeonCodeExamplesForAX\appeon_code_examples_server.pbl	0	0	0	0

@@ -1,0 +1,23 @@
+﻿$PBExportHeader$f_string_to_boolean.srf
+global type f_string_to_boolean from function_object
+end type
+
+forward prototypes
+global function boolean f_string_to_boolean (string as_type)
+end prototypes
+
+global function boolean f_string_to_boolean (string as_type);IF isnull(as_Type) THEN 
+	boolean  lb_temp
+	
+	setnull(lb_temp)
+	return lb_temp
+END IF
+
+CHOOSE CASE lower(as_Type)
+	CASE 'true','yes','t','y','on','1'
+		return true
+	CASE ELSE
+		return FALSE
+END CHOOSE
+end function
+

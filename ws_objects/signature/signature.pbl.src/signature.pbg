@@ -1,0 +1,13 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "signature.pbl" "";
+@end;
+@begin Objects 
+ "signature.sra" "signature.pbl";
+ "d_1.srd" "signature.pbl";
+ "d_1_composite.srd" "signature.pbl";
+ "d_2.srd" "signature.pbl";
+ "uo_saveas.sru" "signature.pbl";
+ "w_newfeature.srw" "signature.pbl";
+ "w_sign.srw" "signature.pbl";
+@end;

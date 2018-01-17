@@ -1,0 +1,216 @@
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>csc
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.1434
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if errorlevel 9009 exit 3 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>"F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (t)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Parsing d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (t)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (t)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (t)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Type-checking (pass 1) d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (t)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Type-checking methods(pass 2) d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (t)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (dwintegration)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_1)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (m_1)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (m_popup)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_2)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_button)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_extend)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_custom)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (nvo_custom)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_datawindow)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (t)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_3)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_4)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (vo_tab)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_main)
+Emitting d:\pb115case\dwintegration\dwintegration.pbl (w_express)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 1 exit 1 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 6 exit 6 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 7 exit 7 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 8 exit 8 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>call build.bat  c- "D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build\csc_output_file_name.txt"  
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>setlocal
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if "c-" == "" goto usage  
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET" == "" goto sethome 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>md debug 
+A subdirectory or file debug already exists.
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if "c-" == "c-" goto notcopy 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>xcopy /D /Y "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest" debug\ 
+F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\App.Win.exe.manifest
+1 File(s) copied
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>del debug\dwintegration.exe.manifest 
+Could Not Find D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build\debug\dwintegration.exe.manifest
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>ren debug\App.Win.exe.manifest dwintegration.exe.manifest 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>xcopy /D /Y "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs"  
+F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\ModifyManifest.vbs
+1 File(s) copied
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>ModifyManifest debug\dwintegration.exe.manifest asinvoker false 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>del ModifyManifest.vbs 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>reg import "F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\PBExceptionTrace.reg" 
+The operation completed successfully.
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if "D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build\csc_output_file_name.txt" == "" (csc /t:winexe /debug    /platform:x86 "/r:F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dwintegration.exe" @mb.rsp )  else (csc /t:winexe /debug    /platform:x86 "/r:F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.ejb.net.dll;F:\Program Files\Sybase\PowerBuilder 11.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dwintegration.exe" @mb.rsp  1>"D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>rem "F:\Program Files\Microsoft SDKs\Windows\v6.1\bin\mt.exe" -nologo -manifest debug\dwintegration.exe.manifest -outputresource:debug\dwintegration.exe;#1 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>del debug\dwintegration.exe.manifest 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>goto end 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>endlocal
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if exist createole.bat call createole.bat 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if exist createole.bat xcopy ole\*.* debug\ /D /Y 
+
+D:\PB115Case\DWIntegration\dwintegration_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"D:\PB115Case\DWIntegration\p_dwintegration_winform_oledllname.txt" 

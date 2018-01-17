@@ -1,0 +1,111 @@
+﻿$PBExportHeader$m_popup.srm
+forward
+global type m_popup from menu
+end type
+type m_expandall from menu within m_popup
+end type
+type m_collapseall from menu within m_popup
+end type
+global type m_popup from menu
+m_expandall m_expandall
+m_collapseall m_collapseall
+end type
+end forward
+
+global type m_popup from menu
+m_expandall m_expandall
+m_collapseall m_collapseall
+end type
+global m_popup m_popup
+
+on m_popup.create
+m_popup=this
+call super::create
+this.text = "m_popup"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_expandall=create m_expandall
+this.m_collapseall=create m_collapseall
+this.Item[UpperBound(this.Item)+1]=this.m_expandall
+this.Item[UpperBound(this.Item)+1]=this.m_collapseall
+end on
+
+on m_popup.destroy
+call super::destroy
+destroy(this.m_expandall)
+destroy(this.m_collapseall)
+end on
+
+type m_expandall from menu within m_popup
+end type
+
+on m_expandall.create
+call super::create
+this.text = "ExpandAll"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_expandall.destroy
+call super::destroy
+end on
+
+event clicked;w_treedw_create.dw_1.ExpandAll()
+end event
+
+type m_collapseall from menu within m_popup
+end type
+
+on m_collapseall.create
+call super::create
+this.text = "CollapseAll"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_collapseall.destroy
+call super::destroy
+end on
+
+event clicked;w_treedw_create.dw_1.CollapseAll()
+end event
+

@@ -1,0 +1,130 @@
+﻿$PBExportHeader$popmenu.srm
+forward
+global type popmenu from menu
+end type
+type m_collapseall from menu within popmenu
+end type
+type m_expandall from menu within popmenu
+end type
+global type popmenu from menu
+m_collapseall m_collapseall
+m_expandall m_expandall
+end type
+end forward
+
+global type popmenu from menu
+m_collapseall m_collapseall
+m_expandall m_expandall
+end type
+global popmenu popmenu
+
+on popmenu.create
+popmenu=this
+call super::create
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.fontcharset = ansi!
+this.fontpitch = variable!
+this.fontfamily = swiss!
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.m_collapseall=create m_collapseall
+this.m_expandall=create m_expandall
+this.Item[UpperBound(this.Item)+1]=this.m_collapseall
+this.Item[UpperBound(this.Item)+1]=this.m_expandall
+end on
+
+on popmenu.destroy
+call super::destroy
+destroy(this.m_collapseall)
+destroy(this.m_expandall)
+end on
+
+type m_collapseall from menu within popmenu
+end type
+
+on m_collapseall.create
+call super::create
+this.text = "CollapseAll"
+this.menuimage = "Custom039!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_collapseall.destroy
+call super::destroy
+end on
+
+event clicked;w_treeview_sample	w_sheet
+
+//w_tvdw_grid.dw_tv.collapseall()
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_1.DYNAMIC collapseall()
+end event
+
+type m_expandall from menu within popmenu
+end type
+
+on m_expandall.create
+call super::create
+this.text = "ExpandAll"
+this.menuimage = "Open!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_expandall.destroy
+call super::destroy
+end on
+
+event clicked;w_treeview_sample	w_sheet
+
+//w_tvdw_grid.dw_tv.expandall()
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_1.DYNAMIC expandall()
+
+end event
+

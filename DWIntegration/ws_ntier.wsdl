@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://test" xmlns:impl="http://test" xmlns:intf="http://test" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:message name="ufWsNtierResponse">
+    <wsdl:part name="ufWsNtierReturn" type="xsd:string"/>
+    <wsdl:part name="teststring" type="xsd:string"/>
+  </wsdl:message>
+  <wsdl:message name="ufWsNtierRequest">
+    <wsdl:part name="teststring" type="xsd:string"/>
+  </wsdl:message>
+  <wsdl:portType name="WsNtier">
+    <wsdl:operation name="ufWsNtier" parameterOrder="teststring">
+      <wsdl:input name="ufWsNtierRequest" message="impl:ufWsNtierRequest"/>
+      <wsdl:output name="ufWsNtierResponse" message="impl:ufWsNtierResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ws_ntierSoapBinding" type="impl:WsNtier">
+    <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="ufWsNtier">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="ufWsNtierRequest">
+        <wsdlsoap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://test"/>
+      </wsdl:input>
+      <wsdl:output name="ufWsNtierResponse">
+        <wsdlsoap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://test"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ws_ntier">
+    <wsdl:port name="ws_ntier" binding="impl:ws_ntierSoapBinding">
+      <wsdlsoap:address location="http://cnpb-eas6-xp:8000/pbsoap/ws_ntier"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

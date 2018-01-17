@@ -1,0 +1,17 @@
+﻿$PBExportHeader$d_total_customer_orders.srd
+$PBExportComments$DataWindow show total orders by customer
+release 5;
+datawindow(units=0 timer_interval=0 color=78682240 processing=0 print.documentname="" print.orientation = 0 print.margin.left = 0 print.margin.right = 0 print.margin.top = 0 print.margin.bottom = 0 print.paper.source = 0 print.paper.size = 0 print.prompt=no )
+header(height=122 color="536870912" )
+summary(height=1 color="536870912" )
+footer(height=1 color="536870912" )
+detail(height=77 color="536870912" )
+table(column=(type=char(20) name=customer_lname dbname="customer.lname" )
+ column=(type=decimal(6) name=ctotal_order dbname="compute_0002" )
+ retrieve="PBSELECT( VERSION(400) TABLE(NAME=~"customer~" ) TABLE(NAME=~"sales_order~" ) TABLE(NAME=~"sales_order_items~" ) TABLE(NAME=~"product~" ) COLUMN(NAME=~"customer.lname~") COMPUTE(NAME=~"sum(sales_order_items.quantity*product.unit_price)~") JOIN (LEFT=~"customer.id~" OP =~"=~"RIGHT=~"sales_order.cust_id~" ) JOIN (LEFT=~"sales_order.id~" OP =~"=~"RIGHT=~"sales_order_items.id~" ) JOIN (LEFT=~"product.id~" OP =~"=~"RIGHT=~"sales_order_items.prod_id~" )WHERE( EXP1 =~"( ( sales_order.region~" OP =~"=~" EXP2 =~"'South' ) )~" ) GROUP(NAME=~"customer.lname~")) ORDER(NAME=~"customer.lname~" ASC=yes ) " )
+column(band=detail id=1 alignment="0" tabsequence=32766 border="5" color="33554592" x="11" y="7" height="58" width="488" format="[general]"  name=customer_lname edit.limit=0 edit.case=any edit.autoselect=yes  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )
+text(band=header alignment="2" text="Customer 
+Name"border="6" color="33554592" x="11" y="6" height="103" width="488"  name=customer_name_t  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )
+column(band=detail id=2 alignment="0" tabsequence=32766 border="5" color="33554592" x="520" y="7" height="58" width="527" format="[general]"  name=ctotal_order edit.limit=0 edit.case=any edit.autoselect=yes  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )
+text(band=header alignment="2" text="Total $
+Orders"border="6" color="33554592" x="520" y="6" height="103" width="527"  font.face="MS Sans Serif" font.height="-9" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="78682240" )

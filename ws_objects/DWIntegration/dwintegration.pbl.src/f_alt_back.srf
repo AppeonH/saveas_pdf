@@ -1,0 +1,15 @@
+﻿$PBExportHeader$f_alt_back.srf
+global type f_alt_back from function_object
+end type
+
+forward prototypes
+global function long f_alt_back (integer ai_row, integer ai_mod)
+end prototypes
+
+global function long f_alt_back (integer ai_row, integer ai_mod);long ll_return 
+
+ll_return = ai_row*255+ai_mod*255
+
+return ll_return
+end function
+

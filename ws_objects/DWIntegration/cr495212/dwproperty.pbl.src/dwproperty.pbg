@@ -1,0 +1,37 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "dwproperty.pbl" "";
+@end;
+@begin Objects 
+ "dwproperty.sra" "dwproperty.pbl";
+ "d_composite.srd" "dwproperty.pbl";
+ "d_crosstab.srd" "dwproperty.pbl";
+ "d_dddw_dept.srd" "dwproperty.pbl";
+ "d_freeform.srd" "dwproperty.pbl";
+ "d_graph_emp.srd" "dwproperty.pbl";
+ "d_grid.srd" "dwproperty.pbl";
+ "d_group_emp.srd" "dwproperty.pbl";
+ "d_label.srd" "dwproperty.pbl";
+ "d_nup.srd" "dwproperty.pbl";
+ "d_ole.srd" "dwproperty.pbl";
+ "d_report1.srd" "dwproperty.pbl";
+ "d_retrieve_arguments.srd" "dwproperty.pbl";
+ "d_richtext.srd" "dwproperty.pbl";
+ "d_table_graph.srd" "dwproperty.pbl";
+ "d_tabular_bitmap.srd" "dwproperty.pbl";
+ "d_tabular_blob.srd" "dwproperty.pbl";
+ "d_tabular_column.srd" "dwproperty.pbl";
+ "d_tabular_complex.srd" "dwproperty.pbl";
+ "d_tabular_complex_create.srd" "dwproperty.pbl";
+ "d_tabular_emp.srd" "dwproperty.pbl";
+ "d_tabular_external.srd" "dwproperty.pbl";
+ "d_tabular_sp.srd" "dwproperty.pbl";
+ "d_test_table.srd" "dwproperty.pbl";
+ "d_testdata.srd" "dwproperty.pbl";
+ "f_testexecute.srf" "dwproperty.pbl";
+ "p_dwproperty_exe.srj" "dwproperty.pbl";
+ "p_dwproperty_webform.srj" "dwproperty.pbl";
+ "p_dwproperty_winform.srj" "dwproperty.pbl";
+ "q_1.srq" "dwproperty.pbl";
+ "w_main.srw" "dwproperty.pbl";
+@end;

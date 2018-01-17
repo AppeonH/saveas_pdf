@@ -1,0 +1,20 @@
+﻿$PBExportHeader$f_readfile.srf
+global type f_readfile from function_object
+end type
+
+forward prototypes
+global function string f_readfile (string as_filename)
+end prototypes
+
+global function string f_readfile (string as_filename);integer li_FileNum
+string ls_file
+
+li_FileNum = FileOpen(as_filename,TextMode!)
+FileReadEx(li_FileNum,ls_file)
+FileClose(li_FileNum)
+
+return ls_file
+
+
+end function
+

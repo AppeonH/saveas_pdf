@@ -1,0 +1,18 @@
+﻿$PBExportHeader$appeon_distributed_service.srx
+$PBExportComments$Proxy imported from EAServer via EAServer Proxy generator.
+global type appeon_distributed_service from CORBAObject
+end type
+global appeon_distributed_service appeon_distributed_service
+
+forward prototypes
+  public:
+subroutine of_log (String as_logcontext) alias for "of_log"
+function String of_dynsqlformat4 (String as_empid) alias for "of_dynsqlformat4"
+function String of_getforbidip () alias for "of_getforbidip"
+function Integer of_ipisforbid (String as_ip) alias for "of_ipisforbid"
+function String of_parseip (String as_ip) alias for "of_parseip"
+function Integer of_setforbidip (String as_ip) alias for "of_setforbidip"
+function Blob of_retrieve (String as_dataobject) alias for "of_retrieve"
+function Integer of_update (String as_dataobject,Blob ab_syntax) alias for "of_update"
+                                end prototypes
+

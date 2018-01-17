@@ -1,0 +1,10 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "test.pbl" "";
+@end;
+@begin Objects 
+ "test.sra" "test.pbl";
+ "dw_test.srd" "test.pbl";
+ "w_newfeature.srw" "test.pbl";
+ "w_test.srw" "test.pbl";
+@end;

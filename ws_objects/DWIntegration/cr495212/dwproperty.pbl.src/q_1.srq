@@ -1,0 +1,2 @@
+﻿$PBExportHeader$q_1.srq
+PBSELECT( VERSION(400) TABLE(NAME="employee" ) COLUMN(NAME="employee.dept_id") COLUMN(NAME="employee.state") COLUMN(NAME="employee.sex") COMPUTE(NAME="sum(salary)") GROUP(NAME="employee.dept_id") GROUP(NAME="employee.state") GROUP(NAME="employee.sex")) 

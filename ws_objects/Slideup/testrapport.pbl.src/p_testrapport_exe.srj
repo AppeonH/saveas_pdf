@@ -1,0 +1,18 @@
+﻿$PBExportHeader$p_testrapport_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:testrapport.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:testrapport.pbl,,1
+OBJ:C:\Users\appeon\Desktop\Save_PDF\Slideup\testrapport.pbl,testrapport,a
+OBJ:C:\Users\appeon\Desktop\Save_PDF\Slideup\testrapport.pbl,dw_rapport,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\Slideup\testrapport.pbl,win_rapport,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\Slideup\testrapport.pbl,dw_rapport_bk,d

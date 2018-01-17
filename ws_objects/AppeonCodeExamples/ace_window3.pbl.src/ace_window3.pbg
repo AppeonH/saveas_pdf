@@ -1,0 +1,37 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "ace_window3.pbl" "";
+@end;
+@begin Objects 
+ "w_callcom.srw" "ace_window3.pbl";
+ "w_calldotnet.srw" "ace_window3.pbl";
+ "w_cpu.srw" "ace_window3.pbl";
+ "w_crosstab.srw" "ace_window3.pbl";
+ "w_dde_client.srw" "ace_window3.pbl";
+ "w_dde_server.srw" "ace_window3.pbl";
+ "w_dw_print_options.srw" "ace_window3.pbl";
+ "w_dwproperty_enhance.srw" "ace_window3.pbl";
+ "w_dwstyle_richtext.srw" "ace_window3.pbl";
+ "w_dwstyle_treeview.srw" "ace_window3.pbl";
+ "w_dynamic_create.srw" "ace_window3.pbl";
+ "w_dynsql_format4.srw" "ace_window3.pbl";
+ "w_employee_graph.srw" "ace_window3.pbl";
+ "w_graph_color.srw" "ace_window3.pbl";
+ "w_graph_dynamic_series.srw" "ace_window3.pbl";
+ "w_graph_sheet.srw" "ace_window3.pbl";
+ "w_graph_title.srw" "ace_window3.pbl";
+ "w_graph_type.srw" "ace_window3.pbl";
+ "w_high_low_salaries.srw" "ace_window3.pbl";
+ "w_inet_object.srw" "ace_window3.pbl";
+ "w_labels.srw" "ace_window3.pbl";
+ "w_n_up.srw" "ace_window3.pbl";
+ "w_other_category.srw" "ace_window3.pbl";
+ "w_reg_update_value.srw" "ace_window3.pbl";
+ "w_regedit.srw" "ace_window3.pbl";
+ "w_rpc_trans.srw" "ace_window3.pbl";
+ "w_rte.srw" "ace_window3.pbl";
+ "w_rte_find.srw" "ace_window3.pbl";
+ "w_rte_replace.srw" "ace_window3.pbl";
+ "w_shared_dw_graph.srw" "ace_window3.pbl";
+ "w_timing_object.srw" "ace_window3.pbl";
+@end;

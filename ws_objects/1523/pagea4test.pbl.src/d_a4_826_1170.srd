@@ -1,0 +1,52 @@
+﻿$PBExportHeader$d_a4_826_1170.srd
+release 17;
+datawindow(units=0 timer_interval=0 color=12639424 brushmode=0 transparency=0 gradient.angle=0 gradient.color=8421504 gradient.focus=0 gradient.repetition.count=0 gradient.repetition.length=100 gradient.repetition.mode=0 gradient.scale=100 gradient.spread=100 gradient.transparency=0 picture.blur=0 picture.clip.bottom=0 picture.clip.left=0 picture.clip.right=0 picture.clip.top=0 picture.mode=0 picture.scale.x=100 picture.scale.y=100 picture.transparency=0 processing=0 HTMLDW=no print.printername="" print.documentname="" print.orientation = 0 print.margin.left = 0 print.margin.right = 0 print.margin.top = 0 print.margin.bottom = 0 print.paper.source = 0 print.paper.size = 9 print.canusedefaultprinter=yes print.prompt=no print.buttons=no print.preview.buttons=no print.cliptext=no print.overrideprintjob=no print.collate=yes print.background=no print.preview.background=no print.preview.outline=yes hidegrayline=no showbackcoloronxp=no picture.file="" )
+header(height=84 color="536870912" transparency="0" gradient.color="8421504" gradient.transparency="0" gradient.angle="0" brushmode="0" gradient.repetition.mode="0" gradient.repetition.count="0" gradient.repetition.length="100" gradient.focus="0" gradient.scale="100" gradient.spread="100" )
+summary(height=0 color="536870912" transparency="0" gradient.color="8421504" gradient.transparency="0" gradient.angle="0" brushmode="0" gradient.repetition.mode="0" gradient.repetition.count="0" gradient.repetition.length="100" gradient.focus="0" gradient.scale="100" gradient.spread="100" )
+footer(height=0 color="536870912" transparency="0" gradient.color="8421504" gradient.transparency="0" gradient.angle="0" brushmode="0" gradient.repetition.mode="0" gradient.repetition.count="0" gradient.repetition.length="100" gradient.focus="0" gradient.scale="100" gradient.spread="100" )
+detail(height=4408 color="536870912" transparency="0" gradient.color="8421504" gradient.transparency="0" gradient.angle="0" brushmode="0" gradient.repetition.mode="0" gradient.repetition.count="0" gradient.repetition.length="100" gradient.focus="0" gradient.scale="100" gradient.spread="100" )
+table(column=(type=char(10) updatewhereclause=yes name=abc dbname="abc" )
+ )
+data("11", ) 
+text(band=header alignment="2" text="Abc" border="0" color="33554432" x="110" y="8" height="68" width="320" html.valueishtml="0"  name=abc_t visible="1"  font.face="Tahoma" font.height="-12" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" background.transparency="0" background.gradient.color="8421504" background.gradient.transparency="0" background.gradient.angle="0" background.brushmode="0" background.gradient.repetition.mode="0" background.gradient.repetition.count="0" background.gradient.repetition.length="100" background.gradient.focus="0" background.gradient.scale="100" background.gradient.spread="100" tooltip.backcolor="134217752" tooltip.delay.initial="0" tooltip.delay.visible="32000" tooltip.enabled="0" tooltip.hasclosebutton="0" tooltip.icon="0" tooltip.isbubble="0" tooltip.maxwidth="0" tooltip.textcolor="134217751" tooltip.transparency="0" transparency="0" )
+compute(band=detail alignment="0" expression="~"2.Operated Steps:
+have a dw/report that has a papersize of 8.5x11 and has text for the full 8.5 x 11.  now save it as pdf using the default for customsize.  it is too small (a4) for the width required.
+Create a datawindow and set Paper Orientation to Landscape and Paper Size to Legal 8.5 x 14 with columns created out near the right edge.  Do not change any settings on the Data Export tab - use the pb.ini setting to change the default to NativePDF.  SaveAs to a PDF.
+
+3.Phenomenon:
+Not all papersizes translate.  But the many common ones do and they should translate over directly.  I think the default for those that do NOT translate over correctly should be the closest possible papersize that is larger than what was specified.  The developer can still change customsize to something else if they want to.
+
+A report that prints Landscape on Legal (8.5x14) size paper saves correctly to a PDF when Ghostscript is used to generate it, but runs over the right edge of the page and generates extra pages when using Native PDF.  The Method is not set on the Data Export tab of the datawindow properties... I'm using the NativePDF_Valid=1 setting in the pb.ini file to default the method to native.  I expected it to use the settings on the Print Specifications tab to generate the PDF.
+2.操作步骤：
+有一个文件大小为8.5x11的dw /报告，并且具有完整的8.5 x 11的文本。现在使用缺省值将其保存为pdf。对于所需的宽度，它太小（a4）。
+
+创建一个数据窗口，并将纸张方向设置为横向和纸张尺寸为Legal 8.5 x 14，并在右边缘附近创建列。不要更改“数据导出”选项卡上的任何设置 - 使用pb.ini设置将默认值更改为NativePDF。另存为PDF。
+
+3.Phenomenon：
+不是所有的纸张翻译。但是很多常见的都是直接翻译的。我认为那些不能正确翻译的内容的默认值应该是最大的可能的文档大小超过了指定的值。如果开发商想要，开发商仍然可以将其更改为别的东西。
+
+当使用Ghostscript生成它时，打印Landscape on Legal（8.5x14）尺寸纸张的报告可以正确保存到PDF，但是在使用Native PDF时会在页面的正确边缘运行，并生成额外的页面。该方法未在数据窗口属性的“数据导出”选项卡上设置...我使用pb.ini文件中的NativePDF_Valid = 1设置将该方法默认为本机。我希望它使用“打印规格”选项卡上的设置来生成PDF。
+2.Operated Steps:
+have a dw/report that has a papersize of 8.5x11 and has text for the full 8.5 x 11.  now save it as pdf using the default for customsize.  it is too small (a4) for the width required.
+Create a datawindow and set Paper Orientation to Landscape and Paper Size to Legal 8.5 x 14 with columns created out near the right edge.  Do not change any settings on the Data Export tab - use the pb.ini setting to change the default to NativePDF.  SaveAs to a PDF.
+3.Phenomenon:
+Not all papersizes translate.  But the many common ones do and they should translate over directly.  I think the default for those that do NOT translate over correctly should be the closest possible papersize that is larger than what was specified.  The developer can still change customsize to something else if they want to.
+
+A report that prints Landscape on Legal (8.5x14) size paper saves correctly to a PDF when Ghostscript is used to generate it, but runs over the right edge of the page and generates extra pages when using Native PDF.  The Method is not set on the Data Export tab of the datawindow properties... I'm using the NativePDF_Valid=1 setting in the pb.ini file to default the method to native.  I expected it to use the settings on the Print Specifications tab to generate the PDF. 2.操作步骤：
+有一个文件大小为8.5x11的dw /报告，并且具有完整的8.5 x 11的文本。现在使用缺省值将其保存为pdf。对于所需的宽度，它太小（a4）。
+
+创建一个数据窗口，并将纸张方向设置为横向和纸张尺寸为Legal 8.5 x 14，并在右边缘附近创建列。不要更改“数据导出”选项卡上的任何设置 - 使用pb.ini设置将默认值更改为NativePDF。另存为PDF。
+
+3.Phenomenon：
+不是所有的纸张翻译。但是很多常见的都是直接翻译的。我认为那些不能正确翻译的内容的默认值应该是最大的可能的文档大小超过了指定的值。如果开发商想要，开发商仍然可以将其更改为别的东西。~""border="0" color="33554432" x="9" y="8" height="4392" width="3616" format="[GENERAL]" html.valueishtml="0"  name=compute_1 visible="1"  font.face="Tahoma" font.height="-12" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="134217731" background.transparency="0" background.gradient.color="8421504" background.gradient.transparency="0" background.gradient.angle="0" background.brushmode="0" background.gradient.repetition.mode="0" background.gradient.repetition.count="0" background.gradient.repetition.length="100" background.gradient.focus="0" background.gradient.scale="100" background.gradient.spread="100" tooltip.backcolor="134217752" tooltip.delay.initial="0" tooltip.delay.visible="32000" tooltip.enabled="0" tooltip.hasclosebutton="0" tooltip.icon="0" tooltip.isbubble="0" tooltip.maxwidth="0" tooltip.textcolor="134217751" tooltip.transparency="0" transparency="0" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" encodeselflinkargs="1" netscapelayers="0" pagingmethod=0 generatedddwframes="1" )
+xhtmlgen() cssgen(sessionspecific="0" )
+xmlgen(inline="0" )
+xsltgen()
+jsgen()
+export.xml(headgroups="1" includewhitespace="0" metadatatype=0 savemetadata=0 )
+import.xml()
+export.pdf(method=0 distill.custompostscript="0" xslfop.print="0" nativepdf.customsize=0 nativepdf.customorientation=0 )
+export.xhtml()
+ 

@@ -1,0 +1,7 @@
+﻿$PBExportHeader$helloworld__list.srs
+$PBExportComments$Proxy imported from EAServer via EAServer Proxy generator.
+global type HelloWorld__List from structure
+  public:
+    HelloWorld		item[]
+end type
+

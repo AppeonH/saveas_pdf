@@ -1,0 +1,793 @@
+﻿$PBExportHeader$m_menu_functions_main.srm
+$PBExportComments$Main menu for w_menu_functions (Menu Techniques example)
+forward
+global type m_menu_functions_main from menu
+end type
+type m_file from menu within m_menu_functions_main
+end type
+type m_close from menu within m_file
+end type
+type m_exit from menu within m_file
+end type
+type m_file from menu within m_menu_functions_main
+m_close m_close
+m_exit m_exit
+end type
+type m_settings from menu within m_menu_functions_main
+end type
+type m_windowbackgroundcolor from menu within m_settings
+end type
+type m_black from menu within m_windowbackgroundcolor
+end type
+type m_white from menu within m_windowbackgroundcolor
+end type
+type m_gray from menu within m_windowbackgroundcolor
+end type
+type m_red from menu within m_windowbackgroundcolor
+end type
+type m_green from menu within m_windowbackgroundcolor
+end type
+type m_blue from menu within m_windowbackgroundcolor
+end type
+type m_magenta from menu within m_windowbackgroundcolor
+end type
+type m_cyan from menu within m_windowbackgroundcolor
+end type
+type m_yellow from menu within m_windowbackgroundcolor
+end type
+type m_brown from menu within m_windowbackgroundcolor
+end type
+type m_buttonface from menu within m_windowbackgroundcolor
+end type
+type m_windowbackgroundcolor from menu within m_settings
+m_black m_black
+m_white m_white
+m_gray m_gray
+m_red m_red
+m_green m_green
+m_blue m_blue
+m_magenta m_magenta
+m_cyan m_cyan
+m_yellow m_yellow
+m_brown m_brown
+m_buttonface m_buttonface
+end type
+type m_settings from menu within m_menu_functions_main
+m_windowbackgroundcolor m_windowbackgroundcolor
+end type
+type m_help from menu within m_menu_functions_main
+end type
+type m_contents from menu within m_help
+end type
+type m_aboutexample from menu within m_help
+end type
+type m_help from menu within m_menu_functions_main
+m_contents m_contents
+m_aboutexample m_aboutexample
+end type
+global type m_menu_functions_main from menu
+m_file m_file
+m_settings m_settings
+m_help m_help
+end type
+end forward
+
+global type m_menu_functions_main from menu
+m_file m_file
+m_settings m_settings
+m_help m_help
+event ue_teout ( )
+event ue_peout ( )
+end type
+global m_menu_functions_main m_menu_functions_main
+
+event ue_teout();if isvalid(w_menu_functions) then
+	w_menu_functions.wf_output('Execute TriggerEvent function succeed!',True)
+end if	
+end event
+
+event ue_peout();if isvalid(w_menu_functions) then
+	w_menu_functions.wf_output('Execute PostEvent function succeed!',False)
+end if	
+end event
+
+on m_menu_functions_main.create
+m_menu_functions_main=this
+call super::create
+this.m_file=create m_file
+this.m_settings=create m_settings
+this.m_help=create m_help
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_settings
+this.Item[UpperBound(this.Item)+1]=this.m_help
+end on
+
+on m_menu_functions_main.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_settings)
+destroy(this.m_help)
+end on
+
+type m_file from menu within m_menu_functions_main
+m_close m_close
+m_exit m_exit
+end type
+
+on m_file.create
+call super::create
+this.text = "File"
+this.m_close=create m_close
+this.m_exit=create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_close
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_close)
+destroy(this.m_exit)
+end on
+
+type m_close from menu within m_file
+end type
+
+on m_close.create
+call super::create
+this.text = "Open"
+this.microhelp = "Close window"
+this.toolbaritemname = "Custom050!"
+this.toolbaritemtext = "Open"
+this.toolbaritemorder = 1
+end on
+
+on m_close.destroy
+call super::destroy
+end on
+
+type m_exit from menu within m_file
+end type
+
+on m_exit.create
+call super::create
+this.text = "Exit"
+this.microhelp = "Exit example"
+this.toolbaritemname = "Exit!"
+this.toolbaritemtext = "Exit"
+this.toolbaritemorder = 3
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: 
+//--------------------------------------------------------------------
+// Arguments: (none)
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 	 		Date: 2004/01/05
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+CLOSE (ParentWindow)
+
+end event
+
+type m_settings from menu within m_menu_functions_main
+m_windowbackgroundcolor m_windowbackgroundcolor
+end type
+
+on m_settings.create
+call super::create
+this.text = "Settings"
+this.m_windowbackgroundcolor=create m_windowbackgroundcolor
+this.Item[UpperBound(this.Item)+1]=this.m_windowbackgroundcolor
+end on
+
+on m_settings.destroy
+call super::destroy
+destroy(this.m_windowbackgroundcolor)
+end on
+
+type m_windowbackgroundcolor from menu within m_settings
+m_black m_black
+m_white m_white
+m_gray m_gray
+m_red m_red
+m_green m_green
+m_blue m_blue
+m_magenta m_magenta
+m_cyan m_cyan
+m_yellow m_yellow
+m_brown m_brown
+m_buttonface m_buttonface
+end type
+
+on m_windowbackgroundcolor.create
+call super::create
+this.text = "Window Background Color"
+this.microhelp = "Change background color of window"
+this.m_black=create m_black
+this.m_white=create m_white
+this.m_gray=create m_gray
+this.m_red=create m_red
+this.m_green=create m_green
+this.m_blue=create m_blue
+this.m_magenta=create m_magenta
+this.m_cyan=create m_cyan
+this.m_yellow=create m_yellow
+this.m_brown=create m_brown
+this.m_buttonface=create m_buttonface
+this.Item[UpperBound(this.Item)+1]=this.m_black
+this.Item[UpperBound(this.Item)+1]=this.m_white
+this.Item[UpperBound(this.Item)+1]=this.m_gray
+this.Item[UpperBound(this.Item)+1]=this.m_red
+this.Item[UpperBound(this.Item)+1]=this.m_green
+this.Item[UpperBound(this.Item)+1]=this.m_blue
+this.Item[UpperBound(this.Item)+1]=this.m_magenta
+this.Item[UpperBound(this.Item)+1]=this.m_cyan
+this.Item[UpperBound(this.Item)+1]=this.m_yellow
+this.Item[UpperBound(this.Item)+1]=this.m_brown
+this.Item[UpperBound(this.Item)+1]=this.m_buttonface
+end on
+
+on m_windowbackgroundcolor.destroy
+call super::destroy
+destroy(this.m_black)
+destroy(this.m_white)
+destroy(this.m_gray)
+destroy(this.m_red)
+destroy(this.m_green)
+destroy(this.m_blue)
+destroy(this.m_magenta)
+destroy(this.m_cyan)
+destroy(this.m_yellow)
+destroy(this.m_brown)
+destroy(this.m_buttonface)
+end on
+
+type m_black from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: click event.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_black.Checked = True
+ParentWindow.BackColor = 0
+
+end event
+
+on m_black.create
+call super::create
+this.text = "Black"
+this.microhelp = "Change window background color to black"
+end on
+
+on m_black.destroy
+call super::destroy
+end on
+
+type m_white from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set white of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_white.Checked = True
+ParentWindow.BackColor = RGB (255, 255, 255)
+
+end event
+
+on m_white.create
+call super::create
+this.text = "White"
+this.microhelp = "Change window background color to white"
+end on
+
+on m_white.destroy
+call super::destroy
+end on
+
+type m_gray from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set gray on background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_gray.Checked = True
+ParentWindow.BackColor = RGB (192, 192, 192)
+
+end event
+
+on m_gray.create
+call super::create
+this.text = "Gray"
+this.microhelp = "Change window background color to gray"
+end on
+
+on m_gray.destroy
+call super::destroy
+end on
+
+type m_red from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set red background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_red.Checked = True
+ParentWindow.BackColor = RGB (255, 0, 0)
+
+end event
+
+on m_red.create
+call super::create
+this.text = "Red"
+this.microhelp = "Change window background color to red"
+end on
+
+on m_red.destroy
+call super::destroy
+end on
+
+type m_green from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set green of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_green.Checked = True
+ParentWindow.BackColor = RGB (0, 255, 0)
+
+end event
+
+on m_green.create
+call super::create
+this.text = "Green"
+this.microhelp = "Change window background color to green"
+end on
+
+on m_green.destroy
+call super::destroy
+end on
+
+type m_blue from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set blue of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_blue.Checked = True
+ParentWindow.BackColor = RGB (0, 0, 255)
+
+end event
+
+on m_blue.create
+call super::create
+this.text = "Blue"
+this.microhelp = "Change window background color to blue"
+end on
+
+on m_blue.destroy
+call super::destroy
+end on
+
+type m_magenta from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set m_magenta of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_magenta.Checked = True
+ParentWindow.BackColor = RGB (255, 0, 255)
+
+end event
+
+on m_magenta.create
+call super::create
+this.text = "Magenta"
+this.microhelp = "Change window background color to magenta"
+end on
+
+on m_magenta.destroy
+call super::destroy
+end on
+
+type m_cyan from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set cyan of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_cyan.Checked = True
+ParentWindow.BackColor = RGB (0, 255, 255)
+
+end event
+
+on m_cyan.create
+call super::create
+this.text = "Cyan"
+this.microhelp = "Change window background color to cyan"
+end on
+
+on m_cyan.destroy
+call super::destroy
+end on
+
+type m_yellow from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set yellow background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_yellow.Checked = True
+ParentWindow.BackColor = RGB (255, 255, 0)
+
+end event
+
+on m_yellow.create
+call super::create
+this.text = "Yellow"
+this.microhelp = "Change window background color to yellow"
+end on
+
+on m_yellow.destroy
+call super::destroy
+end on
+
+type m_brown from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set brown of background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_brown.Checked = True
+ParentWindow.BackColor = RGB (128, 128, 0)
+
+end event
+
+on m_brown.create
+call super::create
+this.text = "Brown"
+this.microhelp = "Change window background color to brown"
+end on
+
+on m_brown.destroy
+call super::destroy
+end on
+
+type m_buttonface from menu within m_windowbackgroundcolor
+end type
+
+event clicked;//====================================================================
+// Event: clicked()
+//--------------------------------------------------------------------
+// Description: set button background.
+//--------------------------------------------------------------------
+// Arguments: 
+//		None		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2004/01/03
+//--------------------------------------------------------------------
+// Modify History: 
+//	
+//--------------------------------------------------------------------
+// CopyRight 2003----???? Appeon Inc.
+//====================================================================
+
+Int	i, &
+	li_size
+w_menu_functions	lw_Parent
+
+li_size = UpperBound (Parent.Item[])
+For i = 1 To li_size
+	Parent.Item[i].Checked = False
+Next
+
+Parent.m_buttonface.Checked = True
+
+lw_Parent = ParentWindow
+lw_Parent.BackColor = lw_Parent.il_ButtonFace
+
+
+end event
+
+on m_buttonface.create
+call super::create
+this.text = "Button Face"
+this.checked = true
+end on
+
+on m_buttonface.destroy
+call super::destroy
+end on
+
+type m_help from menu within m_menu_functions_main
+m_contents m_contents
+m_aboutexample m_aboutexample
+end type
+
+on m_help.create
+call super::create
+this.text = "Help"
+this.m_contents=create m_contents
+this.m_aboutexample=create m_aboutexample
+this.Item[UpperBound(this.Item)+1]=this.m_contents
+this.Item[UpperBound(this.Item)+1]=this.m_aboutexample
+end on
+
+on m_help.destroy
+call super::destroy
+destroy(this.m_contents)
+destroy(this.m_aboutexample)
+end on
+
+type m_contents from menu within m_help
+end type
+
+on m_contents.create
+call super::create
+this.text = "Contents..."
+this.microhelp = "Display help"
+this.toolbaritemname = "Help!"
+this.toolbaritemtext = "Help"
+this.toolbaritemorder = 2
+end on
+
+on m_contents.destroy
+call super::destroy
+end on
+
+type m_aboutexample from menu within m_help
+end type
+
+on m_aboutexample.create
+call super::create
+this.text = "About Example..."
+this.microhelp = "Display copyright notice"
+end on
+
+on m_aboutexample.destroy
+call super::destroy
+end on
+

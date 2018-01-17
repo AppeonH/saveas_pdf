@@ -1,0 +1,93 @@
+﻿$PBExportHeader$f_show_new.srf
+global type f_show_new from function_object
+end type
+
+forward prototypes
+global subroutine f_show_new (boolean v_flag)
+end prototypes
+
+global subroutine f_show_new (boolean v_flag);//====================================================================
+// Function: f_show_new()
+//--------------------------------------------------------------------
+// Description: display style and position of datawindow.
+//--------------------------------------------------------------------
+// Arguments: 
+//		value	boolean	v_flag		
+//--------------------------------------------------------------------
+// Returns: (none)
+//--------------------------------------------------------------------
+// Author: 			Date: 2003/12/31
+//--------------------------------------------------------------------
+// Modify History: add visible flag ls_microhelp = no 
+//							
+//                                 
+//--------------------------------------------------------------------
+// CopyRight 2004----???? Appeon Inc.
+//====================================================================
+
+Integer  i,li_top,li_level1,j,li_tag,li_find,li_level2,k
+String   ls_new,ls_topmenu,ls_microhelp	
+
+
+li_top  = UpperBound(m_mdi.Item)
+w_main_frame.dw_examples.SetFilter("")
+w_main_frame.dw_examples.Filter()
+For i = 1 To li_top
+	ls_topmenu = m_mdi.Item[i].Text
+	li_level1 = UpperBound(m_mdi.Item[i].Item)
+	Choose Case  ls_topmenu
+		Case 'DataWindow','PowerScript'
+			For j = 1 To li_level1
+				li_level2 = UpperBound(m_mdi.Item[i].Item[j].Item)				
+				For k = 1  To  li_level2
+					ls_microhelp = m_mdi.Item[i].Item[j].Item[k].MicroHelp
+					If v_flag Then
+						li_tag = Integer(m_mdi.Item[i].Item[j].Item[k].Tag)						
+						li_find = w_main_frame.dw_examples.Find("example_id="+String(li_tag),1,w_main_frame.dw_examples.RowCount())
+						If li_find < 1 Then
+							ls_new = '0'
+						Else
+							ls_new = w_main_frame.dw_examples.GetItemString(li_find,'isnew')
+						End If
+						If ls_new = '1' Then
+							m_mdi.Item[i].Item[j].Item[k].Visible = True
+						Else
+							m_mdi.Item[i].Item[j].Item[k].Visible = False
+						End If						
+					Else
+						m_mdi.Item[i].Item[j].Item[k].Visible = True
+					End If
+					IF lower(ls_microhelp) ='no' THEN
+						m_mdi.Item[i].Item[j].Item[k].Visible = False
+					End IF
+				Next
+			Next
+		Case 'SQL','Standard Controls','User Objects','N-Tier Support'
+			For j = 1 To li_level1
+				ls_microhelp = m_mdi.Item[i].Item[j].MicroHelp
+				If v_flag Then
+					li_tag = Integer(m_mdi.Item[i].Item[j].Tag)					
+					li_find = w_main_frame.dw_examples.Find("example_id="+String(li_tag),1,w_main_frame.dw_examples.RowCount())
+					If li_find < 1 Then
+						ls_new = '0'
+					Else
+						ls_new = w_main_frame.dw_examples.GetItemString(li_find,'isnew')
+					End If
+					If ls_new = '1' Then
+						m_mdi.Item[i].Item[j].Visible = True
+					Else
+						m_mdi.Item[i].Item[j].Visible = False
+					End If
+				Else
+					m_mdi.Item[i].Item[j].Visible = True
+				End If
+				IF lower(ls_microhelp) ='no' THEN
+					m_mdi.Item[i].Item[j].Visible = False
+				END IF
+			Next
+		Case Else
+	End Choose
+	
+Next
+end subroutine
+

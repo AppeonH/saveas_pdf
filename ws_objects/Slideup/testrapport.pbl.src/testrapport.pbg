@@ -1,0 +1,17 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "testrapport.pbl" "";
+@end;
+@begin Objects 
+ "testrapport.sra" "testrapport.pbl";
+ "au_dwrn_rapport_insp_commentaire.srd" "testrapport.pbl";
+ "dw_nested.srd" "testrapport.pbl";
+ "dw_nested2.srd" "testrapport.pbl";
+ "dw_rapport.srd" "testrapport.pbl";
+ "dw_rapport_bk.srd" "testrapport.pbl";
+ "dw_rapport2.srd" "testrapport.pbl";
+ "p_testrapport_exe.srj" "testrapport.pbl";
+ "uo_saveas.sru" "testrapport.pbl";
+ "w_newfeature.srw" "testrapport.pbl";
+ "win_rapport.srw" "testrapport.pbl";
+@end;

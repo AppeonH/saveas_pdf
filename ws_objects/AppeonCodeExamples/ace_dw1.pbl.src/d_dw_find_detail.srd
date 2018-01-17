@@ -1,0 +1,47 @@
+﻿$PBExportHeader$d_dw_find_detail.srd
+release 8;
+datawindow(units=0 timer_interval=0 color=67108864 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=852 color="536870912" )
+table(column=(type=long update=yes updatewhereclause=yes key=yes name=id dbname="customer.id" )
+ column=(type=char(15) update=yes updatewhereclause=yes name=fname dbname="customer.fname" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=lname dbname="customer.lname" )
+ column=(type=char(35) update=yes updatewhereclause=yes name=address dbname="customer.address" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=city dbname="customer.city" )
+ column=(type=char(2) update=yes updatewhereclause=yes name=state dbname="customer.state" )
+ column=(type=char(10) update=yes updatewhereclause=yes name=zip dbname="customer.zip" )
+ column=(type=char(12) update=yes updatewhereclause=yes name=phone dbname="customer.phone" )
+ column=(type=char(35) update=yes updatewhereclause=yes name=company_name dbname="customer.company_name" )
+ retrieve="  SELECT ~"customer~".~"id~",   
+         ~"customer~".~"fname~",   
+         ~"customer~".~"lname~",   
+         ~"customer~".~"address~",   
+         ~"customer~".~"city~",   
+         ~"customer~".~"state~",   
+         ~"customer~".~"zip~",   
+         ~"customer~".~"phone~",   
+         ~"customer~".~"company_name~"  
+    FROM ~"customer~" 
+    Where ~"customer~".~"id~"  = :as_arg
+" update="customer" updatewhere=1 updatekeyinplace=no arguments=(("as_arg", number)) )
+text(band=detail alignment="1" text="Cust Id:" border="0" color="33554432" x="14" y="28" height="68" width="384" html.valueishtml="0"  name=id_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Last Name:" border="0" color="33554432" x="14" y="168" height="64" width="384" html.valueishtml="0"  name=lname_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="First Name:" border="0" color="33554432" x="928" y="168" height="64" width="283" html.valueishtml="0"  name=fname_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Address:" border="0" color="33554432" x="14" y="300" height="64" width="384" html.valueishtml="0"  name=address_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="City:" border="0" color="33554432" x="14" y="440" height="64" width="384" html.valueishtml="0"  name=city_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="State:" border="0" color="33554432" x="928" y="440" height="64" width="283" html.valueishtml="0"  name=state_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Zip:" border="0" color="33554432" x="14" y="584" height="64" width="384" html.valueishtml="0"  name=zip_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Phone:" border="0" color="33554432" x="928" y="584" height="64" width="283" html.valueishtml="0"  name=phone_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Company Name:" border="0" color="33554432" x="14" y="728" height="64" width="384" html.valueishtml="0"  name=company_name_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=9 alignment="0" tabsequence=90 border="2" color="33554432" x="425" y="728" height="64" width="1271" format="[general]" html.valueishtml="0"  name=company_name visible="1" edit.limit=35 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=7 alignment="0" tabsequence=70 border="2" color="33554432" x="425" y="584" height="64" width="462" format="[general]" html.valueishtml="0"  name=zip visible="1" edit.limit=10 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=8 alignment="0" tabsequence=80 border="2" color="33554432" x="1234" y="584" height="64" width="457" format="[general]" html.valueishtml="0"  name=phone visible="1" edit.limit=12 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=6 alignment="0" tabsequence=60 border="2" color="33554432" x="1234" y="440" height="64" width="457" format="[general]" html.valueishtml="0"  name=state visible="1" edit.limit=2 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=5 alignment="0" tabsequence=50 border="2" color="33554432" x="425" y="440" height="64" width="462" format="[general]" html.valueishtml="0"  name=city visible="1" edit.limit=20 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=4 alignment="0" tabsequence=40 border="2" color="33554432" x="425" y="300" height="64" width="1262" format="[general]" html.valueishtml="0"  name=address visible="1" edit.limit=35 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=3 alignment="0" tabsequence=30 border="2" color="33554432" x="425" y="168" height="64" width="462" format="[general]" html.valueishtml="0"  name=lname visible="1" edit.limit=20 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="0" tabsequence=20 border="2" color="33554432" x="1234" y="168" height="64" width="457" format="[general]" html.valueishtml="0"  name=fname visible="1" edit.limit=15 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=1 alignment="0" tabsequence=10 border="2" color="33554432" x="425" y="28" height="64" width="462" format="[general]" html.valueishtml="0"  name=id visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

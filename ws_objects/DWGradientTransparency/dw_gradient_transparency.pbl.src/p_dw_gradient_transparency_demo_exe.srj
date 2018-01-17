@@ -1,0 +1,22 @@
+﻿$PBExportHeader$p_dw_gradient_transparency_demo_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:dw_gradient_transparency_demo.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:dw_gradient_transparency.pbl,,1
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,d_freeform,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,dw_gradient_transparency_demo,a
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,uo_datawindow,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,d_tabular_control,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,w_gradtrans,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,uo_datawindowband,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,d_group,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWGradientTransparency\dw_gradient_transparency.pbl,uo_datawindowcolumn,u

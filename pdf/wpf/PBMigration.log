@@ -1,0 +1,49 @@
+Argument List for Sybase.PowerBuilder.Compiler:
+	/t:wpfmigration
+	/pbt:"G:\work-20060627\TestCase\20100701DW\PB125Case\pdf\xslfo_to_pdf_conversion.pbt"
+	/o:"G:\work-20060627\TestCase\20100701DW\PB125Case\pdf\wpf"
+	/oname:"xslfo_to_pdf_conversion"
+	/dash:dash
+
+IPBCompiler.Report() output:
+Type-checking (pass 1) system (system)
+Migration: Pre-parsing takes 6.00 seconds
+Parsing g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Parsing g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Parsing g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Parsing g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Parsing g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Migration: Parsing takes 0.00 seconds
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Type-checking (pass 1) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Type-checking methods(pass 2) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Type-checking methods(pass 2) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Type-checking methods(pass 2) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Type-checking methods(pass 2) g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Migration: Typechecking takes 0.00 seconds
+Emitting g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (str_colproperties)
+Emitting g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_1)
+Emitting g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (xslfo_to_pdf_conversion)
+Emitting g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_set_col_property)
+Emitting g:\work-20060627\testcase\20100701dw\pb125case\pdf\xslfo_to_pdf_conversion.pbl (w_convert_xslfo_pdf)
+Migration: Emiting takes 0.00 seconds
+

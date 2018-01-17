@@ -1,0 +1,11 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "test_pdf_test.pbl" "";
+@end;
+@begin Objects 
+ "test_pdf_pic.sra" "test_pdf_test.pbl";
+ "d_pdf_pic.srd" "test_pdf_test.pbl";
+ "uo_saveas.sru" "test_pdf_test.pbl";
+ "w_1.srw" "test_pdf_test.pbl";
+ "w_newfeature.srw" "test_pdf_test.pbl";
+@end;

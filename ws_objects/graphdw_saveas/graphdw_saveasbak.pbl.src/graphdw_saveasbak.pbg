@@ -1,0 +1,16 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "graphdw_saveasbak.pbl" "";
+@end;
+@begin Objects 
+ "graphdw_saveas.sra" "graphdw_saveasbak.pbl";
+ "d_performance.srd" "graphdw_saveasbak.pbl";
+ "d_products_line.srd" "graphdw_saveasbak.pbl";
+ "d_products_pie3d_graph.srd" "graphdw_saveasbak.pbl";
+ "d_products_pie3d_graph_base.srd" "graphdw_saveasbak.pbl";
+ "d_test.srd" "graphdw_saveasbak.pbl";
+ "gf_depart.srf" "graphdw_saveasbak.pbl";
+ "p_graphdw_saveas_exe.srj" "graphdw_saveasbak.pbl";
+ "eon_appeon_resize.sru" "graphdw_saveasbak.pbl";
+ "w_main.srw" "graphdw_saveasbak.pbl";
+@end;

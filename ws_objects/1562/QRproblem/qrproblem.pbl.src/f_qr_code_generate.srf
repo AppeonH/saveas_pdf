@@ -1,0 +1,12 @@
+﻿$PBExportHeader$f_qr_code_generate.srf
+global type f_qr_code_generate from function_object
+end type
+
+forward prototypes
+global function string f_qr_code_generate (string code)
+end prototypes
+
+global function string f_qr_code_generate (string code);f_qr_code_png_file('test.png', code)
+Return 'test.png'
+end function
+

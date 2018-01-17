@@ -1,0 +1,22 @@
+﻿$PBExportHeader$f_qr_code_png_file.srf
+global type f_qr_code_png_file from function_object
+end type
+
+forward prototypes
+global function boolean f_qr_code_png_file (string afilename, string atext)
+end prototypes
+
+global function boolean f_qr_code_png_file (string afilename, string atext);
+// best quality
+If FileExists(aFileName) Then 
+	If Not FileDelete(aFileName) Then Return False
+End If
+GeneratePNGA( aFileName , aText, 1, 1, 3 )
+// 1 = 87x87 px
+// 4 = 348x348 px
+// 5 = 435x435 px
+// 10= 230x230 px
+Return FileExists(aFileName)
+
+end function
+

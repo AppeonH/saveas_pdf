@@ -1,0 +1,24 @@
+This is a simple configuration issue that just needs to be documented for WebForm app deployment.  The configuration the developer must perform matches that required when a native PB app is deployed, however it is to the machine running IIS hosting the WebForm app, and therefore impacts the system environment variables rather than those of the interactive user.  Because of this, I would not recommend that PB configure this automatically, but rather the customer perform the following manually:
+
+1.) First, the following two folders (JRE and FOP) bundled in the PB11 install must be deployed to the machine running IIS (if different):
+
+    C:\Program Files\Sybase\Shared\PowerBuilder\jdk1.5.0_06\jre
+    C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4
+
+2.) Second, the system PATH environment variable must be edited to include the \bin\client subfolder of the JRE.  So for example, if keeping the JRE's path as installed, the system's PATH addition would be:
+
+    C:\Program Files\Sybase\Shared\PowerBuilder\jdk1.5.0_06\jre\bin\client;
+
+3.) Third, the system CLASSPATH environment variable must be edited to include the FOP jar and all of its dependencies.  So for example, if keeping the FOP's path as installed, the system's CLASSPATH addition would be:
+
+    C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\build\fop.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\batik.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\xalan-2.3.1.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\xercesImpl-2.1.0.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\xml-apis.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\avalon-framework-cvs-20020315.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\logkit-1.0.jar;C:\Program Files\Sybase\Shared\PowerBuilder\fop-0.20.4\lib\jimi-1.0.jar;
+
+4.) Finally, the IIS process must be restarted.  This is accomplished by running Internet Information Services manager from Control Panel, Administrative Tools, right-clicking the local computer, selecting All Tasks, Restart IIS...
+
+For this testcase, the PDF is deposited in the following folder on the webserver:
+
+    C:\Inetpub\wwwroot\dwdsfunc_manaul_root\file\session\<unique id>\c\emp.pdf
+
+*** Wednesday, November 08, 2006 4:55:22 PM *** ymchen ***
+Downgraded from *A4S to *AFS. 
+fkoh: Request to downgrade (deployment issue and also not supported by DW.NET).

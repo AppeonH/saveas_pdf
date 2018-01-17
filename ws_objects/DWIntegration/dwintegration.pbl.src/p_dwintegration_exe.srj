@@ -1,0 +1,38 @@
+﻿$PBExportHeader$p_dwintegration_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:dwintegration.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:APPEON
+DES:APPEON Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:dwintegration.pbl,,1
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,w_main,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,w_express,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,m_1,m
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,vo_button,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,w_2,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_2,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,w_1,w
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_1,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,vo_datawindow,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_dept_manage_emp,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_dddw_main,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_tabular_button,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_grid_grid,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_freeform,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_express,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,vo_custom,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,nvo_custom,u
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,m_popup,m
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_products_customers,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,dwintegration,a
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_tab_fromsaleorder,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_tab_fromcustomer,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_budget_list_s,d
+OBJ:C:\Users\appeon\Desktop\Save_PDF\DWIntegration\dwintegration.pbl,d_crosstab_static,d

@@ -1,0 +1,17 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "pagea4test.pbl" "";
+@end;
+@begin Objects 
+ "pagea4test.sra" "pagea4test.pbl";
+ "d_a4.srd" "pagea4test.pbl";
+ "d_a4_1.srd" "pagea4test.pbl";
+ "d_a4_2.srd" "pagea4test.pbl";
+ "d_a4_826_1170.srd" "pagea4test.pbl";
+ "d_a4_826_1170b.srd" "pagea4test.pbl";
+ "d_a4_850_1100.srd" "pagea4test.pbl";
+ "d_a4_850_1100b.srd" "pagea4test.pbl";
+ "d_a4_850_1100c.srd" "pagea4test.pbl";
+ "w_main.srw" "pagea4test.pbl";
+ "w_newfeature.srw" "pagea4test.pbl";
+@end;

@@ -1,0 +1,15 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "qrproblem.pbl" "";
+@end;
+@begin Objects 
+ "qrproblem.sra" "qrproblem.pbl";
+ "dw_main.srd" "qrproblem.pbl";
+ "dw_main_bak.srd" "qrproblem.pbl";
+ "f_qr_code_generate.srf" "qrproblem.pbl";
+ "f_qr_code_png_file.srf" "qrproblem.pbl";
+ "m_qrproblem_main.srm" "qrproblem.pbl";
+ "w_newfeature.srw" "qrproblem.pbl";
+ "w_qrproblem_about.srw" "qrproblem.pbl";
+ "w_qrproblem_main.srw" "qrproblem.pbl";
+@end;

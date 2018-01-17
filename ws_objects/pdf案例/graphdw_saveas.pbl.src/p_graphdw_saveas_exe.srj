@@ -1,0 +1,19 @@
+﻿$PBExportHeader$p_graphdw_saveas_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:graphdw_saveas.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:graphdw_saveas.pbl,,1
+OBJ:D:\program\BugAnalize\Save_PDF\graphdw_saveas\graphdw_saveas.pbl,d_products_pie3d_graph_base,d
+OBJ:D:\program\BugAnalize\Save_PDF\graphdw_saveas\graphdw_saveas.pbl,eon_appeon_resize,u
+OBJ:D:\program\BugAnalize\Save_PDF\graphdw_saveas\graphdw_saveas.pbl,graphdw_saveas,a
+OBJ:D:\program\BugAnalize\Save_PDF\graphdw_saveas\graphdw_saveas.pbl,d_test,d
+OBJ:D:\program\BugAnalize\Save_PDF\graphdw_saveas\graphdw_saveas.pbl,w_main,w

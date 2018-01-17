@@ -1,0 +1,14 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "testtraining.pbt";
+ 1 "pbdemos.pbt";
+ 2 "..\\..\\..\\Pb Case\\Test2\\pb_perform.pbt";
+ 3 "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\DockingWindows\\mdidockingwindows.pbt";
+ 4 "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\IDE_FunctionSweep\\TestCase\\maincodeline.pbt";
+ 5 "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\Localization\\testcase\\runtime\\runtimes.pbt";
+ 6 "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\Runtime Library\\PB126\\VisualSysFunTest\\pb12.6\\visualsystemfunctions.pbt";
+@end;
+DefaultTarget "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\Runtime Library\\PB126\\VisualSysFunTest\\pb12.6\\visualsystemfunctions.pbt";
+DefaultRemoteTarget "..\\..\\..\\Pb Case\\Manual\\Internal\\NonNTier\\Runtime Library\\PB126\\VisualSysFunTest\\pb12.6\\visualsystemfunctions.pbt";

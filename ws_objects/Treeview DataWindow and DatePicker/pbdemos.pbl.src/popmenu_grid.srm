@@ -1,0 +1,316 @@
+﻿$PBExportHeader$popmenu_grid.srm
+forward
+global type popmenu_grid from menu
+end type
+type m_collapseall from menu within popmenu_grid
+end type
+type m_expandall from menu within popmenu_grid
+end type
+type m_showgrid from menu within popmenu_grid
+end type
+type m_hidegrid from menu within popmenu_grid
+end type
+type m_selecttreenode from menu within popmenu_grid
+end type
+type m_notselecttreenode from menu within popmenu_grid
+end type
+global type popmenu_grid from menu
+m_collapseall m_collapseall
+m_expandall m_expandall
+m_showgrid m_showgrid
+m_hidegrid m_hidegrid
+m_selecttreenode m_selecttreenode
+m_notselecttreenode m_notselecttreenode
+end type
+end forward
+
+global type popmenu_grid from menu
+m_collapseall m_collapseall
+m_expandall m_expandall
+m_showgrid m_showgrid
+m_hidegrid m_hidegrid
+m_selecttreenode m_selecttreenode
+m_notselecttreenode m_notselecttreenode
+end type
+global popmenu_grid popmenu_grid
+
+on popmenu_grid.create
+popmenu_grid=this
+call super::create
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.fontcharset = ansi!
+this.fontpitch = variable!
+this.fontfamily = swiss!
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.m_collapseall=create m_collapseall
+this.m_expandall=create m_expandall
+this.m_showgrid=create m_showgrid
+this.m_hidegrid=create m_hidegrid
+this.m_selecttreenode=create m_selecttreenode
+this.m_notselecttreenode=create m_notselecttreenode
+this.Item[UpperBound(this.Item)+1]=this.m_collapseall
+this.Item[UpperBound(this.Item)+1]=this.m_expandall
+this.Item[UpperBound(this.Item)+1]=this.m_showgrid
+this.Item[UpperBound(this.Item)+1]=this.m_hidegrid
+this.Item[UpperBound(this.Item)+1]=this.m_selecttreenode
+this.Item[UpperBound(this.Item)+1]=this.m_notselecttreenode
+end on
+
+on popmenu_grid.destroy
+call super::destroy
+destroy(this.m_collapseall)
+destroy(this.m_expandall)
+destroy(this.m_showgrid)
+destroy(this.m_hidegrid)
+destroy(this.m_selecttreenode)
+destroy(this.m_notselecttreenode)
+end on
+
+type m_collapseall from menu within popmenu_grid
+end type
+
+on m_collapseall.create
+call super::create
+this.text = "CollapseAll"
+this.menuimage = "Custom039!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_collapseall.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.dw_tv.collapseall()
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_tv.DYNAMIC collapseall()
+end event
+
+type m_expandall from menu within popmenu_grid
+end type
+
+on m_expandall.create
+call super::create
+this.text = "ExpandAll"
+this.menuimage = "Open!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_expandall.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.dw_tv.expandall()
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_tv.DYNAMIC expandall()
+
+end event
+
+type m_showgrid from menu within popmenu_grid
+event create ( )
+event destroy ( )
+end type
+
+on m_showgrid.create
+call super::create
+this.text = "ShowGrid"
+this.menuimage = "TreeView!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_showgrid.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.dw_tv.modify("datawindow.grid.lines=0 ")
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_tv.DYNAMIC modify("datawindow.grid.lines=0 ")
+
+
+
+
+
+end event
+
+type m_hidegrid from menu within popmenu_grid
+end type
+
+on m_hidegrid.create
+call super::create
+this.text = "HideGrid"
+this.menuimage = "TreeView1!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_hidegrid.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.dw_tv.modify("datawindow.grid.lines=1 ")
+w_sheet = w_frame.getactivesheet()
+w_sheet.dw_tv.DYNAMIC modify("datawindow.grid.lines=1 ")
+end event
+
+type m_selecttreenode from menu within popmenu_grid
+event create ( )
+event destroy ( )
+end type
+
+on m_selecttreenode.create
+call super::create
+this.text = "SelectTreeNode"
+this.menuimage = "SelectObject!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_selecttreenode.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.ii_selecttreenode=0
+w_sheet = w_frame.getactivesheet()
+w_sheet.DYNAMIC of_set_SelectTreeNode(0)
+end event
+
+type m_notselecttreenode from menu within popmenu_grid
+end type
+
+on m_notselecttreenode.create
+call super::create
+this.text = "Not SelectTreeNode"
+this.menuimage = "Arrow!"
+this.menustyle = contemporarymenu!
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 10
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 67108864
+this.menutitles = true
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbarstyle = contemporarytoolbar!
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+end on
+
+on m_notselecttreenode.destroy
+call super::destroy
+end on
+
+event clicked;w_tvdw_grid	w_sheet
+
+//w_tvdw_grid.ii_selecttreenode=1
+w_sheet = w_frame.getactivesheet()
+w_sheet.DYNAMIC of_set_SelectTreeNode(1)
+w_sheet.dw_tv.retrieve()
+end event
+

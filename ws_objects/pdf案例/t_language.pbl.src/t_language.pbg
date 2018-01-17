@@ -1,0 +1,13 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "t_language.pbl" "";
+@end;
+@begin Objects 
+ "t_language.sra" "t_language.pbl";
+ "d_1.srd" "t_language.pbl";
+ "d_2.srd" "t_language.pbl";
+ "p_t_language_exe.srj" "t_language.pbl";
+ "uo_saveas.sru" "t_language.pbl";
+ "w_lan.srw" "t_language.pbl";
+ "w_newfeature.srw" "t_language.pbl";
+@end;

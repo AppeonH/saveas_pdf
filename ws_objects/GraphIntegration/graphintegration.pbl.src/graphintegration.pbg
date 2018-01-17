@@ -1,0 +1,15 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "graphintegration.pbl" "";
+@end;
+@begin Objects 
+ "graphintegration.sra" "graphintegration.pbl";
+ "d_graph.srd" "graphintegration.pbl";
+ "d_graph_props.srd" "graphintegration.pbl";
+ "p_graphintegration_exe.srj" "graphintegration.pbl";
+ "p_graphintegration_webform.srj" "graphintegration.pbl";
+ "p_graphintegration_winform.srj" "graphintegration.pbl";
+ "uo_saveas.sru" "graphintegration.pbl";
+ "w_graph.srw" "graphintegration.pbl";
+ "w_newfeature.srw" "graphintegration.pbl";
+@end;

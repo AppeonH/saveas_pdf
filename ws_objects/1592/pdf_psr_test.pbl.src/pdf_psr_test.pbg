@@ -1,0 +1,11 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "pdf_psr_test.pbl" "";
+@end;
+@begin Objects 
+ "ap_pdf_psr_test.sra" "pdf_psr_test.pbl";
+ "dw_sponsor_logo_small.srd" "pdf_psr_test.pbl";
+ "p_ap_pdf_psr_test_exe.srj" "pdf_psr_test.pbl";
+ "w_newfeature.srw" "pdf_psr_test.pbl";
+ "wn_psr_test.srw" "pdf_psr_test.pbl";
+@end;

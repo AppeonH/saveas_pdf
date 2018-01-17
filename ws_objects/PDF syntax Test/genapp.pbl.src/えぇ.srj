@@ -1,0 +1,26 @@
+﻿$PBExportHeader$えぇ.srj
+$PBExportComments$Generated Application Executable Project
+EXE:えぇ.exe,,0,1,1
+CMP:0,0,0,3,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:Appeon Limited
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:6,0,0,6
+FVS:1.0.0.1
+FVN:7,0,0,7
+MAN:0,asInvoker,0
+PBD:genapp.pbl,,1
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_frame,w
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_basesheet,w
+OBJ:C:\てｓｔ\genapp.pbl,n_genapp_connectservice,u
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_toolbars,w
+OBJ:C:\てｓｔ\genapp.pbl,m_genapp_sheet,m
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_sheet3,w
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_sheet2,w
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_sheet1,w
+OBJ:C:\てｓｔ\genapp.pbl,n_genapp_sheetmanager,u
+OBJ:C:\てｓｔ\genapp.pbl,m_genapp_frame,m
+OBJ:C:\てｓｔ\genapp.pbl,w_genapp_about,w
+OBJ:C:\てｓｔ\genapp.pbl,genapp,a

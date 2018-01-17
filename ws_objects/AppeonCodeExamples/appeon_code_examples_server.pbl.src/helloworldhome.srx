@@ -1,0 +1,11 @@
+﻿$PBExportHeader$helloworldhome.srx
+$PBExportComments$Proxy imported from EAServer via EAServer Proxy generator.
+global type HelloWorldHome from CORBAObject
+end type
+global HelloWorldHome HelloWorldHome
+
+forward prototypes
+  public:
+function HelloWorld create () throws CtsComponents_CreateException alias for "create"
+    end prototypes
+

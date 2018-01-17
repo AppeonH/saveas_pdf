@@ -1,0 +1,851 @@
+﻿$PBExportHeader$m_rte.srm
+$PBExportComments$RichPad menu
+forward
+global type m_rte from menu
+end type
+type m_file from menu within m_rte
+end type
+type m_new from menu within m_file
+end type
+type m_file1 from menu within m_file
+end type
+type m_save from menu within m_file
+end type
+type m_saveas from menu within m_file
+end type
+type m_dash11 from menu within m_file
+end type
+type m_print from menu within m_file
+end type
+type m_printpreview from menu within m_file
+end type
+type m_printsetup from menu within m_file
+end type
+type m_send from menu within m_file
+end type
+type m_dash12 from menu within m_file
+end type
+type m_exit from menu within m_file
+end type
+type m_file from menu within m_rte
+m_new m_new
+m_file1 m_file1
+m_save m_save
+m_saveas m_saveas
+m_dash11 m_dash11
+m_print m_print
+m_printpreview m_printpreview
+m_printsetup m_printsetup
+m_send m_send
+m_dash12 m_dash12
+m_exit m_exit
+end type
+type m_edit from menu within m_rte
+end type
+type m_undo from menu within m_edit
+end type
+type m_undo1 from menu within m_edit
+end type
+type m_edit11 from menu within m_edit
+end type
+type m_edit111 from menu within m_edit
+end type
+type m_paste from menu within m_edit
+end type
+type m_delete from menu within m_edit
+end type
+type m_dash21 from menu within m_edit
+end type
+type m_showheadfoot from menu within m_edit
+end type
+type m_selectall from menu within m_edit
+end type
+type m_timedate from menu within m_edit
+end type
+type m_insertdatafield from menu within m_edit
+end type
+type m_id from menu within m_insertdatafield
+end type
+type m_companyname from menu within m_insertdatafield
+end type
+type m_lastname from menu within m_insertdatafield
+end type
+type m_firstname from menu within m_insertdatafield
+end type
+type m_phone from menu within m_insertdatafield
+end type
+type m_address from menu within m_insertdatafield
+end type
+type m_city from menu within m_insertdatafield
+end type
+type m_state from menu within m_insertdatafield
+end type
+type m_zip from menu within m_insertdatafield
+end type
+type m_insertdatafield from menu within m_edit
+m_id m_id
+m_companyname m_companyname
+m_lastname m_lastname
+m_firstname m_firstname
+m_phone m_phone
+m_address m_address
+m_city m_city
+m_state m_state
+m_zip m_zip
+end type
+type m_edit from menu within m_rte
+m_undo m_undo
+m_undo1 m_undo1
+m_edit11 m_edit11
+m_edit111 m_edit111
+m_paste m_paste
+m_delete m_delete
+m_dash21 m_dash21
+m_showheadfoot m_showheadfoot
+m_selectall m_selectall
+m_timedate m_timedate
+m_insertdatafield m_insertdatafield
+end type
+type m_search from menu within m_rte
+end type
+type m_find from menu within m_search
+end type
+type m_findnext from menu within m_search
+end type
+type m_replace from menu within m_search
+end type
+type m_search from menu within m_rte
+m_find m_find
+m_findnext m_findnext
+m_replace m_replace
+end type
+global type m_rte from menu
+m_file m_file
+m_edit m_edit
+m_search m_search
+end type
+end forward
+
+global type m_rte from menu
+m_file m_file
+m_edit m_edit
+m_search m_search
+end type
+global m_rte m_rte
+
+on m_rte.create
+m_rte=this
+call super::create
+this.m_file=create m_file
+this.m_edit=create m_edit
+this.m_search=create m_search
+this.Item[UpperBound(this.Item)+1]=this.m_file
+this.Item[UpperBound(this.Item)+1]=this.m_edit
+this.Item[UpperBound(this.Item)+1]=this.m_search
+end on
+
+on m_rte.destroy
+call super::destroy
+destroy(this.m_file)
+destroy(this.m_edit)
+destroy(this.m_search)
+end on
+
+type m_file from menu within m_rte
+m_new m_new
+m_file1 m_file1
+m_save m_save
+m_saveas m_saveas
+m_dash11 m_dash11
+m_print m_print
+m_printpreview m_printpreview
+m_printsetup m_printsetup
+m_send m_send
+m_dash12 m_dash12
+m_exit m_exit
+end type
+
+event selected;Boolean	lb_Preview
+lb_Preview = ParentWindow.Dynamic of_isprintpreview()
+m_printpreview.Checked = lb_Preview
+
+end event
+
+on m_file.create
+call super::create
+this.text = "&File"
+this.m_new=create m_new
+this.m_file1=create m_file1
+this.m_save=create m_save
+this.m_saveas=create m_saveas
+this.m_dash11=create m_dash11
+this.m_print=create m_print
+this.m_printpreview=create m_printpreview
+this.m_printsetup=create m_printsetup
+this.m_send=create m_send
+this.m_dash12=create m_dash12
+this.m_exit=create m_exit
+this.Item[UpperBound(this.Item)+1]=this.m_new
+this.Item[UpperBound(this.Item)+1]=this.m_file1
+this.Item[UpperBound(this.Item)+1]=this.m_save
+this.Item[UpperBound(this.Item)+1]=this.m_saveas
+this.Item[UpperBound(this.Item)+1]=this.m_dash11
+this.Item[UpperBound(this.Item)+1]=this.m_print
+this.Item[UpperBound(this.Item)+1]=this.m_printpreview
+this.Item[UpperBound(this.Item)+1]=this.m_printsetup
+this.Item[UpperBound(this.Item)+1]=this.m_send
+this.Item[UpperBound(this.Item)+1]=this.m_dash12
+this.Item[UpperBound(this.Item)+1]=this.m_exit
+end on
+
+on m_file.destroy
+call super::destroy
+destroy(this.m_new)
+destroy(this.m_file1)
+destroy(this.m_save)
+destroy(this.m_saveas)
+destroy(this.m_dash11)
+destroy(this.m_print)
+destroy(this.m_printpreview)
+destroy(this.m_printsetup)
+destroy(this.m_send)
+destroy(this.m_dash12)
+destroy(this.m_exit)
+end on
+
+type m_new from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_new()
+end event
+
+on m_new.create
+call super::create
+this.text = "&New"
+end on
+
+on m_new.destroy
+call super::destroy
+end on
+
+type m_file1 from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_open()
+end event
+
+on m_file1.create
+call super::create
+this.text = "&Open..."
+end on
+
+on m_file1.destroy
+call super::destroy
+end on
+
+type m_save from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_save()
+end event
+
+on m_save.create
+call super::create
+this.text = "&Save"
+end on
+
+on m_save.destroy
+call super::destroy
+end on
+
+type m_saveas from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_saveas()
+end event
+
+on m_saveas.create
+call super::create
+this.text = "Save &As..."
+end on
+
+on m_saveas.destroy
+call super::destroy
+end on
+
+type m_dash11 from menu within m_file
+end type
+
+on m_dash11.create
+call super::create
+this.text = "-"
+end on
+
+on m_dash11.destroy
+call super::destroy
+end on
+
+type m_print from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_print()
+end event
+
+on m_print.create
+call super::create
+this.text = "&Print"
+end on
+
+on m_print.destroy
+call super::destroy
+end on
+
+type m_printpreview from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_printpreview()
+end event
+
+on m_printpreview.create
+call super::create
+this.text = "Print Preview"
+end on
+
+on m_printpreview.destroy
+call super::destroy
+end on
+
+type m_printsetup from menu within m_file
+end type
+
+event clicked;PrintSetup()
+end event
+
+on m_printsetup.create
+call super::create
+this.text = "Print Setup..."
+end on
+
+on m_printsetup.destroy
+call super::destroy
+end on
+
+type m_send from menu within m_file
+end type
+
+event clicked;ParentWindow.Post Dynamic of_send()
+end event
+
+on m_send.create
+call super::create
+this.text = "Send"
+end on
+
+on m_send.destroy
+call super::destroy
+end on
+
+type m_dash12 from menu within m_file
+end type
+
+on m_dash12.create
+call super::create
+this.text = "-"
+end on
+
+on m_dash12.destroy
+call super::destroy
+end on
+
+type m_exit from menu within m_file
+end type
+
+event clicked;close(ParentWindow)
+end event
+
+on m_exit.create
+call super::create
+this.text = "E&xit"
+this.menuitemtype = menuitemtypeexit!
+end on
+
+on m_exit.destroy
+call super::destroy
+end on
+
+type m_edit from menu within m_rte
+m_undo m_undo
+m_undo1 m_undo1
+m_edit11 m_edit11
+m_edit111 m_edit111
+m_paste m_paste
+m_delete m_delete
+m_dash21 m_dash21
+m_showheadfoot m_showheadfoot
+m_selectall m_selectall
+m_timedate m_timedate
+m_insertdatafield m_insertdatafield
+end type
+
+event selected;Boolean	lb_CanUndo, lb_ShowHF
+lb_CanUndo = ParentWindow.Dynamic of_canundo()
+m_undo.Enabled = lb_CanUndo
+
+lb_ShowHF = ParentWindow.Dynamic of_showhf(True)
+m_showheadfoot.Checked = lb_ShowHF
+
+end event
+
+on m_edit.create
+call super::create
+this.text = "&Edit"
+this.m_undo=create m_undo
+this.m_undo1=create m_undo1
+this.m_edit11=create m_edit11
+this.m_edit111=create m_edit111
+this.m_paste=create m_paste
+this.m_delete=create m_delete
+this.m_dash21=create m_dash21
+this.m_showheadfoot=create m_showheadfoot
+this.m_selectall=create m_selectall
+this.m_timedate=create m_timedate
+this.m_insertdatafield=create m_insertdatafield
+this.Item[UpperBound(this.Item)+1]=this.m_undo
+this.Item[UpperBound(this.Item)+1]=this.m_undo1
+this.Item[UpperBound(this.Item)+1]=this.m_edit11
+this.Item[UpperBound(this.Item)+1]=this.m_edit111
+this.Item[UpperBound(this.Item)+1]=this.m_paste
+this.Item[UpperBound(this.Item)+1]=this.m_delete
+this.Item[UpperBound(this.Item)+1]=this.m_dash21
+this.Item[UpperBound(this.Item)+1]=this.m_showheadfoot
+this.Item[UpperBound(this.Item)+1]=this.m_selectall
+this.Item[UpperBound(this.Item)+1]=this.m_timedate
+this.Item[UpperBound(this.Item)+1]=this.m_insertdatafield
+end on
+
+on m_edit.destroy
+call super::destroy
+destroy(this.m_undo)
+destroy(this.m_undo1)
+destroy(this.m_edit11)
+destroy(this.m_edit111)
+destroy(this.m_paste)
+destroy(this.m_delete)
+destroy(this.m_dash21)
+destroy(this.m_showheadfoot)
+destroy(this.m_selectall)
+destroy(this.m_timedate)
+destroy(this.m_insertdatafield)
+end on
+
+type m_undo from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_undo()
+end event
+
+on m_undo.create
+call super::create
+this.visible = false
+this.text = "&Undo"
+this.enabled = false
+this.toolbaritemname = "Undo!"
+this.toolbaritembarindex = 0
+end on
+
+on m_undo.destroy
+call super::destroy
+end on
+
+type m_undo1 from menu within m_edit
+end type
+
+on m_undo1.create
+call super::create
+this.visible = false
+this.text = "-"
+this.enabled = false
+end on
+
+on m_undo1.destroy
+call super::destroy
+end on
+
+type m_edit11 from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_cut()
+end event
+
+on m_edit11.create
+call super::create
+this.text = "Cu&t"
+end on
+
+on m_edit11.destroy
+call super::destroy
+end on
+
+type m_edit111 from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_copy()
+end event
+
+on m_edit111.create
+call super::create
+this.text = "&Copy"
+end on
+
+on m_edit111.destroy
+call super::destroy
+end on
+
+type m_paste from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_paste()
+end event
+
+on m_paste.create
+call super::create
+this.text = "&Paste"
+end on
+
+on m_paste.destroy
+call super::destroy
+end on
+
+type m_delete from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_delete()
+end event
+
+on m_delete.create
+call super::create
+this.text = "&Delete"
+end on
+
+on m_delete.destroy
+call super::destroy
+end on
+
+type m_dash21 from menu within m_edit
+end type
+
+on m_dash21.create
+call super::create
+this.text = "-"
+end on
+
+on m_dash21.destroy
+call super::destroy
+end on
+
+type m_showheadfoot from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_showhf(False)
+end event
+
+on m_showheadfoot.create
+call super::create
+this.text = "&Show Head/Foot"
+end on
+
+on m_showheadfoot.destroy
+call super::destroy
+end on
+
+type m_selectall from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_selectall()
+end event
+
+on m_selectall.create
+call super::create
+this.text = "Select &All"
+end on
+
+on m_selectall.destroy
+call super::destroy
+end on
+
+type m_timedate from menu within m_edit
+end type
+
+event clicked;ParentWindow.Post Dynamic of_timedate()
+end event
+
+on m_timedate.create
+call super::create
+this.text = "Time/&Date"
+end on
+
+on m_timedate.destroy
+call super::destroy
+end on
+
+type m_insertdatafield from menu within m_edit
+m_id m_id
+m_companyname m_companyname
+m_lastname m_lastname
+m_firstname m_firstname
+m_phone m_phone
+m_address m_address
+m_city m_city
+m_state m_state
+m_zip m_zip
+end type
+
+on m_insertdatafield.create
+call super::create
+this.text = "&Insert Customer Datafield"
+this.m_id=create m_id
+this.m_companyname=create m_companyname
+this.m_lastname=create m_lastname
+this.m_firstname=create m_firstname
+this.m_phone=create m_phone
+this.m_address=create m_address
+this.m_city=create m_city
+this.m_state=create m_state
+this.m_zip=create m_zip
+this.Item[UpperBound(this.Item)+1]=this.m_id
+this.Item[UpperBound(this.Item)+1]=this.m_companyname
+this.Item[UpperBound(this.Item)+1]=this.m_lastname
+this.Item[UpperBound(this.Item)+1]=this.m_firstname
+this.Item[UpperBound(this.Item)+1]=this.m_phone
+this.Item[UpperBound(this.Item)+1]=this.m_address
+this.Item[UpperBound(this.Item)+1]=this.m_city
+this.Item[UpperBound(this.Item)+1]=this.m_state
+this.Item[UpperBound(this.Item)+1]=this.m_zip
+end on
+
+on m_insertdatafield.destroy
+call super::destroy
+destroy(this.m_id)
+destroy(this.m_companyname)
+destroy(this.m_lastname)
+destroy(this.m_firstname)
+destroy(this.m_phone)
+destroy(this.m_address)
+destroy(this.m_city)
+destroy(this.m_state)
+destroy(this.m_zip)
+end on
+
+type m_id from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("id")
+
+end event
+
+on m_id.create
+call super::create
+this.text = "&ID"
+end on
+
+on m_id.destroy
+call super::destroy
+end on
+
+type m_companyname from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("company_name")
+
+end event
+
+on m_companyname.create
+call super::create
+this.text = "&Company Name"
+end on
+
+on m_companyname.destroy
+call super::destroy
+end on
+
+type m_lastname from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("last_name")
+
+end event
+
+on m_lastname.create
+call super::create
+this.text = "&Last Name"
+end on
+
+on m_lastname.destroy
+call super::destroy
+end on
+
+type m_firstname from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("first_name")
+
+end event
+
+on m_firstname.create
+call super::create
+this.text = "&First Name"
+end on
+
+on m_firstname.destroy
+call super::destroy
+end on
+
+type m_phone from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("phone")
+
+end event
+
+on m_phone.create
+call super::create
+this.text = "&Phone"
+end on
+
+on m_phone.destroy
+call super::destroy
+end on
+
+type m_address from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("address")
+
+end event
+
+on m_address.create
+call super::create
+this.text = "&Address"
+end on
+
+on m_address.destroy
+call super::destroy
+end on
+
+type m_city from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("city")
+
+end event
+
+on m_city.create
+call super::create
+this.text = "Ci&ty"
+end on
+
+on m_city.destroy
+call super::destroy
+end on
+
+type m_state from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("state")
+
+end event
+
+on m_state.create
+call super::create
+this.text = "&State"
+end on
+
+on m_state.destroy
+call super::destroy
+end on
+
+type m_zip from menu within m_insertdatafield
+end type
+
+event clicked;ParentWindow.Post Dynamic of_insert_datafield("zip")
+
+end event
+
+on m_zip.create
+call super::create
+this.text = "&Zip"
+end on
+
+on m_zip.destroy
+call super::destroy
+end on
+
+type m_search from menu within m_rte
+m_find m_find
+m_findnext m_findnext
+m_replace m_replace
+end type
+
+on m_search.create
+call super::create
+this.text = "&Search"
+this.m_find=create m_find
+this.m_findnext=create m_findnext
+this.m_replace=create m_replace
+this.Item[UpperBound(this.Item)+1]=this.m_find
+this.Item[UpperBound(this.Item)+1]=this.m_findnext
+this.Item[UpperBound(this.Item)+1]=this.m_replace
+end on
+
+on m_search.destroy
+call super::destroy
+destroy(this.m_find)
+destroy(this.m_findnext)
+destroy(this.m_replace)
+end on
+
+type m_find from menu within m_search
+end type
+
+event clicked;ParentWindow.Post Dynamic of_find()
+end event
+
+on m_find.create
+call super::create
+this.text = "&Find..."
+end on
+
+on m_find.destroy
+call super::destroy
+end on
+
+type m_findnext from menu within m_search
+end type
+
+event clicked;ParentWindow.Post Dynamic of_findnext()
+end event
+
+on m_findnext.create
+call super::create
+this.text = "Find &Next"
+end on
+
+on m_findnext.destroy
+call super::destroy
+end on
+
+type m_replace from menu within m_search
+end type
+
+event clicked;ParentWindow.Post Dynamic of_replace()
+end event
+
+on m_replace.create
+call super::create
+this.text = "&Replace..."
+end on
+
+on m_replace.destroy
+call super::destroy
+end on
+

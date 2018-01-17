@@ -1,0 +1,9 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "testtraining.pbl" "";
+@end;
+@begin Objects 
+ "testtraining.sra" "testtraining.pbl";
+ "d_test1.srd" "testtraining.pbl";
+ "n_tr.sru" "testtraining.pbl";
+@end;

@@ -1,0 +1,209 @@
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>csc
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.42
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if errorlevel 9009 exit 3 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>"C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Parsing c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Type-checking (pass 1) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Type-checking methods(pass 2) c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (dwproperty)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (f_testexecute)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\dwproperty.pbl (w_main)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (f_getlibrarylist)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_control_sqlca)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_datastore)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_results)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (nvo_string)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (str_memorystatus)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (uo_memory)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_browsecycle)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_results)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_starttrace)
+Emitting c:\qap_auto_new\target\workdir\testapps\dsproperty\control.pbl (w_test_controller)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 1 exit 1 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 6 exit 6 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 7 exit 7 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 8 exit 8 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>call build.bat  c- "c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build\csc_output_file_name.txt"  
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>setlocal
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if "c-" == "" goto usage  
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if "C:\Program Files\Sybase\PowerBuilder 11.0\DotNET" == "" goto sethome 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>md debug 
+A subdirectory or file debug already exists.
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if "c-" == "c-" goto notcopy 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\App.config.win.txt" debug\ 
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\App.config.win.txt
+1 File(s) copied
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>del debug\dwproperty.exe.config 
+Could Not Find c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build\debug\dwproperty.exe.config
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>ren debug\App.config.win.txt dwproperty.exe.config 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\App.Win.exe.manifest" debug\ 
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\App.Win.exe.manifest
+1 File(s) copied
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>del debug\dwproperty.exe.manifest 
+Could Not Find c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build\debug\dwproperty.exe.manifest
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>ren debug\App.Win.exe.manifest dwproperty.exe.manifest 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\ModifyManifest.vbs"  
+C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\ModifyManifest.vbs
+1 File(s) copied
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>ModifyManifest debug\dwproperty.exe.manifest asinvoker false 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>del ModifyManifest.vbs 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>reg import "C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\PBExceptionTrace.reg" 
+The operation completed successfully.
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if "c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build\csc_output_file_name.txt" == "" (csc /t:winexe /debug  /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dwproperty.exe" @mb.rsp )  else (csc /t:winexe /debug  /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 11.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\dwproperty.exe" @mb.rsp  1>"c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>rem " bin\mt.exe" -nologo -manifest debug\dwproperty.exe.manifest -outputresource:debug\dwproperty.exe;#1 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>del debug\dwproperty.exe.manifest 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>goto end 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>endlocal
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if exist createole.bat call createole.bat 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if exist createole.bat xcopy ole\*.* debug\ /D /Y 
+
+c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\dwproperty_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"c:\qap_auto_new\target\workdir\TESTAPPS\dsproperty\p_dwproperty_winform_oledllname.txt" 

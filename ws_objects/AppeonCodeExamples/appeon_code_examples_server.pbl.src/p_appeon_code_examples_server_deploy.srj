@@ -1,0 +1,22 @@
+﻿$PBExportHeader$p_appeon_code_examples_server_deploy.srj
+$PBExportComments$Generated Jaguar Component Project
+GeneratorID:{DF93F2A2-E504-11D1-B30A-006008925BD4}GENBC00000064
+O	appeon_callserver
+O	appeon_distributed_service
+O	corbatest
+PROJVERS:3
+PACKAGE:AppeonCodeExamples110	
+PROPERTY:appeon_callserver	appeon_callserver	0	0	1	1	0	1	0	1		,	0	0	0	 	 	1	1	
+PROPERTY:appeon_distributed_service	appeon_distributed_service	0	1	1	1	1	1	0	1		,	0	0	0	 	 	0	1	
+PROPERTY:corbatest	corbatest	0	1	0	0	0	0	0	1		,	0	0	8080	 	 	0	1	
+SERVERINFO:192.0.1.249	9000	jagadmin	1		
+CONSOLIDATEDPBD:1	appeon_code_examples_server.pbd
+LIBS:2	d:\04-test\demo60\developer\appeondemo110e\appeoncodeexamples\appeon_code_examples_server.pbl	0	d:\04-test\demo60\developer\appeondemo110e\appeoncodeexamples\appeon_workarounds.pbl	0
+PBR:
+MISC:0	0	0	0	0	1	0	1
+APPLIBLIST:C:\Program Files\Appeon\Developer5.0\appeondemo\AppeonCodeExamplesForAX\appeon_code_examples_server.pbl;C:\Program Files\Appeon\Developer5.0\appeondemo\AppeonCodeExamplesForAX\appeon_workarounds_ax.pbl
+ADVANCED:1	1	1	0	1		
+WEBSERVICE:0	0			
+JAVA_PACKAGE_NAME:
+SERVERPROFILE:192.0.1.249-EAServer5
+DEBUGSYMBOL:1

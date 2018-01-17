@@ -1,0 +1,11 @@
+﻿$PBExportHeader$str_data.srs
+global type str_data from structure
+	string		s_name
+	long		l_num
+	dec{2}		d_num
+	string		s_1
+	string		s_2
+	string		s_3
+	datetime		dt_1
+end type
+

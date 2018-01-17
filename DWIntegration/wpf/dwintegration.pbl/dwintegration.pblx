@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>dwintegration</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{7af0ec9c-f54b-44c7-b6c4-dba4c9192e05}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>dwintegration</AssemblyName>
+    <RootNamespace>dwintegration</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.5</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="app.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ItemType>ApplicationDefinition</ItemType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="d_treeview_query.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_treeview_controls_grid.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="t.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_validation_dept.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_products_graph.srd">
+      <Comment>Graphs total price by product in a pie graph</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tab_dep.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tab_fromcustomer.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tab_fromsaleorder.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tabular_button.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_treeview_controls.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_nnup.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_products.srd">
+      <Comment>List of all products</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_products_customers.srd">
+      <Comment>Composite DataWindow Presentation Style</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_comp.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_comp_all.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_crosstab_static.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_freeform.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_freeform_area.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_graph.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_grid.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_1.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_2.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_grid_grid.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_nested_emp.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_cust_report.srd">
+      <Comment>List all customers in Newspaper style</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_nested_fin.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_dddw_main.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_group.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_dept_manage_emp.srd">
+      <Comment>Lists all departments and department managers along with a nested report of employees within department.</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_emp_by_dept.srd">
+      <Comment>Tabular report of employees by department</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_express.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_budget_list_s.srd">
+      <Comment>List dw for Budget Browse    (YTD-QTD-MTD)</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dwintegration.sra">
+      <Comment>Generated Application Object</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_1.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_1.srm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="m_popup.srm">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_2.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vo_button.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vo_extend.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vo_custom.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nvo_custom.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vo_datawindow.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="t.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_3.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_4.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="vo_tab.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_main.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_express.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_4_inh.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_1.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_1.srw</DependentUpon>
+    </Page>
+    <Page Include="w_2.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_2.srw</DependentUpon>
+    </Page>
+    <Page Include="vo_button.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>vo_button.sru</DependentUpon>
+    </Page>
+    <Page Include="vo_extend.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>vo_extend.sru</DependentUpon>
+    </Page>
+    <Page Include="vo_custom.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>vo_custom.sru</DependentUpon>
+    </Page>
+    <Page Include="vo_datawindow.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>vo_datawindow.sru</DependentUpon>
+    </Page>
+    <Page Include="t.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>t.srw</DependentUpon>
+    </Page>
+    <Page Include="w_3.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_3.srw</DependentUpon>
+    </Page>
+    <Page Include="w_4.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_4.srw</DependentUpon>
+    </Page>
+    <Page Include="vo_tab.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>vo_tab.sru</DependentUpon>
+    </Page>
+    <Page Include="w_main.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_main.srw</DependentUpon>
+    </Page>
+    <Page Include="w_express.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_express.srw</DependentUpon>
+    </Page>
+    <Page Include="w_4_inh.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_4_inh.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p_dwintegration_wpf.srj">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

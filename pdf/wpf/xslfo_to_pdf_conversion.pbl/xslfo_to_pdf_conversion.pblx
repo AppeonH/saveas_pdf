@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>xslfo_to_pdf_conversion</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{56027a77-1e3f-4039-b90e-4689c68da197}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>xslfo_to_pdf_conversion</AssemblyName>
+    <RootNamespace>xslfo_to_pdf_conversion</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.5</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="app.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <ItemType>ApplicationDefinition</ItemType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="d_tabular.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_grid.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_label.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_nup.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_group.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_graph.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control_nup.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control_label.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control_grid.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control_free.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_test_control_crosstab.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_pagecount.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_treeview.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_grid_treeview.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_tabular_complex.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_treeview_complex.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_composite.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_composite_childrpt.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_crosstab.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_crosstab_1.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_dept.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_emp_demo.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_employee.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_freeform.srd">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="str_colproperties.srs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_1.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xslfo_to_pdf_conversion.sra">
+      <Comment>Generated Application Object</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_set_col_property.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_convert_xslfo_pdf.srw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="w_1.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_1.srw</DependentUpon>
+    </Page>
+    <Page Include="w_set_col_property.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_set_col_property.srw</DependentUpon>
+    </Page>
+    <Page Include="w_convert_xslfo_pdf.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_convert_xslfo_pdf.srw</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="p_xslfo_to_pdf_conversion_wpf.srj">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

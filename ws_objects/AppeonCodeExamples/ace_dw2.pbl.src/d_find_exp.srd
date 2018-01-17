@@ -1,0 +1,13 @@
+﻿$PBExportHeader$d_find_exp.srd
+$PBExportComments$Used to set fin expression
+release 8;
+datawindow(units=0 timer_interval=0 color=67108864 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=100 color="536870912" )
+table(column=(type=char(50) updatewhereclause=yes name=display_column dbname="display_column" )
+ column=(type=char(50) updatewhereclause=yes name=column_name dbname="column_name" )
+ )
+column(band=detail id=1 alignment="0" tabsequence=10 border="5" color="33554432" x="9" y="16" height="60" width="1120" format="[general]" html.valueishtml="0"  name=display_column visible="1" dddw.name=d_columnsdddw dddw.displaycolumn=display_column dddw.datacolumn=column_name dddw.percentwidth=0 dddw.lines=0 dddw.limit=0 dddw.allowedit=no dddw.useasborder=yes dddw.case=any dddw.imemode=0 dddw.hscrollbar=yes dddw.vscrollbar=yes  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="2" background.color="16777215" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

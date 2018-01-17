@@ -1,0 +1,37 @@
+﻿$PBExportHeader$f_getlibrarylist.srf
+global type f_getlibrarylist from function_object
+end type
+
+forward prototypes
+global function nvo_string f_getlibrarylist (string as_applname, transaction atr_SQLCA)
+end prototypes
+
+global function nvo_string f_getlibrarylist (string as_applname, transaction atr_SQLCA);// Get library list from DB
+
+String ls_libraryList
+nvo_string lnvo_string
+Integer li_item = 1, li_startPos = 1, li_endPos
+
+as_applName = TRIM(as_applName)
+
+SELECT	appl_liblist
+INTO 		:ls_libraryList 
+FROM 		application 
+WHERE 	LTRIM(RTRIM(UPPER(appl_name))) = UPPER(:as_applName)
+USING 	atr_SQLCA;
+
+If atr_SQLCA.SQLCode <> 0 Then
+	MessageBox('Application Library', 'Library List for the application ' + as_applName + ' not found')
+End IF
+
+DO WHILE li_startPos < Len(ls_libraryList)
+	li_endPos = Pos(ls_libraryList, ';', li_startPos)
+	If li_endPos = 0 Then li_endPos = Len(ls_libraryList) + 1 // Final
+	lnvo_string.is_stringArray[li_item] = Trim(Mid(ls_libraryList, li_startPos, li_endPos - li_startPos))
+	li_startPos = li_endPos + 1
+	li_item ++
+LOOP
+
+Return lnvo_string
+end function
+

@@ -1,0 +1,46 @@
+﻿$PBExportHeader$d_contact_detail.srd
+release 8;
+datawindow(units=0 timer_interval=0 color=1073741824 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=640 color="536870912" )
+table(column=(type=long update=yes updatewhereclause=yes key=yes name=id dbname="contact.id" )
+ column=(type=char(15) update=yes updatewhereclause=yes name=last_name dbname="contact.last_name" )
+ column=(type=char(15) update=yes updatewhereclause=yes name=first_name dbname="contact.first_name" )
+ column=(type=char(2) update=yes updatewhereclause=yes name=title dbname="contact.title" )
+ column=(type=char(30) update=yes updatewhereclause=yes name=street dbname="contact.street" )
+ column=(type=char(20) update=yes updatewhereclause=yes name=city dbname="contact.city" )
+ column=(type=char(2) update=yes updatewhereclause=yes name=state dbname="contact.state" )
+ column=(type=char(5) update=yes updatewhereclause=yes name=zip dbname="contact.zip" )
+ column=(type=char(10) update=yes updatewhereclause=yes name=phone dbname="contact.phone" )
+ retrieve="  SELECT ~"contact~".~"id~",   
+         ~"contact~".~"last_name~",   
+         ~"contact~".~"first_name~",   
+         ~"contact~".~"title~",   
+         ~"contact~".~"street~",   
+         ~"contact~".~"city~",   
+         ~"contact~".~"state~",   
+         ~"contact~".~"zip~",   
+         ~"contact~".~"phone~"  
+    FROM ~"contact~"   
+    Where ~"contact~".~"last_name~" like :as_arg" update="contact" updatewhere=1 updatekeyinplace=no arguments=(("as_arg", string)) )
+column(band=detail id=5 alignment="0" tabsequence=50 border="0" color="33554432" x="306" y="244" height="64" width="1481" format="[general]" html.valueishtml="0"  name=street visible="1" edit.limit=30 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Id:" border="0" color="33554432" x="9" y="16" height="52" width="274" html.valueishtml="0"  name=id_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Last Name:" border="0" color="33554432" x="9" y="132" height="52" width="274" html.valueishtml="0"  name=last_name_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Street:" border="0" color="33554432" x="9" y="248" height="52" width="274" html.valueishtml="0"  name=street_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="City:" border="0" color="33554432" x="9" y="364" height="52" width="274" html.valueishtml="0"  name=city_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Zip:" border="0" color="33554432" x="9" y="484" height="52" width="274" html.valueishtml="0"  name=zip_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=1 alignment="1" tabsequence=10 border="0" color="33554432" x="302" y="16" height="64" width="526" format="[general]" html.valueishtml="0"  name=id visible="1" edit.limit=0 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=8 alignment="0" tabsequence=80 border="0" color="33554432" x="302" y="480" height="64" width="526" format="[general]" html.valueishtml="0"  name=zip visible="1" edit.limit=5 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Phone:" border="0" color="33554432" x="946" y="480" height="52" width="288" html.valueishtml="0"  name=phone_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=9 alignment="0" tabsequence=90 border="0" color="33554432" x="1257" y="480" height="64" width="526" format="[general]" html.valueishtml="0"  name=phone visible="1" edit.limit=10 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=6 alignment="0" tabsequence=60 border="0" color="33554432" x="302" y="364" height="64" width="526" format="[general]" html.valueishtml="0"  name=city visible="1" edit.limit=20 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="State:" border="0" color="33554432" x="946" y="364" height="52" width="288" html.valueishtml="0"  name=state_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=7 alignment="0" tabsequence=70 border="0" color="33554432" x="1257" y="364" height="64" width="526" format="[general]" html.valueishtml="0"  name=state visible="1" edit.limit=2 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=2 alignment="0" tabsequence=20 border="0" color="33554432" x="302" y="128" height="64" width="526" format="[general]" html.valueishtml="0"  name=last_name visible="1" edit.limit=15 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="First Name:" border="0" color="33554432" x="946" y="128" height="56" width="288" html.valueishtml="0"  name=first_name_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=3 alignment="0" tabsequence=30 border="0" color="33554432" x="1257" y="128" height="64" width="526" format="[general]" html.valueishtml="0"  name=first_name visible="1" edit.limit=15 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+text(band=detail alignment="1" text="Title:" border="0" color="33554432" x="946" y="16" height="64" width="288" html.valueishtml="0"  name=title_t visible="1"  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+column(band=detail id=4 alignment="0" tabsequence=40 border="0" color="33554432" x="1257" y="16" height="64" width="526" format="[general]" html.valueishtml="0"  name=title visible="1" edit.limit=2 edit.case=any edit.focusrectangle=no edit.autoselect=yes edit.autohscroll=yes edit.imemode=0  font.face="MS Sans Serif" font.height="-8" font.weight="400"  font.family="2" font.pitch="2" font.charset="0" background.mode="1" background.color="536870912" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

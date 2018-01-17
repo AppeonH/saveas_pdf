@@ -1,0 +1,11 @@
+﻿$PBExportHeader$d_datawindow_rectangle.srd
+release 8;
+datawindow(units=0 timer_interval=0 color=1073741824 processing=0 HTMLDW=no print.documentname="" print.orientation = 0 print.margin.left = 110 print.margin.right = 110 print.margin.top = 96 print.margin.bottom = 96 print.paper.source = 0 print.paper.size = 0 print.prompt=no print.buttons=no print.preview.buttons=no )
+summary(height=0 color="536870912" )
+footer(height=0 color="536870912" )
+detail(height=500 color="536870912" )
+table(column=(type=char(10) updatewhereclause=no name=col_1 dbname="col_1" )
+ )
+rectangle(band=detail x="786" y="48" height="452" width="745"  name=r_1 visible="1" brush.hatch="7" brush.color="1610612736" pen.style="0" pen.width="5" pen.color="16711680"  background.mode="2" background.color="134217732" )
+htmltable(border="1" )
+htmlgen(clientevents="1" clientvalidation="1" clientcomputedfields="1" clientformatting="0" clientscriptable="0" generatejavascript="1" netscapelayers="0" )

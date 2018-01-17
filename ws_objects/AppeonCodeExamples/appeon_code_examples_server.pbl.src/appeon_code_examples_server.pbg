@@ -1,0 +1,22 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "appeon_code_examples_server.pbl" "";
+@end;
+@begin Objects 
+ "appeon_code_examples_server.sra" "appeon_code_examples_server.pbl";
+ "d_distributed_composite.srd" "appeon_code_examples_server.pbl";
+ "d_distributed_graph.srd" "appeon_code_examples_server.pbl";
+ "d_distributed_grid.srd" "appeon_code_examples_server.pbl";
+ "d_distributed_group.srd" "appeon_code_examples_server.pbl";
+ "d_retrieve_cust.srd" "appeon_code_examples_server.pbl";
+ "easproxy.srj" "appeon_code_examples_server.pbl";
+ "p_appeon_code_examples_server_deploy.srj" "appeon_code_examples_server.pbl";
+ "helloworld__list.srs" "appeon_code_examples_server.pbl";
+ "appeon_callserver.sru" "appeon_code_examples_server.pbl";
+ "appeon_distributed_service.sru" "appeon_code_examples_server.pbl";
+ "corbatest.sru" "appeon_code_examples_server.pbl";
+ "ctscomponents_createexception.sru" "appeon_code_examples_server.pbl";
+ "ctscomponents_removeexception.sru" "appeon_code_examples_server.pbl";
+ "helloworld.srx" "appeon_code_examples_server.pbl";
+ "helloworldhome.srx" "appeon_code_examples_server.pbl";
+@end;

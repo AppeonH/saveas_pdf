@@ -1,0 +1,21 @@
+﻿Save Format v3.0(19990112)
+@begin Libraries
+ "pdf.pbl" "";
+@end;
+@begin Objects 
+ "pdf.sra" "pdf.pbl";
+ "d_composite.srd" "pdf.pbl";
+ "d_eq_locations.srd" "pdf.pbl";
+ "d_grid.srd" "pdf.pbl";
+ "d_po_purchase_order.srd" "pdf.pbl";
+ "d_report_generic.srd" "pdf.pbl";
+ "d_sper_fir_adj_reject_details.srd" "pdf.pbl";
+ "d_sper_fir_recall_reject_details.srd" "pdf.pbl";
+ "d_sper_fir_reconciliation_report.srd" "pdf.pbl";
+ "d_sper_fir_sent_reject_details.srd" "pdf.pbl";
+ "d_sper_fir_spack_in_period_list.srd" "pdf.pbl";
+ "d_wo_work_order.srd" "pdf.pbl";
+ "w_composite.srw" "pdf.pbl";
+ "w_main.srw" "pdf.pbl";
+ "w_newfeature.srw" "pdf.pbl";
+@end;

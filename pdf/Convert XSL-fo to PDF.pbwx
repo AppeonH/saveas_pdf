@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Sybase PowerBuilder .NET Solution File
+Project("{1E00F042-675A-11D2-BCA5-000086095DDA}") = "xslfo_to_pdf_conversion (H:\work-20060627\TestCase\20100701DW\PB125Case\pdf\wpf)", "wpf\xslfo_to_pdf_conversion.pbtx", "{F17AC9A6-7789-41C1-AF9A-27317D89F40F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Debug|x86.ActiveCfg = Debug|x86
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Debug|x86.Build.0 = Debug|x86
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Release|Any CPU.ActiveCfg = Release|x86
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Release|x86.ActiveCfg = Release|x86
+		{F17AC9A6-7789-41C1-AF9A-27317D89F40F}.Release|x86.Build.0 = Release|x86
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56027A77-1E3F-4039-B90E-4689C68DA197}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
